@@ -1,0 +1,2402 @@
+[
+  {
+    "id": 1,
+    "category": "program_overview",
+    "question": "How many programs does FE-RUPP offer in total?",
+    "ground_truth": "FE-RUPP offers 9 programs in total: 4 Honor Bachelor programs, 3 Bachelor programs, and 2 Master programs.",
+    "context_preview": "Academic Programs offered at Faculty of Engineering, Royal University of Phnom Penh (FE-RUPP):\nFE-RUPP offers a total of 9 programs across three categories.\n\nHONOR BACHELOR PROGRAMS (4 programs):\n  - Food Technology And Engineering (4 years)\n  - Data Science And Engineering (4 years)\n  - Automation And Supply Chain System Engineering (4 years)\n  - Environmental Engineering (4 years)\n\nBACHELOR PROG",
+    "context_words": 649,
+    "year_filter": null,
+    "answer": "FE-RUPP offers a total of 9 programs across three categories.",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 2,
+    "category": "program_overview",
+    "question": "What are the Honor Bachelor programs offered at FE-RUPP?",
+    "ground_truth": "The 4 Honor Bachelor programs are: Food Technology And Engineering, Data Science And Engineering, Automation And Supply Chain System Engineering, and Environmental Engineering.",
+    "context_preview": "Academic Programs offered at Faculty of Engineering, Royal University of Phnom Penh (FE-RUPP):\nFE-RUPP offers a total of 9 programs across three categories.\n\nHONOR BACHELOR PROGRAMS (4 programs):\n  - Food Technology And Engineering (4 years)\n  - Data Science And Engineering (4 years)\n  - Automation And Supply Chain System Engineering (4 years)\n  - Environmental Engineering (4 years)\n\nBACHELOR PROG",
+    "context_words": 547,
+    "year_filter": null,
+    "answer": "The Honor Bachelor programs offered at FE-RUPP are:\n\n1. Food Technology And Engineering\n2. Data Science And Engineering\n3. Automation And Supply Chain System Engineering\n4. Environmental Engineering",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 3,
+    "category": "program_overview",
+    "question": "What Bachelor programs are available at FE-RUPP?",
+    "ground_truth": "The 3 Bachelor programs are: Bio Engineering Biotechnology, Information Technology Engineering, and Telecommunication & Electronics Engineering.",
+    "context_preview": "Academic Programs offered at Faculty of Engineering, Royal University of Phnom Penh (FE-RUPP):\nFE-RUPP offers a total of 9 programs across three categories.\n\nHONOR BACHELOR PROGRAMS (4 programs):\n  - Food Technology And Engineering (4 years)\n  - Data Science And Engineering (4 years)\n  - Automation And Supply Chain System Engineering (4 years)\n  - Environmental Engineering (4 years)\n\nBACHELOR PROG",
+    "context_words": 397,
+    "year_filter": null,
+    "answer": "Bachelor Programs available at FE-RUPP are:\n\n1. Bio Engineering Biotechnology (4 years)\n2. Information Technology Engineering (4 years)\n3. Telecommunication & Electronics Engineering (4 years)",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 4,
+    "category": "program_overview",
+    "question": "What Master programs does FE-RUPP offer?",
+    "ground_truth": "FE-RUPP offers 2 Master programs: Biotechnology and Food Technology Master Program (3 years) and Master of Science in Information Technology Engineering - MITE (2 years).",
+    "context_preview": "Academic Programs offered at Faculty of Engineering, Royal University of Phnom Penh (FE-RUPP):\nFE-RUPP offers a total of 9 programs across three categories.\n\nHONOR BACHELOR PROGRAMS (4 programs):\n  - Food Technology And Engineering (4 years)\n  - Data Science And Engineering (4 years)\n  - Automation And Supply Chain System Engineering (4 years)\n  - Environmental Engineering (4 years)\n\nBACHELOR PROG",
+    "context_words": 458,
+    "year_filter": null,
+    "answer": "FE-RUPP offers the following Master programs:\n\n1. Biotechnology and Food Technology Master Program (3 years)\n2. Master of Science in Information Technology Engineering (MITE) (2 years)",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 5,
+    "category": "program_overview",
+    "question": "Which program at FE-RUPP has a partnership with Osaka Prefecture University?",
+    "ground_truth": "The Food Technology And Engineering (Honor Bachelor) program was developed with participation of experts and researchers from Osaka Prefecture University.",
+    "context_preview": "Food Technology And Engineering - Partnerships:\n- Osaka Prefecture University\n\n---\n\nThe Food Technology And Engineering program awards a Bachelor (Honors) degree with a duration of 4 years, taught in English.\n\nProgram: Food Technology And Engineering\nCategory: Honor Bachelor\nDegree: Bachelor (Honors)\nDuration: 4 years (8 semesters)\nLanguage: English\n\nDescription: Developed with the participation o",
+    "context_words": 350,
+    "year_filter": null,
+    "answer": "The Food Technology And Engineering program at FE-RUPP has a partnership with Osaka Prefecture University.",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 6,
+    "category": "program_overview",
+    "question": "What degree does the Data Science And Engineering program award?",
+    "ground_truth": "The Data Science And Engineering program awards a Bachelor (Honors) degree with 4 years duration taught in English.",
+    "context_preview": "The Data Science And Engineering program awards a Bachelor (Honors) degree with a duration of 4 years, taught in English.\n\nProgram: Data Science And Engineering\nCategory: Honor Bachelor\nDegree: Bachelor (Honors)\nDuration: 4 years (8 semesters)\nLanguage: English\n\nDescription: During the program, students are required to do practicum from year 2 to year 4 with real world problems. Doing practicum pl",
+    "context_words": 525,
+    "year_filter": null,
+    "answer": "Bachelor (Honors) degree.",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 7,
+    "category": "program_overview",
+    "question": "When was the Faculty of Engineering at RUPP established?",
+    "ground_truth": "The Faculty of Engineering at Royal University of Phnom Penh was established on May 07, 2013.",
+    "context_preview": "FE-RUPP Teaching Framework and About:\n\nDean: Dr. Nguonphan Pheakdey, Dean, Faculty of Engineering\nEstablished: May 07, 2013\n\nTeaching Methodology and Framework:\nFE-RUPP uses the CDIO (Conceive, Design, Implement, Operate) framework to enhance engineering education and build programs toward international level.\nTeaching framework: CDIO (Conceive, Design, Implement, Operate)\n\nAbout the Faculty:\nThe ",
+    "context_words": 835,
+    "year_filter": null,
+    "answer": "The Faculty of Engineering at RUPP was established on May 07, 2013.",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 8,
+    "category": "curriculum",
+    "question": "What subjects are in Foundation Year Semester 1 of Food Technology And Engineering?",
+    "ground_truth": "Foundation Year Semester 1 of Food Technology includes: English Composition (Critical thinking, reading and writing), General Mathematics (Algebra), General Science 1 (General Chemistry), General Physics, Fundamental Computer and Programming, Sociology (Digital skill and Problem Solving), Personal Development and Management, Introduction to Engineering.",
+    "context_preview": "Food Technology And Engineering Foundation Year Courses Semester\n\nFood Technology And Engineering — Foundation Year Courses:\n\nSemester 1:\n  - English Composition: Critical thinking, reading and writing (3.0 credits)\n  - General Mathematics: Algebra (3.0 credits)\n  - General Science 1: General Chemistry (4.0 credits)\n  - General Physics (4.0 credits)\n  - Fundamental Computer and Programming (3.0 cr",
+    "context_words": 586,
+    "year_filter": "foundation",
+    "answer": "The subjects in Foundation Year Semester 1 of Food Technology And Engineering are:\n\n1. English Composition: Critical thinking, reading and writing (3.0 credits)\n2. General Mathematics: Algebra (3.0 credits)\n3. General Science 1: General Chemistry (4.0 credits)\n4. General Physics (4.0 credits)\n5. Fundamental Computer and Programming (3.0 credits)\n6. Sociology: Digital skill and Problem Solving (3.0 credits)\n7. Personal Development and Management (3.0 credits)\n8. Introduction to Engineering (3.0 credits)",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 9,
+    "category": "curriculum",
+    "question": "What courses are studied in Year 2 of Food Technology And Engineering?",
+    "ground_truth": "Year 2 of Food Technology includes courses such as: Introduction to Food Technology, Principle of Analytical Chemistry, Principle of Physical Chemistry, Organic Chemistry, Introduction to Microbiology, Seminar in Food Technology, Food Processing 1, Principle of Instrumental Analysis, Biochemistry, Food Chemistry, Food Processing, Food Properties, and Food Microbiology.",
+    "context_preview": "Food Technology And Engineering Year 2 Courses Semester\n\nFood Technology And Engineering — Year 2 Courses:\n\nSemester 1:\n  - Introduction to Food Technology (Concept of engineering and technology) (3.0 credits)\n  - Principle of Analytical Chemistry (3.0 credits)\n  - Principle of Physical Chemistry (4.0 credits)\n  - Organic Chemistry (4.0 credits)\n  - Introduction to Microbiology (4.0 credits)\n  - I",
+    "context_words": 501,
+    "year_filter": "year_2",
+    "answer": "In Year 2 of Food Technology And Engineering, the following courses are studied:\n\nSemester 1:\n1. Introduction to Food Technology (Concept of engineering and technology) (3.0 credits)\n2. Principle of Analytical Chemistry (3.0 credits)\n3. Principle of Physical Chemistry (4.0 credits)\n4. Organic Chemistry (4.0 credits)\n5. Introduction to Microbiology (4.0 credits)\n6. Introduction to Economic (3.0 credits)\n7. Seminar in Food Technology (2.0 credits)\n8. Food Processing 1 (3.0 credits)\n\nSemester 2:\n1. Principle of Instrumental Analysis (4.0 credits)\n2. Biochemistry (4.0 credits)\n3. Food Chemistry (3.0 credits)\n4. Food Processing (4.0 credits)\n5. Food Properties (3.0 credits)\n6. Food Microbiology (3.0 credits)\n7. Introduction to Business (3.0 credits)\n8. Free Elective Course (N/A credits)",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 10,
+    "category": "curriculum",
+    "question": "What subjects are in Year 3 of Food Technology And Engineering?",
+    "ground_truth": "Year 3 of Food Technology includes: Chemistry and Physical for Food Analysis, Food Nutrition, Design and Experimental Planning Food Science, Food Product Development, and other advanced food science and engineering courses.",
+    "context_preview": "Food Technology And Engineering Year 3 Courses Semester\n\nFood Technology And Engineering — Year 3 Courses:\n\nSemester 1:\n  - Chemistry and Physical for Food Analysis (4.0 credits)\n  - Food Nutrition (3.0 credits)\n  - Food Engineering (4.0 credits)\n  - Food Preservation and Packaging Technique (3.0 credits)\n  - Introduction to Enzymology in Food (3.0 credits)\n  - Sensory Evaluation (4.0 credits)\n  -",
+    "context_words": 488,
+    "year_filter": "year_3",
+    "answer": "In Year 3 of Food Technology And Engineering, the subjects are:\n\nSemester 1:\n1. Chemistry and Physical for Food Analysis (4.0 credits)\n2. Food Nutrition (3.0 credits)\n3. Food Engineering (4.0 credits)\n4. Food Preservation and Packaging Technique (3.0 credits)\n5. Introduction to Enzymology in Food (3.0 credits)\n6. Sensory Evaluation (4.0 credits)\n7. Marketing and Management (2.0 credits)\n\nSemester 2:\n1. Design and Experimental Planning Food Science (3.0 credits)\n2. Food Product Development (3.0 credits)\n3. Chemistry and Technology of Milk and Dairy Products (4.0 credits)\n4. Startup Business with Food Science and Technology (2.0 credits)\n5. Food Process Engineering (4.0 credits)\n6. Special Problems (2.0 credits)\n7. Professional Experience (3.0 credits)",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 11,
+    "category": "curriculum",
+    "question": "What courses are in Year 4 of Food Technology And Engineering?",
+    "ground_truth": "Year 4 of Food Technology includes: Food Toxicology and Additive, Technology in Carbohydrate and Protein, Final Project (Industry Training), and Thesis (or Extended Training/Coursework as optional tracks).",
+    "context_preview": "Food Technology And Engineering Year 4 Courses Semester\n\nFood Technology And Engineering — Year 4 Courses:\n\nSemester 1:\n  - Food Toxicology and Additive (4.0 credits)\n  - Technology in Carbohydrate and Protein (4.0 credits)\n  - Food Law and Standard (3.0 credits)\n  - Food Plant Management and Sanitation (3.0 credits)\n  - Project Management in Food Industry (2.0 credits)\n  - Principle of Quality As",
+    "context_words": 508,
+    "year_filter": "year_4",
+    "answer": "For Year 4 of Food Technology And Engineering, the courses are as follows:\n\nSemester 1:\n1. Food Toxicology and Additive (4.0 credits)\n2. Technology in Carbohydrate and Protein (4.0 credits)\n3. Food Law and Standard (3.0 credits)\n4. Food Plant Management and Sanitation (3.0 credits)\n5. Project Management in Food Industry (2.0 credits)\n6. Principle of Quality Assurance and Quality Control in Food (2.0 credits)\n7. Food in Multiculture (1.0 credits)\n8. Internship (Soft Skill) (vacation time) (1.0 credits)\n\nSemester 2 (choose one track):\n- [Coursework Track]: Final Project (Industry Training) (10.0 credits)\n- [Research Thesis Track]: Thesis (10.0 credits)",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 0.5,
+      "overall": 0.8333
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 12,
+    "category": "curriculum",
+    "question": "What are the final semester track options in Food Technology And Engineering?",
+    "ground_truth": "Food Technology offers 3 final semester track options: (1) Coursework - for students who want to conduct coursework and final project; (2) Research Thesis - for outstanding students who want to conduct research under faculty supervision; (3) Extended Training - for students who want to participate in a long cooperative training program with companies.",
+    "context_preview": "Food Technology And Engineering - Final Semester Track Options:\n- Coursework - for students who would like to conduct coursework and final project\n- Research Thesis - for outstanding students who would like to conduct their research project under the supervision of BE faculty members\n- Extended Training - for students who would like to participate in a long training period (for the entire semester",
+    "context_words": 460,
+    "year_filter": null,
+    "answer": "The final semester track options in Food Technology And Engineering are:\n\n1. Coursework - for students who would like to conduct coursework and final project\n2. Research Thesis - for outstanding students who would like to conduct their research project under the supervision of BE faculty members\n3. Extended Training - for students who would like to participate in a long training period (for the entire semester) under a co-operative training program with companies or organizations",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 13,
+    "category": "curriculum",
+    "question": "What subjects are studied in Year 2 of Data Science And Engineering?",
+    "ground_truth": "Year 2 of Data Science And Engineering includes: Math III (Calculus II), Probability and Statistics, Discrete Math, Statistics, and other computing and data foundation courses.",
+    "context_preview": "Data Science And Engineering Year 2 Courses Semester\n\nData Science And Engineering — Year 2 Courses:\n\nSemester 1:\n  - Math III: Calculus II (3.0 credits)\n  - Probability and Statistics (3.0 credits)\n  - Data Structures and Algorithms (3.0 credits)\n  - Object-Oriented Design and Programming (3.0 credits)\n  - Computer Network and Telecommunications (3.0 credits)\n  - Operating Systems (3.0 credits)\n ",
+    "context_words": 550,
+    "year_filter": "year_2",
+    "answer": "In Year 2 of Data Science And Engineering, the following subjects are studied:\n\nSemester 1:\n1. Math III: Calculus II (3.0 credits)\n2. Probability and Statistics (3.0 credits)\n3. Data Structures and Algorithms (3.0 credits)\n4. Object-Oriented Design and Programming (3.0 credits)\n5. Computer Network and Telecommunications (3.0 credits)\n6. Operating Systems (3.0 credits)\n7. Project Practicum (2.0 credits)\n\nSemester 2:\n1. Discrete Math (3.0 credits)\n2. Statistics (3.0 credits)\n3. Database Design and Management (3.0 credits)\n4. Software Engineering (3.0 credits)\n5. Web and Cloud Technology (3.0 credits)\n6. Introduction to Distributed Computing (3.0 credits)\n7. Project Practicum (2.0 credits)",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 14,
+    "category": "curriculum",
+    "question": "What are the Foundation Year courses for Data Science And Engineering?",
+    "ground_truth": "Foundation Year for Data Science includes: English Composition, Mathematics I (Algebra), Technical and Business Writing, Mathematics II (Calculus I), and other foundational courses.",
+    "context_preview": "Data Science And Engineering Foundation Year Courses Semester\n\nData Science And Engineering — Foundation Year Courses:\n\nSemester 1:\n  - English Composition (3.0 credits)\n  - Mathematics I (Algebra) (3.0 credits)\n  - Physics I (3.0 credits)\n  - General Chemistry (3.0 credits)\n  - Computer Fundamental and Programming (3.0 credits)\n  - Introduction to Engineering (3.0 credits)\n  - Personal Developmen",
+    "context_words": 578,
+    "year_filter": "foundation",
+    "answer": "The Foundation Year courses for Data Science And Engineering are:\n\nSemester 1:\n1. English Composition (3.0 credits)\n2. Mathematics I (Algebra) (3.0 credits)\n3. Physics I (3.0 credits)\n4. General Chemistry (3.0 credits)\n5. Computer Fundamental and Programming (3.0 credits)\n6. Introduction to Engineering (3.0 credits)\n7. Personal Development and Management (3.0 credits)\n8. Digital Skills and Problem Solving (3.0 credits)\n\nSemester 2:\n1. English: Introduction to Technical and Business Writing (3.0 credits)\n2. Mathematics II (Calculus I) (3.0 credits)\n3. Biological & Environmental Engineering (3.0 credits)\n4. Engineering Graphics (3.0 credits)\n5. Introduction to Data Science and Engineering (2.0 credits)\n6. Computer Programming Language (3.0 credits)\n7. Cambodia and World Cultures (3.0 credits)\n8. Statistics for Engineers (3.0 credits)",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 15,
+    "category": "curriculum",
+    "question": "What courses are in Year 3 of Data Science And Engineering?",
+    "ground_truth": "Year 3 of Data Science includes: Introduction to Big Data and Web Mining, Artificial Intelligence, Optimization and Process Analytics, Cognitive Computing, and other advanced data science courses.",
+    "context_preview": "Data Science And Engineering Year 3 Courses Semester\n\nData Science And Engineering — Year 3 Courses:\n\nSemester 1:\n  - Introduction to Big Data and Web Mining (3.0 credits)\n  - Artificial Intelligence (3.0 credits)\n  - Data Analytics and Machine Learning (3.0 credits)\n  - Project Management (3.0 credits)\n  - Mobile Application Technology (3.0 credits)\n  - Project Practicum (2.0 credits)\n\nSemester 2",
+    "context_words": 572,
+    "year_filter": "year_3",
+    "answer": "Data Science And Engineering — Year 3 Courses:\n\nSemester 1:\n  - Introduction to Big Data and Web Mining (3.0 credits)\n  - Artificial Intelligence (3.0 credits)\n  - Data Analytics and Machine Learning (3.0 credits)\n  - Project Management (3.0 credits)\n  - Mobile Application Technology (3.0 credits)\n  - Project Practicum (2.0 credits)\n\nSemester 2:\n  - Optimization and Process Analytics (3.0 credits)\n  - Cognitive Computing (3.0 credits)\n  - Deep Learning and Application (3.0 credits)\n  - Innovation and Entrepreneurships (3.0 credits)\n  - Introduction to Cryptography (3.0 credits)\n  - Project Practicum (2.0 credits)",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 16,
+    "category": "curriculum",
+    "question": "What subjects are in Year 4 of Data Science And Engineering?",
+    "ground_truth": "Year 4 of Data Science includes: Professional Computing and Ethics, Marketing Analytics, Leadership Skill, and Extended Training (full semester cooperative program with a company).",
+    "context_preview": "Data Science And Engineering Year 4 Courses Semester\n\nData Science And Engineering — Year 4 Courses:\n\nSemester 1:\n  - Professional Computing and Ethics (3.0 credits)\n  - Marketing Analytics (3.0 credits)\n  - Supply Chain Analytics (3.0 credits)\n  - Information Security (3.0 credits)\n  - Introduction to Enterprise Information Systems (3.0 credits)\n  - Project Practicum (2.0 credits)\n\nSemester 2 (ch",
+    "context_words": 492,
+    "year_filter": "year_4",
+    "answer": "In Year 4 of Data Science And Engineering, the subjects are:\n\nSemester 1:\n1. Professional Computing and Ethics (3.0 credits)\n2. Marketing Analytics (3.0 credits)\n3. Supply Chain Analytics (3.0 credits)\n4. Information Security (3.0 credits)\n5. Introduction to Enterprise Information Systems (3.0 credits)\n6. Project Practicum (2.0 credits)\n\nSemester 2 (choose one track):\n- Coursework Track:\n  1. Leadership Skill (3.0 credits)\n  2. Professional Internship (8.0 credits)\n  3. Final Project (7.0 credits)\n- Research Thesis Track:\n  1. Leadership Skill (3.0 credits)\n  2. Professional Internship (8.0 credits)\n  3. Research Thesis (7.0 credits)\n- Extended Training Track:\n  1. Extended Training (full semester cooperative program with company) (18.0 credits)",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 0.5,
+      "overall": 0.8333
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 17,
+    "category": "curriculum",
+    "question": "Does Data Science And Engineering require an internship?",
+    "ground_truth": "Yes, Data Science And Engineering students are required to conduct a minimum 6 weeks internship at a standard company or organization during their vacation time of the third year or before.",
+    "context_preview": "Data Science And Engineering - Internship Requirement:\nStudents are required to conduct a minimum 6 weeks internship at a standard company or organization during their vacation time of the third year or before.\n\n---\n\nData Science And Engineering - Internship Requirement:\nStudents are required to conduct a minimum 6 weeks internship at a standard company or organization during their vacation time o",
+    "context_words": 451,
+    "year_filter": null,
+    "answer": "Yes, Data Science And Engineering requires a minimum 6 weeks internship at a standard company or organization during the student's vacation time of the third year or before.",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 18,
+    "category": "curriculum",
+    "question": "What courses are in Year 2 of Automation And Supply Chain System Engineering?",
+    "ground_truth": "Year 2 of Automation Engineering includes: Introduction of Algorithms and Object-oriented Programming, Introduction to Management Science, Database Systems and Applications, Organizational Behavior, and other computing and management courses.",
+    "context_preview": "Automation And Supply Chain System Engineering Year 2 Courses Semester\n\nAutomation And Supply Chain System Engineering — Year 2 Courses:\n\nSemester 1:\n  - Introduction of Algorithms and Object-oriented Programming (3.0 credits)\n  - Introduction to Management Science (3.0 credits)\n  - Statistical Methods for Managers (3.0 credits)\n  - Calculus for Technologists I (3.0 credits)\n  - English Language S",
+    "context_words": 588,
+    "year_filter": "year_2",
+    "answer": "According to the context, the courses in Year 2 of Automation And Supply Chain System Engineering are:\n\nSemester 1:\n- Introduction of Algorithms and Object-oriented Programming (3.0 credits)\n- Introduction to Management Science (3.0 credits)\n- Statistical Methods for Managers (3.0 credits)\n- Calculus for Technologists I (3.0 credits)\n- English Language Structures (3.0 credits)\n- Principles of Business and Management (3.0 credits)\n- Economics for Technologists (3.0 credits)\n\nSemester 2:\n- Database Systems and Applications (3.0 credits)\n- Organizational Behavior (3.0 credits)\n- Statistics for Data Science and Empirical Study (3.0 credits)\n- Calculus for Technologists II (3.0 credits)\n- Communications in Business (3.0 credits)\n- Fundamentals of Financial and Managerial Accounting (3.0 credits)\n- Principles of Marketing (3.0 credits)",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 19,
+    "category": "curriculum",
+    "question": "What Foundation Year subjects does Automation And Supply Chain Engineering have?",
+    "ground_truth": "Foundation Year for Automation Engineering includes: Introduction to Computers and Programming, General Science I, Digital Skill and Problem Solving, Introduction to Supply Chain Management, and other foundational courses.",
+    "context_preview": "Automation And Supply Chain System Engineering Foundation Year Courses Semester\n\nAutomation And Supply Chain System Engineering — Foundation Year Courses:\n\nSemester 1:\n  - Introduction to Computers and Programming (3.0 credits)\n  - General Science I (3.0 credits)\n  - Environment Science I (3.0 credits)\n  - Principles of Linear Algebra (3.0 credits)\n  - Self-development and Management (3.0 credits)",
+    "context_words": 578,
+    "year_filter": "foundation",
+    "answer": "Automation And Supply Chain System Engineering has the following Foundation Year subjects:\n\nSemester 1:\n1. Introduction to Computers and Programming (3.0 credits)\n2. General Science I (3.0 credits)\n3. Environment Science I (3.0 credits)\n4. Principles of Linear Algebra (3.0 credits)\n5. Self-development and Management (3.0 credits)\n6. Critical Thinking, Reading, and Writing (3.0 credits)\n7. Creativity and Communication (3.0 credits)\n\nSemester 2:\n1. Digital Skill and Problem Solving (3.0 credits)\n2. Introduction to Supply Chain Management (3.0 credits)\n3. General Science II (3.0 credits)\n4. Probability for Technologies (3.0 credits)\n5. Communication Skills in English (3.0 credits)\n6. Civic Engagement (3.0 credits)\n7. Innovation and Entrepreneurial Mindset (3.0 credits)",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 20,
+    "category": "curriculum",
+    "question": "What subjects are in Year 3 of Automation And Supply Chain System Engineering?",
+    "ground_truth": "Year 3 of Automation Engineering includes: Mobile App Development, Procurement and Supply Chain Management, Business Intelligence and Analytics, Inventory and Production Management, and other advanced courses.",
+    "context_preview": "Automation And Supply Chain System Engineering Year 3 Courses Semester\n\nAutomation And Supply Chain System Engineering — Year 3 Courses:\n\nSemester 1:\n  - Mobile App Development (3.0 credits)\n  - Procurement and Supply Chain Management (3.0 credits)\n  - Management System Optimization (3.0 credits)\n  - Statics & Mechanics of Materials (3.0 credits)\n  - Engineering Drawing and Computer-Aided Design (",
+    "context_words": 583,
+    "year_filter": "year_3",
+    "answer": "In Year 3 of Automation And Supply Chain System Engineering, the subjects are:\n\nSemester 1:\n1. Mobile App Development (3.0 credits)\n2. Procurement and Supply Chain Management (3.0 credits)\n3. Management System Optimization (3.0 credits)\n4. Statics & Mechanics of Materials (3.0 credits)\n5. Engineering Drawing and Computer-Aided Design (CAD) (3.0 credits)\n6. Electricity and Electronics for Robotics (3.0 credits)\n7. Project Management (3.0 credits)\n\nSemester 2:\n1. Business Intelligence and Analytics (3.0 credits)\n2. Inventory and Production Management (3.0 credits)\n3. Warehouse Management (3.0 credits)\n4. Kinematics and Dynamics of Machine Elements and Mechanisms (3.0 credits)\n5. Introduction to Robotics (3.0 credits)\n6. Engineering Mechanical Design (3.0 credits)\n7. Seminar with Logistics and Supply Chain Management (3.0 credits)\n8. Industry Internship (6.0 credits)",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 0.5,
+      "overall": 0.8333
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 21,
+    "category": "curriculum",
+    "question": "What is the maximum allowed study duration for Automation And Supply Chain Engineering?",
+    "ground_truth": "The maximum study duration for Automation And Supply Chain System Engineering is 5 years (normal duration is 4 years).",
+    "context_preview": "Automation And Supply Chain System Engineering - Program Details:\nCategory: Honor Bachelor\nDegree: Bachelor (Honors)\nDuration: 4 years (8 semesters)\nMaximum Study Duration: 5 years\nLanguage: English\nEstablished: 2022\nGPA Requirement: 3.0\nTotal Credits: 168\nThesis Required: Yes\n\n---\n\nThe Automation And Supply Chain System Engineering program awards a Bachelor (Honors) degree with a duration of 4 ye",
+    "context_words": 328,
+    "year_filter": null,
+    "answer": "The maximum allowed study duration for the Automation And Supply Chain System Engineering program is 5 years.",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 22,
+    "category": "curriculum",
+    "question": "What courses are in Year 2 of Environmental Engineering?",
+    "ground_truth": "Year 2 of Environmental Engineering includes: English for Academic 3 and 4, Analytical Chemistry, Earth Environmental Science Statistics, and other environmental science foundational courses.",
+    "context_preview": "Environmental Engineering Year 2 Courses Semester\n\nEnvironmental Engineering — Year 2 Courses:\n\nSemester 1:\n  - English for Academic 3 (2.0 credits)\n  - Analytical Chemistry (3.0 credits)\n  - Creative Environmental Engineering Design (3.0 credits)\n  - Fluid Mechanics (3.0 credits)\n  - Earth System Science (3.0 credits)\n  - Introduction to Earth Materials (3.0 credits)\n  - Environmental Engineering",
+    "context_words": 563,
+    "year_filter": "year_2",
+    "answer": "For Year 2 of Environmental Engineering, the courses are as follows:\n\nSemester 1:\n1. English for Academic 3 (2.0 credits)\n2. Analytical Chemistry (3.0 credits)\n3. Creative Environmental Engineering Design (3.0 credits)\n4. Fluid Mechanics (3.0 credits)\n5. Earth System Science (3.0 credits)\n6. Introduction to Earth Materials (3.0 credits)\n7. Environmental Engineering (3.0 credits)\n8. Project Practicum (1.0 credits)\n\nSemester 2:\n1. English for Academic 4 (2.0 credits)\n2. Earth Environmental Science Statistics (3.0 credits)\n3. Understanding Climate Change (3.0 credits)\n4. Chemical Reaction Engineering (3.0 credits)\n5. Environmental Chemistry (3.0 credits)\n6. Environmental Microbiology (3.0 credits)\n7. Environmental Laboratory 1 (2.0 credits)\n8. Project Practicum (1.0 credits)",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 23,
+    "category": "curriculum",
+    "question": "What Foundation Year subjects does Environmental Engineering have?",
+    "ground_truth": "Foundation Year for Environmental Engineering includes: English for Academic 1 and 2, General Mathematics 1 and 2, and other preparatory courses.",
+    "context_preview": "Environmental Engineering Foundation Year Courses Semester\n\nEnvironmental Engineering — Foundation Year Courses:\n\nSemester 1:\n  - English for Academic 1 (2.0 credits)\n  - General Mathematics 1 (3.0 credits)\n  - General Chemistry 1 (3.0 credits)\n  - General Physics (3.0 credits)\n  - Computer Fundamental (3.0 credits)\n  - Civilization and History (3.0 credits)\n  - Academic Skill (2.0 credits)\n\nSemes",
+    "context_words": 574,
+    "year_filter": "foundation",
+    "answer": "Environmental Engineering has the following Foundation Year subjects:\n\nSemester 1:\n1. English for Academic 1 (2.0 credits)\n2. General Mathematics 1 (3.0 credits)\n3. General Chemistry 1 (3.0 credits)\n4. General Physics (3.0 credits)\n5. Computer Fundamental (3.0 credits)\n6. Civilization and History (3.0 credits)\n7. Academic Skill (2.0 credits)\n\nSemester 2:\n1. English for Academic 2 (2.0 credits)\n2. General Mathematics 2 (3.0 credits)\n3. General Chemistry 2 (3.0 credits)\n4. General Biology (3.0 credits)\n5. Computer Programming (3.0 credits)\n6. Technical Drawing (2.0 credits)\n7. Khmer and The World Culture (2.0 credits)\n8. Critical Thinking and Personal Development (2.0 credits)",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 24,
+    "category": "curriculum",
+    "question": "What courses are in Year 3 of Environmental Engineering?",
+    "ground_truth": "Year 3 of Environmental Engineering includes: English for Academic 5 and 6, Hydraulics, Computer Applications and Software in Environmental Engineering, and other advanced environmental courses.",
+    "context_preview": "Environmental Engineering Year 3 Courses Semester\n\nEnvironmental Engineering — Year 3 Courses:\n\nSemester 1:\n  - English for Academic 5 (2.0 credits)\n  - Hydraulics (3.0 credits)\n  - Environmental Policy Development and Regulation (3.0 credits)\n  - Climate Policy and Technology (3.0 credits)\n  - Environmental Ecology (3.0 credits)\n  - Environmental Thermodynamics (3.0 credits)\n  - Environmental Lab",
+    "context_words": 572,
+    "year_filter": "year_3",
+    "answer": "Environmental Engineering Year 3 Courses:\n\nSemester 1:\n  - English for Academic 5 (2.0 credits)\n  - Hydraulics (3.0 credits)\n  - Environmental Policy Development and Regulation (3.0 credits)\n  - Climate Policy and Technology (3.0 credits)\n  - Environmental Ecology (3.0 credits)\n  - Environmental Thermodynamics (3.0 credits)\n  - Environmental Laboratory 2 (2.0 credits)\n  - Project Practicum (1.0 credits)\n\nSemester 2:\n  - English for Academic 6 (2.0 credits)\n  - Computer Applications and Software in Environmental Engineering (3.0 credits)\n  - Mathematical Physics (3.0 credits)\n  - Unit Operations and Process for Environmental Engineering 1 (3.0 credits)\n  - Earth and Environmental Transport Phenomena (3.0 credits)\n  - Water Supply and Wastewater Engineering (3.0 credits)\n  - Biogeochemistry (3.0 credits)\n  - Project Practicum (1.0 credits)\n  - Professional Experience (Additional Semester III) (3.0 credits)",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 25,
+    "category": "curriculum",
+    "question": "What courses are in Year 4 of Environmental Engineering?",
+    "ground_truth": "Year 4 of Environmental Engineering includes: Basic Environmental Toxicology, Building Sanitation, and Comprehensive Environmental Engineering Design, among other capstone courses.",
+    "context_preview": "Environmental Engineering Year 4 Courses Semester\n\nEnvironmental Engineering — Year 4 Courses:\n\nSemester 1:\n  - Basic Environmental Toxicology (3.0 credits)\n  - Building Sanitation (3.0 credits)\n  - Atmospheric Chemistry and Climate Change (3.0 credits)\n  - Unit Operations and Process for Environmental Engineering II (3.0 credits)\n  - Water Supply and Engineering Design (3.0 credits)\n  - Hazardous",
+    "context_words": 539,
+    "year_filter": "year_4",
+    "answer": "For Environmental Engineering Year 4 Courses, the following courses are listed:\n\nSemester 1:\n1. Basic Environmental Toxicology (3.0 credits)\n2. Building Sanitation (3.0 credits)\n3. Atmospheric Chemistry and Climate Change (3.0 credits)\n4. Unit Operations and Process for Environmental Engineering II (3.0 credits)\n5. Water Supply and Engineering Design (3.0 credits)\n6. Hazardous Waste Engineering (3.0 credits)\n7. Project Practicum (1.0 credits)\n\nSemester 2 (choose one track):\n- Coursework Track:\n  1. Comprehensive Environmental Engineering Design (3.0 credits)\n  2. Industrial Pollution and Safety (3.0 credits)\n  3. Final Project (6.0 credits)\n- Research Thesis Track:\n  1. Comprehensive Environmental Engineering Design (3.0 credits)\n  2. Industrial Pollution and Safety (3.0 credits)\n  3. Thesis for Undergraduate Program (12.0 credits)",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 26,
+    "category": "curriculum",
+    "question": "What subjects are in Year 3 of Bio Engineering Biotechnology?",
+    "ground_truth": "Year 3 of Bio Engineering Biotechnology includes: Biochemistry II, Unit Operation for Food Engineer II, and other advanced biotechnology and engineering courses.",
+    "context_preview": "Bio Engineering Biotechnology Year 3 Courses Semester\n\nBio Engineering Biotechnology — Year 3 Courses:\n\nSemester 1:\n  - English (4.0 credits)\n  - Biochemistry II (4.0 credits)\n  - Physical Chemistry II (3.0 credits)\n  - Bacteriology (3.0 credits)\n  - Unit Operation for Food Engineering I (3.0 credits)\n  - Method in Enzymology (2.0 credits)\n  - Introduction to Biotechnology (2.0 credits)\n  - Projec",
+    "context_words": 510,
+    "year_filter": "year_3",
+    "answer": "In Year 3 of Bio Engineering Biotechnology, the subjects are:\n\nSemester 1:\n1. English (4.0 credits)\n2. Biochemistry II (4.0 credits)\n3. Physical Chemistry II (3.0 credits)\n4. Bacteriology (3.0 credits)\n5. Unit Operation for Food Engineering I (3.0 credits)\n6. Method in Enzymology (2.0 credits)\n7. Introduction to Biotechnology (2.0 credits)\n8. Project Practicum (1.0 credits)\n\nSemester 2:\n1. English (4.0 credits)\n2. Unit Operation for Food Engineer II (4.0 credits)\n3. Computational Fluid Mechanics (4.0 credits)\n4. Food Technology I (3.0 credits)\n5. Mycology (2.0 credits)\n6. Bio-Process Engineering (3.0 credits)\n7. Quality Control and Assurance (2.0 credits)\n8. Project Practicum (1.0 credits)",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 27,
+    "category": "curriculum",
+    "question": "What courses are in Year 4 of Bio Engineering Biotechnology?",
+    "ground_truth": "Year 4 of Bio Engineering Biotechnology includes: Food Technology II, Immunology, Ethics in Biotechnology, and Research Thesis or Engineering Training.",
+    "context_preview": "Bio Engineering Biotechnology Year 4 Courses Semester\n\nBio Engineering Biotechnology — Year 4 Courses:\n\nSemester 1:\n  - Food Technology II (4.0 credits)\n  - Immunology (2.0 credits)\n  - Molecular Biology & Gene Technology (4.0 credits)\n  - Plant Tissue Culture (2.0 credits)\n  - Entrepreneurship (2.0 credits)\n  - Environmental Engineering (3.0 credits)\n  - Toxicology (3.0 credits)\n  - Internship (S",
+    "context_words": 539,
+    "year_filter": "year_4",
+    "answer": "For Year 4 of Bio Engineering Biotechnology, the courses are as follows:\n\nSemester 1:\n1. Food Technology II (4.0 credits)\n2. Immunology (2.0 credits)\n3. Molecular Biology & Gene Technology (4.0 credits)\n4. Plant Tissue Culture (2.0 credits)\n5. Entrepreneurship (2.0 credits)\n6. Environmental Engineering (3.0 credits)\n7. Toxicology (3.0 credits)\n8. Internship (Soft Skill) (vacation time) (2.0 credits)\n9. Project Practicum (1.0 credits)\n\nSemester 2 (choose one track):\n- Coursework Track:\n  1. Ethics in Biotechnology (2.0 credits)\n  2. Biomedical Engineering (3.0 credits)\n  3. Aroma and Cosmetic Technology (2.0 credits)\n  4. Final Project (5.0 credits)\n- Training Or Research Track:\n  1. Research Thesis / Engineering Training (12.0 credits)",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 0.5,
+      "overall": 0.8333
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 28,
+    "category": "curriculum",
+    "question": "What Foundation Year courses are in Bio Engineering Biotechnology?",
+    "ground_truth": "Foundation Year for Bio Engineering Biotechnology includes: English, Mathematics I, Mathematics II, and other foundational science and engineering courses.",
+    "context_preview": "Bio Engineering Biotechnology Foundation Year Courses Semester\n\nBio Engineering Biotechnology — Foundation Year Courses:\n\nSemester 1:\n  - English (4.0 credits)\n  - Mathematics I (3.0 credits)\n  - Chemistry (3.0 credits)\n  - Physics (3.0 credits)\n  - Computer Architecture & Application (2.0 credits)\n  - ICT for Development (2.0 credits)\n  - Academic Skill (1.0 credits)\n\nSemester 2:\n  - English (4.0",
+    "context_words": 558,
+    "year_filter": "foundation",
+    "answer": "The Foundation Year courses for Bio Engineering Biotechnology are:\n\nSemester 1:\n1. English (4.0 credits)\n2. Mathematics I (3.0 credits)\n3. Chemistry (3.0 credits)\n4. Physics (3.0 credits)\n5. Computer Architecture & Application (2.0 credits)\n6. ICT for Development (2.0 credits)\n7. Academic Skill (1.0 credits)\n\nSemester 2:\n1. English (4.0 credits)\n2. Mathematics II (3.0 credits)\n3. Biology I (3.0 credits)\n4. Technical Drawing (3.0 credits)\n5. C Programming (3.0 credits)\n6. Introduction to Statistics (2.0 credits)\n7. Introduction to Electrical Engineering (2.0 credits)",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 29,
+    "category": "curriculum",
+    "question": "Does Bio Engineering Biotechnology require an internship?",
+    "ground_truth": "Yes, Bio Engineering Biotechnology students are required to conduct a minimum 6 weeks internship at a standard company or organization during vacation time in the third year or before.",
+    "context_preview": "Bio Engineering Biotechnology - Internship Requirement:\nStudents are required to conduct a minimum 6 weeks internship at a standard company or organization during their vacation time of the third year or before.\n\n---\n\nBio Engineering Biotechnology - Internship Requirement:\nStudents are required to conduct a minimum 6 weeks internship at a standard company or organization during their vacation time",
+    "context_words": 437,
+    "year_filter": null,
+    "answer": "Yes, the Bio Engineering Biotechnology program requires a minimum 6 weeks internship at a standard company or organization during the student's vacation time of the third year or before.",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 30,
+    "category": "curriculum",
+    "question": "What courses are in Year 2 Semester 1 of Information Technology Engineering?",
+    "ground_truth": "Year 2 Semester 1 of IT Engineering includes: Advanced Programming Language I and Data Structure and Algorithm I, among other computing courses.",
+    "context_preview": "Information Technology Engineering Year 2 Courses Semester\n\nInformation Technology Engineering — Year 2 Courses:\n\nSemester 1:\n  - Advanced Programming Language I (3.0 credits)\n  - Data Structure and Algorithm I (3.0 credits)\n  - Data Communication I (3.0 credits)\n  - Probability and Statistics (3.0 credits)\n  - Mathematics III (3.0 credits)\n  - General English III (4.0 credits)\n  - Project Practic",
+    "context_words": 545,
+    "year_filter": "year_2",
+    "answer": "In Year 2 Semester 1 of Information Technology Engineering, the following courses are offered:\n\n1. Advanced Programming Language I (3.0 credits)\n2. Data Structure and Algorithm I (3.0 credits)\n3. Data Communication I (3.0 credits)\n4. Probability and Statistics (3.0 credits)\n5. Mathematics III (3.0 credits)\n6. General English III (4.0 credits)\n7. Project Practicum (1.0 credits)",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 31,
+    "category": "curriculum",
+    "question": "What subjects are in Year 3 of Information Technology Engineering?",
+    "ground_truth": "Year 3 of IT Engineering includes: Network Engineering I and II, Web Technologies and Cloud Computing I and II, and other advanced IT infrastructure courses.",
+    "context_preview": "Information Technology Engineering Year 3 Courses Semester\n\nInformation Technology Engineering — Year 3 Courses:\n\nSemester 1:\n  - Network Engineering I (3.0 credits)\n  - Web Technologies and Cloud Computing I (3.0 credits)\n  - Database II (3.0 credits)\n  - Operating System (3.0 credits)\n  - Object Oriented Analysis and Design (3.0 credits)\n  - General English V (4.0 credits)\n  - Project Practicum ",
+    "context_words": 572,
+    "year_filter": "year_3",
+    "answer": "In Year 3 of Information Technology Engineering, the subjects are:\n\nSemester 1:\n1. Network Engineering I (3.0 credits)\n2. Web Technologies and Cloud Computing I (3.0 credits)\n3. Database II (3.0 credits)\n4. Operating System (3.0 credits)\n5. Object Oriented Analysis and Design (3.0 credits)\n6. General English V (4.0 credits)\n7. Project Practicum (1.0 credits)\n\nSemester 2:\n1. Network Engineering II (3.0 credits)\n2. Web Technology & Cloud Computing II (3.0 credits)\n3. Mobile Application Development I (3.0 credits)\n4. Software Engineering (3.0 credits)\n5. Introduction to Computer Graphic (3.0 credits)\n6. General English VI (4.0 credits)\n7. Project Practicum (1.0 credits)",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 32,
+    "category": "curriculum",
+    "question": "What courses are in Year 4 of Information Technology Engineering?",
+    "ground_truth": "Year 4 of IT Engineering includes: Mobile Application Development II, Management Information System, Fin Tech, and Internship (Hard Skill) & Thesis.",
+    "context_preview": "Information Technology Engineering Year 4 Courses Semester\n\nInformation Technology Engineering — Year 4 Courses:\n\nSemester 1:\n  - Mobile Application Development II (3.0 credits)\n  - Management Information System (3.0 credits)\n  - Introduction to Data Mining (3.0 credits)\n  - UI/UX Design (3.0 credits)\n  - Information Security (3.0 credits)\n  - Entrepreneurship (3.0 credits)\n  - Final Project (1.0 ",
+    "context_words": 492,
+    "year_filter": "year_4",
+    "answer": "For Information Technology Engineering Year 4 Courses, the following courses are listed:\n\nSemester 1:\n1. Mobile Application Development II (3.0 credits)\n2. Management Information System (3.0 credits)\n3. Introduction to Data Mining (3.0 credits)\n4. UI/UX Design (3.0 credits)\n5. Information Security (3.0 credits)\n6. Entrepreneurship (3.0 credits)\n7. Final Project (1.0 credits)\n\nSemester 2 (choose one track):\n[Option 1 Coursework]\n1. Fin Tech (3.0 credits)\n2. Artificial Intelligence (3.0 credits)\n3. Introduction to Cryptography (3.0 credits)\n4. Professionalism Computing & Ethics (3.0 credits)\n5. Project Report (5.0 credits)\n[Option 2 Internship Thesis]\n1. Internship (Hard Skill) & Thesis (14.0 credits)",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 0.5,
+      "overall": 0.8333
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 33,
+    "category": "curriculum",
+    "question": "What Foundation Year subjects does Information Technology Engineering have?",
+    "ground_truth": "Foundation Year for IT Engineering includes: Mathematics I, Computer Fundamental, Mathematics II, Technical Drawing, and other preparatory courses.",
+    "context_preview": "Information Technology Engineering Foundation Year Courses Semester\n\nInformation Technology Engineering — Foundation Year Courses:\n\nSemester 1:\n  - Mathematics I (3.0 credits)\n  - Computer Fundamental (3.0 credits)\n  - Physics (3.0 credits)\n  - Civilization (1.5 credits)\n  - History (1.5 credits)\n  - Critical Thinking & Personal Development (2.0 credits)\n  - Academic Skill (2.0 credits)\n  - Genera",
+    "context_words": 578,
+    "year_filter": "foundation",
+    "answer": "Information Technology Engineering has the following Foundation Year subjects:\n\nSemester 1:\n1. Mathematics I (3.0 credits)\n2. Computer Fundamental (3.0 credits)\n3. Physics (3.0 credits)\n4. Civilization (1.5 credits)\n5. History (1.5 credits)\n6. Critical Thinking & Personal Development (2.0 credits)\n7. Academic Skill (2.0 credits)\n8. General English I (4.0 credits)\n\nSemester 2:\n1. Mathematics II (3.0 credits)\n2. Technical Drawing (3.0 credits)\n3. Basic Programming Language (3.0 credits)\n4. Introduction to Statistics (3.0 credits)\n5. Introduction to Electrical Engineering (3.0 credits)\n6. Philosophy (1.5 credits)\n7. Sociology (1.5 credits)\n8. General English II (4.0 credits)",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 34,
+    "category": "curriculum",
+    "question": "What is the minimum GPA required to write a thesis in Information Technology Engineering?",
+    "ground_truth": "Students in Information Technology Engineering need a minimum GPA of 3.5 to be eligible to write a thesis.",
+    "context_preview": "Thesis and Graduation Requirements for Information Technology Engineering:\n\nStudents in Information Technology Engineering need a minimum GPA of 3.5 (GPA > 3.5) to be eligible to write a research thesis.\nThe minimum GPA required to write a thesis in Information Technology Engineering is 3.5.\n\nFinal semester options for Information Technology Engineering students:\n  - Coursework - for students who ",
+    "context_words": 335,
+    "year_filter": null,
+    "answer": "The minimum GPA required to write a thesis in Information Technology Engineering is 3.5.",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 35,
+    "category": "curriculum",
+    "question": "What courses are in Year 2 of Telecommunication & Electronics Engineering?",
+    "ground_truth": "Year 2 of Telecommunication Engineering includes: Mathematics III, Circuit Theory I, Advanced Mathematics, Circuit Theory II, and other electronics and mathematics courses.",
+    "context_preview": "Telecommunication & Electronics Engineering Year 2 Courses Semester\n\nTelecommunication & Electronics Engineering — Year 2 Courses:\n\nSemester 1:\n  - Mathematics III (3.0 credits)\n  - Circuit Theory I (3.0 credits)\n  - Digital Circuit * (3.0 credits)\n  - Probability and Statistics (3.0 credits)\n  - Data Communication I (3.0 credits)\n  - Programming for Intelligent Computing I (3.0 credits)\n  - Data ",
+    "context_words": 550,
+    "year_filter": "year_2",
+    "answer": "For Year 2 of Telecommunication & Electronics Engineering, the courses are as follows:\n\nSemester 1:\n1. Mathematics III (3.0 credits)\n2. Circuit Theory I (3.0 credits)\n3. Digital Circuit * (3.0 credits)\n4. Probability and Statistics (3.0 credits)\n5. Data Communication I (3.0 credits)\n6. Programming for Intelligent Computing I (3.0 credits)\n7. Data Structure and Algorithm I (3.0 credits)\n8. General English III (4.0 credits)\n9. Project Practicum I (1.0 credits)\n\nSemester 2:\n1. Advanced Mathematics (3.0 credits)\n2. Circuit Theory II (3.0 credits)\n3. Signal and System (2.0 credits)\n4. Electromagnetic Theory I (3.0 credits)\n5. Data Communication II (3.0 credits)\n6. Programming for Intelligent Computing II (3.0 credits)\n7. Data Structure and Algorithm II (2.0 credits)\n8. General English IV (4.0 credits)\n9. Project Practicum II (1.0 credits)",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 36,
+    "category": "curriculum",
+    "question": "What subjects are studied in Year 3 of Telecommunication & Electronics Engineering?",
+    "ground_truth": "Year 3 of Telecommunication Engineering includes: Communication Engineering, Electronic Engineering I, PLC for Automation System, and Electronic Engineering II & IoT. Some courses marked with * are part of ASEAN FACTORI 4.0 project.",
+    "context_preview": "Telecommunication & Electronics Engineering Year 3 Courses Semester\n\nTelecommunication & Electronics Engineering — Year 3 Courses:\n\nSemester 1:\n  - Communication Engineering * (3.0 credits)\n  - Electronic Engineering I (3.0 credits)\n  - Antenna Design (3.0 credits)\n  - Electromagnetic Theory II (3.0 credits)\n  - Network Engineering I * (3.0 credits)\n  - Machine Learning (3.0 credits)\n  - General E",
+    "context_words": 572,
+    "year_filter": "year_3",
+    "answer": "In Year 3 of Telecommunication & Electronics Engineering, the following subjects are studied:\n\nSemester 1:\n1. Communication Engineering\n2. Electronic Engineering I\n3. Antenna Design\n4. Electromagnetic Theory II\n5. Network Engineering I\n6. Machine Learning\n7. General English V\n8. Project Practicum III\n\nSemester 2:\n1. PLC for Automation System\n2. Electronic Engineering II & IoT\n3. RF Environment Analysis\n4. Network Programming\n5. Network Engineering II\n6. Project Management\n7. General English VI\n8. Project Practicum IV",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 0.5,
+      "overall": 0.8333
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 37,
+    "category": "curriculum",
+    "question": "What Foundation Year subjects does Telecommunication Engineering include?",
+    "ground_truth": "Foundation Year for Telecommunication Engineering includes: Mathematics I, Introduction to Electronics Engineering, Mathematics II, Introduction to Electrical Engineering, and other preparatory courses.",
+    "context_preview": "Telecommunication & Electronics Engineering Foundation Year Courses Semester\n\nTelecommunication & Electronics Engineering — Foundation Year Courses:\n\nSemester 1:\n  - Mathematics I (3.0 credits)\n  - Introduction to Electronics Engineering (3.0 credits)\n  - Computer Fundamental (3.0 credits)\n  - Physics (3.0 credits)\n  - Academic Skill (2.0 credits)\n  - Civilization and History (3.0 credits)\n  - Gen",
+    "context_words": 578,
+    "year_filter": "foundation",
+    "answer": "According to the context, Telecommunication & Electronics Engineering Foundation Year Courses include the following subjects:\n\nSemester 1:\n- Mathematics I (3.0 credits)\n- Introduction to Electronics Engineering (3.0 credits)\n- Computer Fundamental (3.0 credits)\n- Physics (3.0 credits)\n- Academic Skill (2.0 credits)\n- Civilization and History (3.0 credits)\n- General English I (4.0 credits)\n\nSemester 2:\n- Mathematics II (3.0 credits)\n- Introduction to Electrical Engineering (3.0 credits)\n- Computer Programming (3.0 credits)\n- Introduction to Statistics (3.0 credits)\n- Technical Drawing (3.0 credits)\n- General English II (4.0 credits)\n- Philosophy and Sociology (3.0 credits)",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 38,
+    "category": "curriculum",
+    "question": "What courses are in Year 4 of Telecommunication & Electronics Engineering?",
+    "ground_truth": "Year 4 of Telecommunication Engineering includes: Business Management and Entrepreneurship, Control Engineering, Engineering in Startup, and Thesis.",
+    "context_preview": "Telecommunication & Electronics Engineering Year 4 Courses Semester\n\nTelecommunication & Electronics Engineering — Year 4 Courses:\n\nSemester 1:\n  - Business Management and Entrepreneurship (2.0 credits)\n  - Control Engineering * (2.0 credits)\n  - Telecommunication Systems (4.0 credits)\n  - Technical Paper Writing (2.0 credits)\n  - Advanced Network Architecture (3.0 credits)\n  - Project Practicum V",
+    "context_words": 492,
+    "year_filter": "year_4",
+    "answer": "For Year 4 of Telecommunication & Electronics Engineering, the courses are as follows:\n\nSemester 1:\n- Business Management and Entrepreneurship (2.0 credits)\n- Control Engineering * (2.0 credits)\n- Telecommunication Systems (4.0 credits)\n- Technical Paper Writing (2.0 credits)\n- Advanced Network Architecture (3.0 credits)\n- Project Practicum V (1.0 credits)\n\nSemester 2 (choose one track):\n  [Option 1 Coursework]\n    - Engineering in Startup (2.0 credits)\n    - Microwave Engineering (3.0 credits)\n    - Intelligent Network Engineering (3.0 credits)\n    - Final Project (4.0 credits)\n  [Option 2 Research Thesis]\n    - Thesis (12.0 credits)",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 0.5,
+      "overall": 0.8333
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 39,
+    "category": "curriculum",
+    "question": "What is special about some courses in Telecommunication Engineering curriculum?",
+    "ground_truth": "Some courses in the Telecommunication Engineering curriculum are marked with * and are under Project ASEAN FACTORI 4.0 (609854-EPP-1-2019-1-FR-EPPKA2 CBHE-JP).",
+    "context_preview": "The Telecommunication & Electronics Engineering program awards a Bachelor degree with a duration of 4 years, taught in English.\n\nProgram: Telecommunication & Electronics Engineering\nCategory: Bachelor\nDegree: Bachelor\nDuration: 4 years (8 semesters)\nLanguage: English\n\nDescription: The department provides quality education for students to design systems and devices in both technologies, conduct res",
+    "context_words": 560,
+    "year_filter": null,
+    "answer": "Some courses in the Telecommunication Engineering curriculum have an asterisk (*) symbol next to them, denoted as * (3.0 credits).",
+    "groq_scores": {
+      "relevance": 0.5,
+      "faithfulness": 1.0,
+      "correctness": 0.5,
+      "overall": 0.6667
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 0.5,
+      "correctness": 0.5,
+      "overall": 0.6667
+    },
+    "groq_verdict": "partial",
+    "cerebras_verdict": "partial"
+  },
+  {
+    "id": 40,
+    "category": "curriculum",
+    "question": "What courses are in Year 1 of the Biotechnology and Food Technology Master Program?",
+    "ground_truth": "Year 1 of the Biotechnology Master includes: Instrumental Analysis, Applied and Multivariate Statistics, Bioinformatics, Techniques in Biotechnology, and other advanced biotechnology courses.",
+    "context_preview": "Biotechnology and Food Technology Master Program Year 1 Courses Semester\n\nBiotechnology and Food Technology Master Program — Year 1 Courses:\n\nSemester 1:\n  - Instrumental Analysis (4.0 credits)\n  - Applied and Multivariate Statistics (4.0 credits)\n  - Surface and Colloid Chemistry (4.0 credits)\n  - Cell and Organism Metabolism (4.0 credits)\n\nSemester 2:\n  - Bioinformatics (4.0 credits)\n  - Techniq",
+    "context_words": 156,
+    "year_filter": "year_1",
+    "answer": "The courses in Year 1 of the Biotechnology and Food Technology Master Program are:\n\nSemester 1:\n1. Instrumental Analysis (4.0 credits)\n2. Applied and Multivariate Statistics (4.0 credits)\n3. Surface and Colloid Chemistry (4.0 credits)\n4. Cell and Organism Metabolism (4.0 credits)\n\nSemester 2:\n1. Bioinformatics (4.0 credits)\n2. Techniques in Biotechnology (4.0 credits)\n3. Industrial Biotechnology (4.0 credits)\n4. Sustainable Bioprocess Engineering (4.0 credits)",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 0.5,
+      "overall": 0.8333
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 41,
+    "category": "curriculum",
+    "question": "What courses are in Year 2 of the Biotechnology and Food Technology Master Program?",
+    "ground_truth": "Year 2 of the Biotechnology Master includes: Fermentation Technology, Plant Biochemistry / Molecular Biology, and Thesis Work.",
+    "context_preview": "Food Technology And Engineering Year 2 Courses Semester\n\nFood Technology And Engineering — Year 2 Courses:\n\nSemester 1:\n  - Introduction to Food Technology (Concept of engineering and technology) (3.0 credits)\n  - Principle of Analytical Chemistry (3.0 credits)\n  - Principle of Physical Chemistry (4.0 credits)\n  - Organic Chemistry (4.0 credits)\n  - Introduction to Microbiology (4.0 credits)\n  - I",
+    "context_words": 501,
+    "year_filter": "year_2",
+    "answer": "For the Biotechnology and Food Technology Master Program, Year 2 courses are as follows:\n\nSemester 1:\n- Fermentation Technology (4.0 credits)\n- Plant Biochemistry / Molecular Biology (4.0 credits)\n- Thesis Work (8.0 credits)\n\nSemester 2:\n- Thesis Work (16.0 credits)",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 42,
+    "category": "curriculum",
+    "question": "How long is the Biotechnology and Food Technology Master Program and how is it structured?",
+    "ground_truth": "The Biotechnology and Food Technology Master Program is 3 years long, covering advanced topics in biotechnology, food science, bioengineering, and sustainable processing of biological raw materials, culminating in a thesis.",
+    "context_preview": "The Biotechnology and Food Technology Master Program program awards a Master's Degree degree with a duration of 3 years, taught in English.\n\nMaster Program: Biotechnology and Food Technology Master Program\nCategory: Master\nDegree: Master's Degree\nDuration: 3 years (6 semesters)\nLanguage: English\n\nDescription: Prepares engineers for life-long achievement through education in Biotechnology, Food tec",
+    "context_words": 510,
+    "year_filter": null,
+    "answer": "The Biotechnology and Food Technology Master Program is 3 years long, structured into 6 semesters. \n\nHere are the courses listed for Year 3:\n\n- Semester 1:\n  - Fermentation Technology (4.0 credits)\n  - Plant Biochemistry / Molecular Biology (4.0 credits)\n  - Food Science and Microbiology (4.0 credits)\n  - Advanced Food Technology (4.0 credits)\n- Semester 2:\n  - Thesis Work (16.0 credits)",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 0.5,
+      "correctness": 0.5,
+      "overall": 0.6667
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "partial"
+  },
+  {
+    "id": 43,
+    "category": "curriculum",
+    "question": "What courses are in Year 1 of the MITE (Master of Science in Information Technology Engineering) program?",
+    "ground_truth": "Year 1 of MITE includes: Advanced Network Computing, Software Engineering, Database Design and Application, Computer Graphics, and other advanced IT engineering courses.",
+    "context_preview": "Master of Science in Information Technology Engineering (MITE) Year 1 Courses Semester\n\nMaster of Science in Information Technology Engineering (MITE) — Year 1 Courses:\n\nSemester 1:\n  - Advanced Network Computing (3.0 credits)\n  - Software Engineering (3.0 credits)\n  - User Interface Design (UID) (3.0 credits)\n  - Research Methodologies (3.0 credits)\n  - Scientific Experience (3.0 credits)\n\nSemest",
+    "context_words": 156,
+    "year_filter": "year_1",
+    "answer": "The courses in Year 1 of the MITE (Master of Science in Information Technology Engineering) program are:\n\nSemester 1:\n1. Advanced Network Computing (3.0 credits)\n2. Software Engineering (3.0 credits)\n3. User Interface Design (UID) (3.0 credits)\n4. Research Methodologies (3.0 credits)\n5. Scientific Experience (3.0 credits)\n\nSemester 2:\n1. Database Design and Application (3.0 credits)\n2. Computer Graphics (3.0 credits)\n3. Network Security (3.0 credits)\n4. Image Processing (3.0 credits)\n5. Advanced Java Programming (3.0 credits)",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 44,
+    "category": "curriculum",
+    "question": "What courses are in Year 2 of the MITE master program?",
+    "ground_truth": "Year 2 of MITE includes: Mobile Application, Machine Learning & Natural Language Processing, Multimedia, General ICT4D, and other advanced specialization courses.",
+    "context_preview": "Master of Science in Information Technology Engineering (MITE) Year 2 Courses Semester\n\nMaster of Science in Information Technology Engineering (MITE) — Year 2 Courses:\n\nSemester 1:\n  - Mobile Application (3.0 credits)\n  - Machine Learning & Natural Language Processing (3.0 credits)\n  - Satellite & Terrestrial Communication System (3.0 credits)\n  - Artificial Intelligence (3.0 credits)\n\nSemester 2",
+    "context_words": 535,
+    "year_filter": "year_2",
+    "answer": "For the Master of Science in Information Technology Engineering (MITE) program, the Year 2 courses are as follows:\n\nSemester 1:\n- Mobile Application (3.0 credits)\n- Machine Learning & Natural Language Processing (3.0 credits)\n- Satellite & Terrestrial Communication System (3.0 credits)\n- Artificial Intelligence (3.0 credits)\n\nSemester 2:\n- Multimedia (3.0 credits)\n- General ICT4D (3.0 credits)\n- Final Project 1 (3.0 credits)\n- Final Project 2 (3.0 credits)\n- Master's Thesis (12.0 credits)",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 45,
+    "category": "curriculum",
+    "question": "What are the specialization tracks available in the MITE master program?",
+    "ground_truth": "The MITE master program offers 3 specialization tracks: (1) Software Development Area, (2) Network Engineering Area, and (3) Multimedia Science Area.",
+    "context_preview": "Master of Science in Information Technology Engineering (MITE) - Specialization Tracks:\n\nSoftware Development Area:\n  Education and research into the development of computer software for variety of purposes\n\nNetwork Engineering Area:\n  Preparation to become a professional network administrator or engineer in wired or wireless communications including Wireless LAN, WiMAX, cellular networks and sate",
+    "context_words": 469,
+    "year_filter": null,
+    "answer": "The specialization tracks available in the MITE master program are:\n\n1. Software Development Area\n2. Network Engineering Area\n3. Multimedia Science Area",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 46,
+    "category": "career",
+    "question": "What are the research areas of the Data Science And Engineering program?",
+    "ground_truth": "Data Science And Engineering focuses on 4 research areas: Web and Cloud Technology, Artificial Intelligence and Machine Learning, Big Data, and Business Intelligence.",
+    "context_preview": "Research Areas for Data Science And Engineering:\n\n- Web and Cloud Technology\n- Artificial Intelligence and Machine Learning\n- Big Data\n- Business Intelligence\n\n---\n\nData Science And Engineering - Research Areas:\n- Web and Cloud Technology\n- Artificial Intelligence and Machine Learning\n- Big Data\n- Business Intelligence\n\n---\n\nResearch Areas for Information Technology Engineering:\n\n- Artificial Inte",
+    "context_words": 327,
+    "year_filter": null,
+    "answer": "The research areas of the Data Science And Engineering program are:\n\n1. Web and Cloud Technology\n2. Artificial Intelligence and Machine Learning\n3. Big Data\n4. Business Intelligence",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 47,
+    "category": "career",
+    "question": "What research areas does Bio Engineering Biotechnology focus on?",
+    "ground_truth": "Bio Engineering Biotechnology covers 3 research areas: Biological Molecular Medicine, Agro-Industrial Biotechnology, and Biotechnology to Create Biological Devices.",
+    "context_preview": "Research Areas for Bio Engineering Biotechnology:\n\n- Biological Molecular Medicine\n- Agro-Industrial Biotechnology\n- Biotechnology to Create Biological Devices\n\n---\n\nBio Engineering Biotechnology - Research Areas:\n- Biological Molecular Medicine\n- Agro-Industrial Biotechnology\n- Biotechnology to Create Biological Devices\n\n---\n\nBio Engineering Biotechnology (Bachelor)\n\nThe curriculum provides funda",
+    "context_words": 337,
+    "year_filter": null,
+    "answer": "The Bio Engineering Biotechnology program focuses on the following research areas:\n\n1. Biological Molecular Medicine\n2. Agro-Industrial Biotechnology\n3. Biotechnology to Create Biological Devices",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 48,
+    "category": "career",
+    "question": "What are the research focus areas of Environmental Engineering?",
+    "ground_truth": "Environmental Engineering focuses on 4 research areas: Air & Climate, Water, Soil & Ecosystems, and Energy & Resources.",
+    "context_preview": "Environmental Engineering - Research Focus Areas:\n- Air & Climate\n- Water\n- Soil & Ecosystems\n- Energy & Resources\n\n---\n\nEnvironmental Engineering - Career Prospects:\n- Environmental Specialist\n- Climate Change Specialist\n- Water / Wastewater Engineer\n- Waste Management Specialist\n- Renewable Energy Specialist\n- Professor and Researcher\n\n---\n\nCareer Prospects for Environmental Engineering Graduate",
+    "context_words": 353,
+    "year_filter": null,
+    "answer": "The research focus areas of Environmental Engineering are:\n\n1. Air & Climate\n2. Water\n3. Soil & Ecosystems\n4. Energy & Resources",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 49,
+    "category": "career",
+    "question": "What research areas does Information Technology Engineering cover?",
+    "ground_truth": "Information Technology Engineering covers research in: Artificial Intelligence, Data Mining, Image Processing and Analysis, and Computer Vision.",
+    "context_preview": "Research Areas for Information Technology Engineering:\n\n- Artificial Intelligence\n- Data Mining\n- Image Processing and Analysis\n- Computer Vision\n- 3D Modeling and Computer Graphics\n- Natural Language Processing\n- ICT for Education\n\n---\n\nInformation Technology Engineering - Research Areas:\n- Artificial Intelligence\n- Data Mining\n- Image Processing and Analysis\n- Computer Vision\n- 3D Modeling and C",
+    "context_words": 224,
+    "year_filter": null,
+    "answer": "Information Technology Engineering covers the following research areas:\n\n1. Artificial Intelligence\n2. Data Mining\n3. Image Processing and Analysis\n4. Computer Vision\n5. 3D Modeling and Computer Graphics\n6. Natural Language Processing\n7. ICT for Education",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 0.5,
+      "overall": 0.8333
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 0.5,
+      "overall": 0.8333
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 50,
+    "category": "career",
+    "question": "What are the research areas in Telecommunication & Electronics Engineering?",
+    "ground_truth": "Telecommunication Engineering research covers: Wireless Communication Systems, Electronics and Electromagnetic Signal Systems, Telephone Communication System, and Satellite System.",
+    "context_preview": "Research Areas for Telecommunication & Electronics Engineering:\n\n- Wireless Communication Systems\n- Electronics and Electromagnetic Signal Systems\n- Telephone Communication System\n- Satellite System\n- Development of Electronic Devices\n- Intelligent System\n- Security System\n\n---\n\nTelecommunication & Electronics Engineering - Research Areas:\n- Wireless Communication Systems\n- Electronics and Electro",
+    "context_words": 339,
+    "year_filter": null,
+    "answer": "The research areas in Telecommunication & Electronics Engineering are:\n\n1. Wireless Communication Systems\n2. Electronics and Electromagnetic Signal Systems\n3. Telephone Communication System\n4. Satellite System\n5. Development of Electronic Devices\n6. Intelligent System\n7. Security System",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 0.5,
+      "overall": 0.8333
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 51,
+    "category": "career",
+    "question": "What research focus does the Biotechnology and Food Technology Master program have?",
+    "ground_truth": "The Biotechnology Master program focuses on: Biotechnology, Bioengineering, Food Science, and Sustainable Processing of Biological Raw Materials.",
+    "context_preview": "Research Focus for Biotechnology and Food Technology Master Program:\n\n- Biotechnology\n- Bioengineering\n- Food Science\n- Sustainable Processing of Biological Raw Materials\n- Production of Foods and Materials\n- Bio-derived Chemical Raw Materials\n\n---\n\nBiotechnology and Food Technology Master Program - Research Focus:\n- Biotechnology\n- Bioengineering\n- Food Science\n- Sustainable Processing of Biologi",
+    "context_words": 459,
+    "year_filter": null,
+    "answer": "The Biotechnology and Food Technology Master Program has the following research focus:\n\n1. Biotechnology\n2. Bioengineering\n3. Food Science\n4. Sustainable Processing of Biological Raw Materials\n5. Production of Foods and Materials\n6. Bio-derived Chemical Raw Materials",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 0.5,
+      "overall": 0.8333
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 52,
+    "category": "career",
+    "question": "What international cooperation does the MITE master program have?",
+    "ground_truth": "MITE has cooperation with international universities in Japan, Europe and USA, and is a member of the ASEAN University Network with MOUs with partner universities including Group T Belgium, Waseda University Japan, Dresden University of Technology Germany, and IWR Heidelberg University Germany.",
+    "context_preview": "Master of Science in Information Technology Engineering (MITE) - International Cooperation:\n- Cooperation with international universities in Japan, Europe and USA\n- Member of ASEAN University Network with MOUs with many international universities\n- Cooperation with private companies (local and international) for student experience and job opportunities\n- Fully equipped laboratories with high-tech ",
+    "context_words": 446,
+    "year_filter": null,
+    "answer": "The Master of Science in Information Technology Engineering (MITE) program has international cooperation with universities in Japan, Europe, and the USA, as well as with private companies (local and international) for student experience and job opportunities. \n\nAdditionally, MITE is a member of the ASEAN University Network with MOUs with many international universities. \n\nHere are the international universities mentioned in the context:\n\n1. Group T, International University College Leuven (Belgium)\n2. Waseda University (Japan)\n3. Dresden University of Technology (Germany)\n4. IWR Heidelberg University (Germany)\n5. Pace University (USA)",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 53,
+    "category": "career",
+    "question": "What teaching methodology or framework does FE-RUPP use?",
+    "ground_truth": "FE-RUPP uses the CDIO (Conceive, Design, Implement, Operate) framework to enhance engineering education and build programs toward international level.",
+    "context_preview": "FE-RUPP Teaching Framework and About:\n\nDean: Dr. Nguonphan Pheakdey, Dean, Faculty of Engineering\nEstablished: May 07, 2013\n\nTeaching Methodology and Framework:\nFE-RUPP uses the CDIO (Conceive, Design, Implement, Operate) framework to enhance engineering education and build programs toward international level.\nTeaching framework: CDIO (Conceive, Design, Implement, Operate)\n\nAbout the Faculty:\nThe ",
+    "context_words": 789,
+    "year_filter": null,
+    "answer": "FE-RUPP uses the CDIO (Conceive, Design, Implement, Operate) framework to enhance engineering education and build programs toward international level.",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 54,
+    "category": "career",
+    "question": "Which program has a partnership with SIIT Thammasat University Thailand?",
+    "ground_truth": "Automation And Supply Chain System Engineering has a partnership with Sirindhorn International Institute of Technology (SIIT), Thammasat University (TU), Thailand, including a 2+2 transfer program option.",
+    "context_preview": "Automation And Supply Chain System Engineering - Partnerships:\n- Sirindhorn International Institute of Technology (SIIT), Thammasat University (TU), Thailand\n\n---\n\nAutomation And Supply Chain System Engineering (Honor Bachelor)\n\nFeatures a 2+2 Bachelor's degree (International Program) with SIIT, Thammasat University, Thailand. Students study Years 1 and 2 at ASCSE, RUPP, Cambodia, then choose to c",
+    "context_words": 390,
+    "year_filter": null,
+    "answer": "The Automation And Supply Chain System Engineering program has a partnership with Sirindhorn International Institute of Technology (SIIT), Thammasat University (TU), Thailand.",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 55,
+    "category": "career",
+    "question": "What are the career prospects for Food Technology And Engineering graduates?",
+    "ground_truth": "Food Technology graduates can work as: Supervisor/Production Planner, QA and QC Specialist/Food Safety Specialist/Laboratory Manager, Food Technologist/R&D Chef, and Business Analyzer/Startup founder.",
+    "context_preview": "Career Prospects for Food Technology And Engineering Graduates:\n\n- Supervisor / Production Planner\n- QA and QC Specialist / Food Safety Specialist / Laboratory Manager\n- Food Technologist / R&D Chef\n- Business Analyzer / Startup\n\n---\n\nFood Technology And Engineering - Career Prospects:\n- Supervisor / Production Planner\n- QA and QC Specialist / Food Safety Specialist / Laboratory Manager\n- Food Tec",
+    "context_words": 386,
+    "year_filter": null,
+    "answer": "The career prospects for Food Technology And Engineering graduates include:\n\n1. Supervisor / Production Planner\n2. QA and QC Specialist / Food Safety Specialist / Laboratory Manager\n3. Food Technologist / R&D Chef\n4. Business Analyzer / Startup",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 56,
+    "category": "career",
+    "question": "What jobs can Data Science And Engineering graduates get?",
+    "ground_truth": "Data Science graduates can work as: Data Analyst, Business Intelligence Analyst, Associate Data Engineer, and Data Engineer, among other data-related roles.",
+    "context_preview": "Career Prospects for Data Science And Engineering Graduates:\n\n- Data Analyst\n- Business Intelligence Analyst\n- Associate Data Engineer\n- Data Engineer\n- AI/ML Engineer\n\n---\n\nData Science And Engineering - Career Prospects:\n- Data Analyst\n- Business Intelligence Analyst\n- Associate Data Engineer\n- Data Engineer\n- AI/ML Engineer\n\n---\n\nData Science And Engineering (Honor Bachelor)\n\nDuring the program",
+    "context_words": 457,
+    "year_filter": null,
+    "answer": "Data Science And Engineering graduates can get the following jobs:\n\n1. Data Analyst\n2. Business Intelligence Analyst\n3. Associate Data Engineer\n4. Data Engineer\n5. AI/ML Engineer",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 57,
+    "category": "career",
+    "question": "What career options are available for Bio Engineering Biotechnology graduates?",
+    "ground_truth": "Bio Engineering graduates can work as: Agro-industry & Food Specialist, Biomolecular Engineer, Biological Materials Engineer, Professor or Researcher of Biotechnology, and Research or Biological Laboratory Specialist.",
+    "context_preview": "Career Prospects for Bio Engineering Biotechnology Graduates:\n\n- Agro-industry & Food Specialist\n- Biomolecular Engineer\n- Biological Materials Engineer\n- Professor or Researcher of Biotechnology\n- Research or Biological Laboratory Specialist\n\n---\n\nBio Engineering Biotechnology - Career Prospects:\n- Agro-industry & Food Specialist\n- Biomolecular Engineer\n- Biological Materials Engineer\n- Professor",
+    "context_words": 276,
+    "year_filter": null,
+    "answer": "According to the retrieved context, the following career options are available for Bio Engineering Biotechnology graduates:\n\n1. Agro-industry & Food Specialist\n2. Biomolecular Engineer\n3. Biological Materials Engineer\n4. Professor or Researcher of Biotechnology\n5. Research or Biological Laboratory Specialist",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 58,
+    "category": "career",
+    "question": "What are the job prospects for Environmental Engineering graduates?",
+    "ground_truth": "Environmental Engineering graduates can work as: Environmental Specialist, Climate Change Specialist, Water/Wastewater Engineer, and Waste Management Specialist.",
+    "context_preview": "Career Prospects for Environmental Engineering Graduates:\n\n- Environmental Specialist\n- Climate Change Specialist\n- Water / Wastewater Engineer\n- Waste Management Specialist\n- Renewable Energy Specialist\n- Professor and Researcher\n\n---\n\nEnvironmental Engineering - Career Prospects:\n- Environmental Specialist\n- Climate Change Specialist\n- Water / Wastewater Engineer\n- Waste Management Specialist\n- ",
+    "context_words": 375,
+    "year_filter": null,
+    "answer": "According to the retrieved context, the job prospects for Environmental Engineering graduates include:\n\n1. Environmental Specialist\n2. Climate Change Specialist\n3. Water / Wastewater Engineer\n4. Waste Management Specialist\n5. Renewable Energy Specialist\n6. Professor and Researcher",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 59,
+    "category": "career",
+    "question": "What careers can Information Technology Engineering graduates pursue?",
+    "ground_truth": "IT Engineering graduates can work as: Agile Software Developer, Agile Web Developer, Agile Mobile Developer, Fullstack Developer, Network & Security Engineer, and Data Engineer.",
+    "context_preview": "Career Prospects for Information Technology Engineering Graduates:\n\n- Agile Software Developer\n- Agile Web Developer\n- Agile Mobile Developer\n- Fullstack Developer\n- Game Developer\n- Network & Security Engineer\n- Data Engineer\n\n---\n\nMaster of Science in Information Technology Engineering (MITE) - Career Prospects:\n- Software Developer / Programmer\n- IT Consultant\n- Project Manager in IT\n- Network ",
+    "context_words": 350,
+    "year_filter": null,
+    "answer": "Information Technology Engineering graduates can pursue the following careers:\n\n1. Agile Software Developer\n2. Agile Web Developer\n3. Agile Mobile Developer\n4. Fullstack Developer\n5. Game Developer\n6. Network & Security Engineer\n7. Data Engineer",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 0.5,
+      "overall": 0.8333
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 60,
+    "category": "career",
+    "question": "What are the career prospects for Telecommunication & Electronics Engineering graduates?",
+    "ground_truth": "Telecommunication Engineering graduates can work as: Electrical Engineer, Telecommunication Engineer, Broadcasting Engineer, and Computer Network Administrator.",
+    "context_preview": "Career Prospects for Telecommunication & Electronics Engineering Graduates:\n\n- Electrical Engineer\n- Telecommunication Engineer\n- Broadcasting Engineer\n- Computer Network Administrator\n- Telecommunication and Electronics System Manager\n\n---\n\nTelecommunication & Electronics Engineering - Career Prospects:\n- Electrical Engineer\n- Telecommunication Engineer\n- Broadcasting Engineer\n- Computer Network ",
+    "context_words": 328,
+    "year_filter": null,
+    "answer": "The career prospects for Telecommunication & Electronics Engineering graduates include:\n\n1. Electrical Engineer\n2. Telecommunication Engineer\n3. Broadcasting Engineer\n4. Computer Network Administrator\n5. Telecommunication and Electronics System Manager",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 0.5,
+      "overall": 0.8333
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 61,
+    "category": "career",
+    "question": "What jobs can Automation And Supply Chain Engineering graduates get?",
+    "ground_truth": "Automation Engineering graduates can work in: Automation Engineering & Supply Chain operation, Business analytic and optimization, Digital manufacturing, and Programming and business development.",
+    "context_preview": "Automation And Supply Chain System Engineering - Vision & Objectives:\nVision: To enhance and advance students' knowledge, skills, and leadership in the field of automation and supply chain systems so that they are capable of integrating and ready to work in regional and global markets.\nMission:\n  - To produce high qualified undergraduate students who have comprehensive, advanced, and up-to-date kn",
+    "context_words": 523,
+    "year_filter": null,
+    "answer": "Based on the context, the Automation And Supply Chain System Engineering program aims to produce graduates with comprehensive knowledge and skills in designing, operating, evaluating, and improving automation and supply chain systems. \n\nGraduates of this program can potentially work in various roles such as:\n\n- Automation Engineer\n- Supply Chain Manager\n- Operations Manager\n- Logistics Coordinator\n- Manufacturing Engineer\n- Digital Manufacturing Specialist\n- Industry 4.0 Specialist\n\nThese roles are related to the program's focus on automation, digital manufacturing, and supply chain systems engineering.",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 0.5,
+      "correctness": 0.5,
+      "overall": 0.6667
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 0.5,
+      "correctness": 0.5,
+      "overall": 0.6667
+    },
+    "groq_verdict": "partial",
+    "cerebras_verdict": "partial"
+  },
+  {
+    "id": 62,
+    "category": "career",
+    "question": "What careers are available for Biotechnology and Food Technology Master graduates?",
+    "ground_truth": "Biotechnology Master graduates can work as: Biotechnology Researcher, Food Technology Specialist, Bioprocess Engineer, Quality Control Manager, and Research Scientist.",
+    "context_preview": "Biotechnology and Food Technology Master Program - Career Prospects:\n- Biotechnology Researcher\n- Food Technology Specialist\n- Bioprocess Engineer\n- Quality Control Manager\n- Research Scientist\n- Academic / University Lecturer\n\n---\n\nBiotechnology and Food Technology Master Program (Master)\n\nPrepares engineers for life-long achievement through education in Biotechnology, Food technology, and sustai",
+    "context_words": 442,
+    "year_filter": null,
+    "answer": "According to the context, the following careers are available for Biotechnology and Food Technology Master graduates:\n\n1. Biotechnology Researcher\n2. Food Technology Specialist\n3. Bioprocess Engineer\n4. Quality Control Manager\n5. Research Scientist\n6. Academic / University Lecturer",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 63,
+    "category": "career",
+    "question": "What job prospects do MITE (Master of Science in IT Engineering) graduates have?",
+    "ground_truth": "MITE graduates can work as: Software Developer/Programmer, IT Consultant, Project Manager in IT, Network Specialist, and Wireless Engineer.",
+    "context_preview": "Master of Science in Information Technology Engineering (MITE) - Career Prospects:\n- Software Developer / Programmer\n- IT Consultant\n- Project Manager in IT\n- Network Specialist\n- Wireless Engineer\n- Mobile Engineer\n- IT Specialist in various industries\n\n---\n\nMaster of Science in Information Technology Engineering (MITE) (Master)\n\nPrepares students to become specialists ranging from programmers/so",
+    "context_words": 430,
+    "year_filter": null,
+    "answer": "MITE (Master of Science in IT Engineering) graduates have the following job prospects:\n\n1. Software Developer / Programmer\n2. IT Consultant\n3. Project Manager in IT\n4. Network Specialist\n5. Wireless Engineer\n6. Mobile Engineer\n7. IT Specialist in various industries\n8. Agile Software Developer\n9. Agile Web Developer\n10. Agile Mobile Developer\n11. Fullstack Developer\n12. Game Developer\n13. Network & Security Engineer\n14. Data Engineer",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 0.5,
+      "correctness": 0.5,
+      "overall": 0.6667
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 0.5,
+      "correctness": 0.5,
+      "overall": 0.6667
+    },
+    "groq_verdict": "partial",
+    "cerebras_verdict": "partial"
+  },
+  {
+    "id": 64,
+    "category": "program_overview",
+    "question": "Where is the Faculty of Engineering RUPP located?",
+    "ground_truth": "The Faculty of Engineering is located at Room 103, STEM Building, Royal University of Phnom Penh (Campus 1), Russian Federation Blvd (110), Phnom Penh.",
+    "context_preview": "FE-RUPP Location and Contact Information:\n\nWhere is FE-RUPP located?\nThe Faculty of Engineering (FE) at RUPP is located at:\n  Office: STEM Office\n  Location: Room 103, STEM Building, Royal University of Phnom Penh (Campus 1), Russian Federation Blvd (110), Phnom Penh\n  City: Phnom Penh, Cambodia\n\nFull address: Room 103, STEM Building, Royal University of Phnom Penh (Campus 1), Russian Federation B",
+    "context_words": 441,
+    "year_filter": null,
+    "answer": "The Faculty of Engineering (FE) at RUPP is located at:\n  Office: STEM Office\n  Location: Room 103, STEM Building, Royal University of Phnom Penh (Campus 1), Russian Federation Blvd (110), Phnom Penh\n  City: Phnom Penh, Cambodia\n\nFull address: Room 103, STEM Building, Royal University of Phnom Penh (Campus 1), Russian Federation Blvd (110), Phnom Penh, Phnom Penh, Cambodia\n\nFE-RUPP is situated in Phnom Penh, Cambodia — specifically in Room 103, STEM Building, Royal University of Phnom Penh (Campus 1), Russian Federation Blvd (110), Phnom Penh.",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 65,
+    "category": "program_overview",
+    "question": "Which building is the STEM office of FE-RUPP in?",
+    "ground_truth": "The STEM office is in the STEM Building, Room 103, at Royal University of Phnom Penh Campus 1.",
+    "context_preview": "FE-RUPP Contact Information:\nOffice: STEM Office\nLocation: Room 103, STEM Building, Royal University of Phnom Penh (Campus 1), Russian Federation Blvd (110), Phnom Penh\nEmail: fe.Info@rupp.edu.kh\nPhone: 096 328 4995\n\n---\n\nFE-RUPP Location and Contact Information:\n\nWhere is FE-RUPP located?\nThe Faculty of Engineering (FE) at RUPP is located at:\n  Office: STEM Office\n  Location: Room 103, STEM Build",
+    "context_words": 364,
+    "year_filter": null,
+    "answer": "The STEM office of FE-RUPP is located in the STEM Building.",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 0.5,
+      "overall": 0.8333
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 66,
+    "category": "program_overview",
+    "question": "What is the full address of the Faculty of Engineering at RUPP?",
+    "ground_truth": "Room 103, STEM Building, Royal University of Phnom Penh (Campus 1), Russian Federation Blvd (110), Phnom Penh, Cambodia.",
+    "context_preview": "FE-RUPP Location and Contact Information:\n\nWhere is FE-RUPP located?\nThe Faculty of Engineering (FE) at RUPP is located at:\n  Office: STEM Office\n  Location: Room 103, STEM Building, Royal University of Phnom Penh (Campus 1), Russian Federation Blvd (110), Phnom Penh\n  City: Phnom Penh, Cambodia\n\nFull address: Room 103, STEM Building, Royal University of Phnom Penh (Campus 1), Russian Federation B",
+    "context_words": 812,
+    "year_filter": null,
+    "answer": "The full address of the Faculty of Engineering at RUPP is:\nRoom 103, STEM Building, Royal University of Phnom Penh (Campus 1), Russian Federation Blvd (110), Phnom Penh, Phnom Penh, Cambodia.",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 67,
+    "category": "program_overview",
+    "question": "Which campus of RUPP houses the Faculty of Engineering?",
+    "ground_truth": "The Faculty of Engineering is located at RUPP Campus 1 (Royal University of Phnom Penh).",
+    "context_preview": "FE-RUPP Location and Contact Information:\n\nWhere is FE-RUPP located?\nThe Faculty of Engineering (FE) at RUPP is located at:\n  Office: STEM Office\n  Location: Room 103, STEM Building, Royal University of Phnom Penh (Campus 1), Russian Federation Blvd (110), Phnom Penh\n  City: Phnom Penh, Cambodia\n\nFull address: Room 103, STEM Building, Royal University of Phnom Penh (Campus 1), Russian Federation B",
+    "context_words": 531,
+    "year_filter": null,
+    "answer": "Campus 1 of the Royal University of Phnom Penh (RUPP) houses the Faculty of Engineering.",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 68,
+    "category": "program_overview",
+    "question": "What road or boulevard is Royal University of Phnom Penh located on?",
+    "ground_truth": "Royal University of Phnom Penh is located on Russian Federation Blvd (110), Phnom Penh.",
+    "context_preview": "FE-RUPP Location and Contact Information:\n\nWhere is FE-RUPP located?\nThe Faculty of Engineering (FE) at RUPP is located at:\n  Office: STEM Office\n  Location: Room 103, STEM Building, Royal University of Phnom Penh (Campus 1), Russian Federation Blvd (110), Phnom Penh\n  City: Phnom Penh, Cambodia\n\nFull address: Room 103, STEM Building, Royal University of Phnom Penh (Campus 1), Russian Federation B",
+    "context_words": 441,
+    "year_filter": null,
+    "answer": "Russian Federation Blvd (110).",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 69,
+    "category": "program_overview",
+    "question": "Which room number is the STEM office of FE-RUPP?",
+    "ground_truth": "The STEM office is in Room 103 of the STEM Building at RUPP.",
+    "context_preview": "FE-RUPP Contact Information:\nOffice: STEM Office\nLocation: Room 103, STEM Building, Royal University of Phnom Penh (Campus 1), Russian Federation Blvd (110), Phnom Penh\nEmail: fe.Info@rupp.edu.kh\nPhone: 096 328 4995\n\n---\n\nFE-RUPP Location and Contact Information:\n\nWhere is FE-RUPP located?\nThe Faculty of Engineering (FE) at RUPP is located at:\n  Office: STEM Office\n  Location: Room 103, STEM Build",
+    "context_words": 169,
+    "year_filter": null,
+    "answer": "The STEM office of FE-RUPP is located in Room 103.",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 70,
+    "category": "program_overview",
+    "question": "In which city is FE-RUPP located?",
+    "ground_truth": "FE-RUPP is located in Phnom Penh, Cambodia.",
+    "context_preview": "FE-RUPP Location and Contact Information:\n\nWhere is FE-RUPP located?\nThe Faculty of Engineering (FE) at RUPP is located at:\n  Office: STEM Office\n  Location: Room 103, STEM Building, Royal University of Phnom Penh (Campus 1), Russian Federation Blvd (110), Phnom Penh\n  City: Phnom Penh, Cambodia\n\nFull address: Room 103, STEM Building, Royal University of Phnom Penh (Campus 1), Russian Federation B",
+    "context_words": 169,
+    "year_filter": null,
+    "answer": "Phnom Penh, Cambodia.",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 71,
+    "category": "program_overview",
+    "question": "What is the email address of the Faculty of Engineering RUPP?",
+    "ground_truth": "The email address of FE-RUPP is fe.Info@rupp.edu.kh",
+    "context_preview": "FE-RUPP Location and Contact Information:\n\nWhere is FE-RUPP located?\nThe Faculty of Engineering (FE) at RUPP is located at:\n  Office: STEM Office\n  Location: Room 103, STEM Building, Royal University of Phnom Penh (Campus 1), Russian Federation Blvd (110), Phnom Penh\n  City: Phnom Penh, Cambodia\n\nFull address: Room 103, STEM Building, Royal University of Phnom Penh (Campus 1), Russian Federation B",
+    "context_words": 636,
+    "year_filter": null,
+    "answer": "The email address of the Faculty of Engineering RUPP is fe.Info@rupp.edu.kh.",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 72,
+    "category": "program_overview",
+    "question": "What is the phone number of FE-RUPP?",
+    "ground_truth": "The phone number of FE-RUPP is 096 328 4995.",
+    "context_preview": "FE-RUPP Contact Information:\nOffice: STEM Office\nLocation: Room 103, STEM Building, Royal University of Phnom Penh (Campus 1), Russian Federation Blvd (110), Phnom Penh\nEmail: fe.Info@rupp.edu.kh\nPhone: 096 328 4995\n\n---\n\nFE-RUPP Location and Contact Information:\n\nWhere is FE-RUPP located?\nThe Faculty of Engineering (FE) at RUPP is located at:\n  Office: STEM Office\n  Location: Room 103, STEM Build",
+    "context_words": 173,
+    "year_filter": null,
+    "answer": "The phone number of FE-RUPP is 096 328 4995.",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 73,
+    "category": "program_overview",
+    "question": "What is the vision of the Faculty of Engineering at RUPP?",
+    "ground_truth": "The vision of FE-RUPP is: To pursue an excellence in teaching, research and community engagement in Engineering Education to address the challenges of ever-changing society and globalization.",
+    "context_preview": "FE-RUPP Vision:\nTo pursue an excellence in teaching, research and community engagement in Engineering Education to address the challenges of ever-changing society and globalization.\n\nFE-RUPP Mission:\n• Deliver Comprehensive and Dynamic Education: Covers core engineering principles, advanced topics, and interdisciplinary studies to build a solid foundation of knowledge and skills.\n• Foster advancem",
+    "context_words": 834,
+    "year_filter": null,
+    "answer": "To pursue an excellence in teaching, research and community engagement in Engineering Education to address the challenges of ever-changing society and globalization.",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 74,
+    "category": "program_overview",
+    "question": "Who is the Dean of the Faculty of Engineering at RUPP?",
+    "ground_truth": "The Dean of the Faculty of Engineering at RUPP is Dr. Nguonphan Pheakdey.",
+    "context_preview": "Dean's Message - FE-RUPP\nDr. Nguonphan Pheakdey, Dean, Faculty of Engineering\n\nThe Faculty of Engineering, Royal University of Phnom Penh was set up on May, 07 2013 to respond to the increase demand of the industries and private sectors in the country for qualified engineers. The faculty, with four departments, offers now seven degrees programs. We thrive to bring international experiences and new",
+    "context_words": 632,
+    "year_filter": null,
+    "answer": "Dr. Nguonphan Pheakdey is the Dean of the Faculty of Engineering at RUPP.",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 75,
+    "category": "program_overview",
+    "question": "What soft skills does FE-RUPP teach and how?",
+    "ground_truth": "FE-RUPP teaches the following soft skills: Communication, Team Work, Problem Solving, Innovation and Creativity, and English. These are taught for 4 hours per week over 3 years, with a Certification of completion awarded.",
+    "context_preview": "FE-RUPP Soft Skills Program:\n- Communication\n- Team Work\n- Problem Solving\n- Innovation and Creativity\n- English\n\nStudy: 4 hours per week for 3 years\nAward: Certification of completion\n\n---\n\nFE-RUPP Vision:\nTo pursue an excellence in teaching, research and community engagement in Engineering Education to address the challenges of ever-changing society and globalization.\n\nFE-RUPP Mission:\n• Deliver",
+    "context_words": 598,
+    "year_filter": null,
+    "answer": "FE-RUPP teaches the following soft skills:\n\n1. Communication\n2. Team Work\n3. Problem Solving\n4. Innovation and Creativity\n5. English\n\nThese soft skills are taught through the FE-RUPP Soft Skills Program, which involves a study of 4 hours per week for 3 years and awards a Certification of completion.",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 76,
+    "category": "general",
+    "question": "What is the capital of France?",
+    "ground_truth": "This question is not related to FE-RUPP. The system should indicate it cannot answer general knowledge questions and redirect to FE-RUPP topics.",
+    "context_preview": "Biotechnology and Food Technology Master Program (Master)\n\nPrepares engineers for life-long achievement through education in Biotechnology, Food technology, and sustainable refining of natural products in Cambodia and development of communication, teamwork, leadership and entrepreneurship skills. Established through partnerships with three Swedish universities to create a stronger and more sustain",
+    "context_words": 657,
+    "year_filter": null,
+    "answer": "I don't have that information.",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 0.5,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 0.8333
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "partial"
+  },
+  {
+    "id": 77,
+    "category": "general",
+    "question": "How do you make pasta carbonara?",
+    "ground_truth": "This question is not related to FE-RUPP. The system should indicate it cannot answer cooking questions.",
+    "context_preview": "Telecommunication & Electronics Engineering (Bachelor)\n\nThe department provides quality education for students to design systems and devices in both technologies, conduct research, and pursue graduate studies. Students will do effective group work with leadership and entrepreneurship skills. Graduates are qualified to work in mobile operation companies, Internet service providing companies, TV/Rad",
+    "context_words": 676,
+    "year_filter": null,
+    "answer": "I don't have that information.",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 78,
+    "category": "general",
+    "question": "Who invented the telephone?",
+    "ground_truth": "This question is not related to FE-RUPP. The system should indicate it cannot answer general history questions.",
+    "context_preview": "Research Areas for Telecommunication & Electronics Engineering:\n\n- Wireless Communication Systems\n- Electronics and Electromagnetic Signal Systems\n- Telephone Communication System\n- Satellite System\n- Development of Electronic Devices\n- Intelligent System\n- Security System\n\n---\n\nTelecommunication & Electronics Engineering - Research Areas:\n- Wireless Communication Systems\n- Electronics and Electro",
+    "context_words": 338,
+    "year_filter": null,
+    "answer": "I don't have that information.",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 79,
+    "category": "general",
+    "question": "What is the current population of Cambodia?",
+    "ground_truth": "This question is not related to FE-RUPP. The system should indicate it cannot answer general demographic questions.",
+    "context_preview": "Food Technology And Engineering (Honor Bachelor)\n\nDeveloped with the participation of experts and researchers from Osaka Prefecture University. Designed to provide students with the knowledge, skills, and experience necessary for a successful career in food technology in Cambodia as well as in Southeast Asia. Covers food science, food processing technology, food safety, nutrition engineering, and ",
+    "context_words": 638,
+    "year_filter": null,
+    "answer": "I don't have that information.",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 80,
+    "category": "general",
+    "question": "How do I get a driving license in Cambodia?",
+    "ground_truth": "This question is not related to FE-RUPP. The system should indicate it cannot answer this and redirect to FE-RUPP topics.",
+    "context_preview": "Food Technology And Engineering (Honor Bachelor)\n\nDeveloped with the participation of experts and researchers from Osaka Prefecture University. Designed to provide students with the knowledge, skills, and experience necessary for a successful career in food technology in Cambodia as well as in Southeast Asia. Covers food science, food processing technology, food safety, nutrition engineering, and ",
+    "context_words": 700,
+    "year_filter": null,
+    "answer": "I don't have that information.",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 0.5,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 0.8333
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "partial"
+  },
+  {
+    "id": 81,
+    "category": "general",
+    "question": "What are the official rules of football (soccer)?",
+    "ground_truth": "This question is not related to FE-RUPP. The system should indicate it cannot answer sports-related questions.",
+    "context_preview": "FE-RUPP General Information:\n\n---\n\nFE-RUPP General Information:\n\n\n\n---\n\nFood Technology And Engineering - Year 4 Courses:\nSemester 1:\n  - Food Toxicology and Additive (4.0 credits)\n  - Technology in Carbohydrate and Protein (4.0 credits)\n  - Food Law and Standard (3.0 credits)\n  - Food Plant Management and Sanitation (3.0 credits)\n  - Project Management in Food Industry (2.0 credits)\n  - Principle",
+    "context_words": 284,
+    "year_filter": null,
+    "answer": "I'm happy to help with Faculty of Engineering (FE) at the Royal University of Phnom Penh (RUPP) related topics. However, the rules of football (soccer) are not within the context of FE-RUPP. I'm afraid I don't have that information.\n\nIf you'd like to ask about FE-RUPP programs, courses, or admission requirements, I'll be happy to assist you.",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 82,
+    "category": "general",
+    "question": "What is cryptocurrency and how does it work?",
+    "ground_truth": "This question is not related to FE-RUPP. The system should indicate it cannot answer general finance questions.",
+    "context_preview": "Telecommunication & Electronics Engineering (Bachelor)\n\nThe department provides quality education for students to design systems and devices in both technologies, conduct research, and pursue graduate studies. Students will do effective group work with leadership and entrepreneurship skills. Graduates are qualified to work in mobile operation companies, Internet service providing companies, TV/Rad",
+    "context_words": 637,
+    "year_filter": null,
+    "answer": "I don't have that information. I'm here to assist with Faculty of Engineering (FE) at the Royal University of Phnom Penh (RUPP) topics. If you'd like, I can help with information on FE-RUPP programs, courses, or other related topics.",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 83,
+    "category": "general",
+    "question": "How do I apply for a student visa to study in Japan?",
+    "ground_truth": "This question is not related to FE-RUPP. The system should indicate it cannot answer visa application questions.",
+    "context_preview": "Master of Science in Information Technology Engineering (MITE) - International Cooperation:\n- Cooperation with international universities in Japan, Europe and USA\n- Member of ASEAN University Network with MOUs with many international universities\n- Cooperation with private companies (local and international) for student experience and job opportunities\n- Fully equipped laboratories with high-tech ",
+    "context_words": 285,
+    "year_filter": null,
+    "answer": "I don't have that information.",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 0.5,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 0.8333
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "partial"
+  },
+  {
+    "id": 84,
+    "category": "general",
+    "question": "What are the symptoms of malaria?",
+    "ground_truth": "This question is not related to FE-RUPP. The system should indicate it cannot answer medical questions.",
+    "context_preview": "Bio Engineering Biotechnology (Bachelor)\n\nThe curriculum provides fundamental knowledge in several major study areas so that students will be well prepared for work in biotechnical field such as food industry, microbial and enzyme biotechnology industry, gene technology, plant cell technology, either in industrial factories or in public and private research institutes. The program prepares enginee",
+    "context_words": 781,
+    "year_filter": null,
+    "answer": "I don't have that information.",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 0.5,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 0.8333
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "partial"
+  },
+  {
+    "id": 85,
+    "category": "general",
+    "question": "Who won the FIFA World Cup in 2022?",
+    "ground_truth": "This question is not related to FE-RUPP. The system should indicate it cannot answer sports news questions.",
+    "context_preview": "Food Technology And Engineering (Honor Bachelor)\n\nDeveloped with the participation of experts and researchers from Osaka Prefecture University. Designed to provide students with the knowledge, skills, and experience necessary for a successful career in food technology in Cambodia as well as in Southeast Asia. Covers food science, food processing technology, food safety, nutrition engineering, and ",
+    "context_words": 687,
+    "year_filter": null,
+    "answer": "I don't have that information.",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 0.5,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 0.8333
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "partial"
+  },
+  {
+    "id": 86,
+    "category": "general",
+    "question": "What is machine learning and how is it used?",
+    "ground_truth": "This question is not directly related to FE-RUPP programs. The system should redirect to how FE-RUPP covers AI/ML in its Data Science and IT Engineering programs.",
+    "context_preview": "Data Science And Engineering (Honor Bachelor)\n\nDuring the program, students are required to do practicum from year 2 to year 4 with real world problems. Doing practicum plays a crucial role in training students to acquire valuable experience, required skill sets and ability to be ready for work after graduation. The curriculum is designed for students with abilities to explore data and discover it",
+    "context_words": 501,
+    "year_filter": null,
+    "answer": "I don't have that information. However, I can tell you that the Faculty of Engineering at the Royal University of Phnom Penh offers a program that includes Machine Learning (ML) skills, specifically the Master of Science in Information Technology Engineering (MITE) program, which includes courses such as Machine Learning & Natural Language Processing and Artificial Intelligence.\n\nList of courses mentioned:\n1. Mobile Application\n2. Machine Learning & Natural Language Processing\n3. Satellite & Terrestrial Communication System\n4. Artificial Intelligence\n5. Multimedia\n6. General ICT4D\n7. Final Project 1\n8. Final Project 2\n9. Master's Thesis",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 0.5,
+      "correctness": 0.5,
+      "overall": 0.6667
+    },
+    "cerebras_scores": {
+      "relevance": 0.5,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 0.8333
+    },
+    "groq_verdict": "partial",
+    "cerebras_verdict": "partial"
+  },
+  {
+    "id": 87,
+    "category": "general",
+    "question": "How do I cook traditional Cambodian rice soup (Borbor)?",
+    "ground_truth": "This question is not related to FE-RUPP. The system should indicate it cannot answer cooking questions.",
+    "context_preview": "Food Technology And Engineering (Honor Bachelor)\n\nDeveloped with the participation of experts and researchers from Osaka Prefecture University. Designed to provide students with the knowledge, skills, and experience necessary for a successful career in food technology in Cambodia as well as in Southeast Asia. Covers food science, food processing technology, food safety, nutrition engineering, and ",
+    "context_words": 767,
+    "year_filter": null,
+    "answer": "I don't have that information.",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 0.5,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 0.8333
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "partial"
+  },
+  {
+    "id": 88,
+    "category": "general",
+    "question": "What is the Eiffel Tower and where is it located?",
+    "ground_truth": "This question is not related to FE-RUPP. The system should indicate it cannot answer general landmark questions.",
+    "context_preview": "FE-RUPP Location and Contact Information:\n\nWhere is FE-RUPP located?\nThe Faculty of Engineering (FE) at RUPP is located at:\n  Office: STEM Office\n  Location: Room 103, STEM Building, Royal University of Phnom Penh (Campus 1), Russian Federation Blvd (110), Phnom Penh\n  City: Phnom Penh, Cambodia\n\nFull address: Room 103, STEM Building, Royal University of Phnom Penh (Campus 1), Russian Federation B",
+    "context_words": 649,
+    "year_filter": null,
+    "answer": "I don't have that information. I'm a helpful assistant for the Faculty of Engineering (FE) at the Royal University of Phnom Penh (RUPP), Cambodia. I can provide information related to FE-RUPP, but I don't have knowledge about general concepts unrelated to FE-RUPP. If you have any questions about FE-RUPP, I'll be happy to help.",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 89,
+    "category": "general",
+    "question": "How do I invest in the stock market as a beginner?",
+    "ground_truth": "This question is not related to FE-RUPP. The system should indicate it cannot answer financial investment questions.",
+    "context_preview": "The Bio Engineering Biotechnology program awards a Bachelor degree with a duration of 4 years, taught in English.\n\nProgram: Bio Engineering Biotechnology\nCategory: Bachelor\nDegree: Bachelor\nDuration: 4 years (8 semesters)\nLanguage: English\n\nDescription: The curriculum provides fundamental knowledge in several major study areas so that students will be well prepared for work in biotechnical field s",
+    "context_words": 718,
+    "year_filter": null,
+    "answer": "I don't have that information. I'm a helpful assistant for the Faculty of Engineering (FE) at the Royal University of Phnom Penh (RUPP), Cambodia. I can provide information about the programs and courses offered by FE-RUPP, but I don't have knowledge on general topics unrelated to FE-RUPP. If you're interested in learning about the programs offered by FE-RUPP, I'd be happy to help.",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 90,
+    "category": "general",
+    "question": "What is the history of the Khmer Empire?",
+    "ground_truth": "This question is not related to FE-RUPP. The system should indicate it cannot answer general Cambodian history questions.",
+    "context_preview": "Food Technology And Engineering (Honor Bachelor)\n\nDeveloped with the participation of experts and researchers from Osaka Prefecture University. Designed to provide students with the knowledge, skills, and experience necessary for a successful career in food technology in Cambodia as well as in Southeast Asia. Covers food science, food processing technology, food safety, nutrition engineering, and ",
+    "context_words": 635,
+    "year_filter": null,
+    "answer": "I don't have that information.",
+    "groq_scores": {
+      "relevance": 0.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 0.6667
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "partial",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 91,
+    "category": "general",
+    "question": "Who is the current Secretary-General of the United Nations?",
+    "ground_truth": "This question is not related to FE-RUPP. The system should indicate it cannot answer political questions.",
+    "context_preview": "Biotechnology and Food Technology Master Program (Master)\n\nPrepares engineers for life-long achievement through education in Biotechnology, Food technology, and sustainable refining of natural products in Cambodia and development of communication, teamwork, leadership and entrepreneurship skills. Established through partnerships with three Swedish universities to create a stronger and more sustain",
+    "context_words": 711,
+    "year_filter": null,
+    "answer": "I don't have that information.",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 0.5,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 0.8333
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "partial"
+  },
+  {
+    "id": 92,
+    "category": "general",
+    "question": "What is blockchain technology?",
+    "ground_truth": "This question is not related to FE-RUPP specifically. The system should indicate it cannot answer general tech questions but may redirect to IT-related programs.",
+    "context_preview": "Telecommunication & Electronics Engineering (Bachelor)\n\nThe department provides quality education for students to design systems and devices in both technologies, conduct research, and pursue graduate studies. Students will do effective group work with leadership and entrepreneurship skills. Graduates are qualified to work in mobile operation companies, Internet service providing companies, TV/Rad",
+    "context_words": 614,
+    "year_filter": null,
+    "answer": "I don't have that information. I'm here to assist with Faculty of Engineering (FE) at the Royal University of Phnom Penh (RUPP) topics. If you'd like to know more about FE-RUPP programs or courses, I'd be happy to help.",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 93,
+    "category": "general",
+    "question": "How do you learn to play guitar as a complete beginner?",
+    "ground_truth": "This question is not related to FE-RUPP. The system should indicate it cannot answer hobby or music questions.",
+    "context_preview": "Data Science And Engineering (Honor Bachelor)\n\nDuring the program, students are required to do practicum from year 2 to year 4 with real world problems. Doing practicum plays a crucial role in training students to acquire valuable experience, required skill sets and ability to be ready for work after graduation. The curriculum is designed for students with abilities to explore data and discover it",
+    "context_words": 728,
+    "year_filter": null,
+    "answer": "I don't have that information. I'm a helpful assistant for the Faculty of Engineering (FE) at the Royal University of Phnom Penh (RUPP), Cambodia. I can provide information about the programs and courses offered by FE-RUPP, but I don't have knowledge about learning to play the guitar. If you're interested in learning more about the programs offered by FE-RUPP, I'd be happy to help.",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 94,
+    "category": "general",
+    "question": "What is the speed of light?",
+    "ground_truth": "This question is not related to FE-RUPP. The system should indicate it cannot answer general physics questions.",
+    "context_preview": "FE-RUPP General Information:\n\n---\n\nFE-RUPP General Information:\n\n\n\n---\n\nTelecommunication & Electronics Engineering (Bachelor)\n\nThe department provides quality education for students to design systems and devices in both technologies, conduct research, and pursue graduate studies. Students will do effective group work with leadership and entrepreneurship skills. Graduates are qualified to work in ",
+    "context_words": 366,
+    "year_filter": null,
+    "answer": "I don't have that information. I'm here to assist with Faculty of Engineering (FE) - Royal University of Phnom Penh (RUPP) related topics.",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 95,
+    "category": "general",
+    "question": "What is ChatGPT and who made it?",
+    "ground_truth": "This question is not related to FE-RUPP. The system should indicate it cannot answer questions about other AI products.",
+    "context_preview": "Biotechnology and Food Technology Master Program (Master)\n\nPrepares engineers for life-long achievement through education in Biotechnology, Food technology, and sustainable refining of natural products in Cambodia and development of communication, teamwork, leadership and entrepreneurship skills. Established through partnerships with three Swedish universities to create a stronger and more sustain",
+    "context_words": 672,
+    "year_filter": null,
+    "answer": "I don't have that information.",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 0.5,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 0.8333
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "partial"
+  },
+  {
+    "id": 96,
+    "category": "general",
+    "question": "How does a gasoline combustion engine work?",
+    "ground_truth": "This question is not related to FE-RUPP. The system should indicate it cannot answer mechanical engineering questions outside its domain.",
+    "context_preview": "FE-RUPP General Information:\n\n---\n\nFE-RUPP General Information:\n\n\n\n---\n\nBio Engineering Biotechnology (Bachelor)\n\nThe curriculum provides fundamental knowledge in several major study areas so that students will be well prepared for work in biotechnical field such as food industry, microbial and enzyme biotechnology industry, gene technology, plant cell technology, either in industrial factories or",
+    "context_words": 401,
+    "year_filter": null,
+    "answer": "I don't have that information. I'm a helpful assistant for the Faculty of Engineering (FE) at the Royal University of Phnom Penh (RUPP), Cambodia. I can provide information related to the programs and courses offered by FE-RUPP, but I don't have knowledge on general concepts unrelated to FE-RUPP. If you'd like to know more about the programs offered by FE-RUPP, I'd be happy to help.",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 97,
+    "category": "general",
+    "question": "What is the best programming language to learn in 2024?",
+    "ground_truth": "This question is not related to FE-RUPP specifically. The system should indicate it cannot give general career advice and redirect to FE-RUPP's IT programs.",
+    "context_preview": "Information Technology Engineering - Year 2 Courses:\nSemester 1:\n  - Advanced Programming Language I (3.0 credits)\n  - Data Structure and Algorithm I (3.0 credits)\n  - Data Communication I (3.0 credits)\n  - Probability and Statistics (3.0 credits)\n  - Mathematics III (3.0 credits)\n  - General English III (4.0 credits)\n  - Project Practicum (1.0 credits)\nSemester 2:\n  - Advanced Programming Languag",
+    "context_words": 1198,
+    "year_filter": null,
+    "answer": "I'm happy to help with Faculty of Engineering (FE) at the Royal University of Phnom Penh (RUPP) topics, but I don't have information on general programming language recommendations for 2024. However, I can suggest that you look at the programming languages taught in the FE-RUPP programs, such as:\n\n- Advanced Programming Language I and II (Information Technology Engineering)\n- Computer Programming (Telecommunication & Electronics Engineering)\n- Computer Programming Language (Data Science And Engineering)\n- Object-Oriented Design and Programming (Data Science And Engineering)\n- Programming for Intelligent Computing I and II (Telecommunication & Electronics Engineering)\n\nThese might give you an idea of the programming languages that are relevant to the FE-RUPP programs.",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 98,
+    "category": "general",
+    "question": "What is the current price of Bitcoin?",
+    "ground_truth": "This question is not related to FE-RUPP. The system should indicate it cannot answer real-time financial questions.",
+    "context_preview": "Biotechnology and Food Technology Master Program (Master)\n\nPrepares engineers for life-long achievement through education in Biotechnology, Food technology, and sustainable refining of natural products in Cambodia and development of communication, teamwork, leadership and entrepreneurship skills. Established through partnerships with three Swedish universities to create a stronger and more sustain",
+    "context_words": 625,
+    "year_filter": null,
+    "answer": "I don't have that information.",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 99,
+    "category": "general",
+    "question": "How can I lose weight effectively and safely?",
+    "ground_truth": "This question is not related to FE-RUPP. The system should indicate it cannot answer health and fitness questions.",
+    "context_preview": "FE-RUPP General Information:\n\n---\n\nFE-RUPP General Information:\n\n\n\n---\n\nFood Technology And Engineering (Honor Bachelor)\n\nDeveloped with the participation of experts and researchers from Osaka Prefecture University. Designed to provide students with the knowledge, skills, and experience necessary for a successful career in food technology in Cambodia as well as in Southeast Asia. Covers food scien",
+    "context_words": 430,
+    "year_filter": null,
+    "answer": "I don't have that information. I'm a helpful assistant for the Faculty of Engineering (FE) at the Royal University of Phnom Penh (RUPP), Cambodia. I can provide information related to the programs and courses offered by FE-RUPP, but I'm not a health or nutrition expert. If you're interested in learning about food technology or nutrition engineering, I can provide information on the Food Technology and Engineering program.",
+    "groq_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "cerebras_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 1.0
+    },
+    "groq_verdict": "pass",
+    "cerebras_verdict": "pass"
+  },
+  {
+    "id": 100,
+    "category": "general",
+    "question": "What is climate change and what causes it?",
+    "ground_truth": "This question is not directly related to FE-RUPP programs. The system may redirect to FE-RUPP's Environmental Engineering program which covers topics like air, climate, and ecosystems.",
+    "context_preview": "Environmental Engineering - Career Prospects:\n- Environmental Specialist\n- Climate Change Specialist\n- Water / Wastewater Engineer\n- Waste Management Specialist\n- Renewable Energy Specialist\n- Professor and Researcher\n\n---\n\nEnvironmental Engineering - Curriculum:\n(L = Lecture, P = Practice, S = Self Study)\n\nFoundation Year:\n  Semester 1:\n    - English for Academic 1 (2.0 credits)\n    - General Mat",
+    "context_words": 706,
+    "year_filter": null,
+    "answer": "I don't have that information. The context only provides information about the Faculty of Engineering at the Royal University of Phnom Penh, specifically about the Environmental Engineering program. If you'd like to know more about the program or its curriculum, I'd be happy to help.",
+    "groq_scores": {
+      "relevance": 0.0,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 0.6667
+    },
+    "cerebras_scores": {
+      "relevance": 0.5,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "overall": 0.8333
+    },
+    "groq_verdict": "partial",
+    "cerebras_verdict": "partial"
+  }
+]

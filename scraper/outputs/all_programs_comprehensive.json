@@ -1,0 +1,2985 @@
+{
+  "institution": "Faculty of Engineering, Royal University of Phnom Penh (FE-RUPP)",
+  "last_updated": "2025",
+  "total_programs": 9,
+  "programs_summary": {
+    "honor_bachelor_count": 4,
+    "bachelor_count": 3,
+    "master_count": 2
+  },
+  "grading_scale": {
+    "scale": "4.00 GPA",
+    "grades": [
+      {
+        "score_range": "85-100",
+        "gpa": 4.0,
+        "grade": "A",
+        "description": "Excellent"
+      },
+      {
+        "score_range": "80-84",
+        "gpa": 3.5,
+        "grade": "B+",
+        "description": "Very Good"
+      },
+      {
+        "score_range": "70-79",
+        "gpa": 3.0,
+        "grade": "B",
+        "description": "Good"
+      },
+      {
+        "score_range": "65-69",
+        "gpa": 2.5,
+        "grade": "C+",
+        "description": "Fairly Good"
+      },
+      {
+        "score_range": "50-64",
+        "gpa": 2.0,
+        "grade": "C",
+        "description": "Fair"
+      },
+      {
+        "score_range": "45-49",
+        "gpa": 1.5,
+        "grade": "D",
+        "description": "Poor"
+      },
+      {
+        "score_range": "<40",
+        "gpa": 0.0,
+        "grade": "E",
+        "description": "Fail"
+      }
+    ],
+    "note": "Assessment performed at end of each semester. Shown as GPA and Cumulative GPA on 4.00 scale."
+  },
+  "honor_bachelor_programs": [
+    {
+      "id": "food-tech-eng-honor",
+      "name": "Food Technology And Engineering",
+      "category": "Honor Bachelor",
+      "language": "English",
+      "degree_type": "Bachelor (Honors)",
+      "duration_years": 4,
+      "duration_semesters": 8,
+      "established": "February 2022",
+      "partnerships": [
+        "Osaka Prefecture University"
+      ],
+      "overview": "The bachelor program of Engineering in Food Technology and Engineering was established in February 2022. The Program focuses on the most needed food technologist and engineer in food industry to support and push forward Cambodia's development on agro-industry sustainably. The program addresses gaps in knowledge and skills and promotes high commitment to the development of agro-industry and food security.",
+      "description": "Developed with the participation of experts and researchers from Osaka Prefecture University. Designed to provide students with the knowledge, skills, and experience necessary for a successful career in food technology in Cambodia as well as in Southeast Asia. Covers food science, food processing technology, food safety, nutrition engineering, and sustainability in food systems.",
+      "last_semester_optional_tracks": [
+        "Coursework - for students who would like to conduct coursework and final project",
+        "Research Thesis - for outstanding students who would like to conduct their research project under the supervision of BE faculty members",
+        "Extended Training - for students who would like to participate in a long training period (for the entire semester) under a co-operative training program with companies or organizations"
+      ],
+      "internship_requirement": "Students are required to conduct a minimum 6 weeks internship at a standard company or organization during their vacation time of the third year or before.",
+      "curriculum": {
+        "note": "L = Lecture, P = Practice, S = Self Study",
+        "foundation": {
+          "semester_1": [
+            {
+              "subject": "English Composition: Critical thinking, reading and writing",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "General Mathematics: Algebra",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "General Science 1: General Chemistry",
+              "credit": 4.0,
+              "hours": "3-2"
+            },
+            {
+              "subject": "General Physics",
+              "credit": 4.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Fundamental Computer and Programming",
+              "credit": 3.0,
+              "hours": "2-2"
+            },
+            {
+              "subject": "Sociology: Digital skill and Problem Solving",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Personal Development and Management",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Introduction to Engineering",
+              "credit": 3.0,
+              "hours": "3-0"
+            }
+          ],
+          "semester_2": [
+            {
+              "subject": "English Composition: Communication skill",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Statistics for Engineer",
+              "credit": 4.0,
+              "hours": "3-1"
+            },
+            {
+              "subject": "Biological and Environmental Engineering",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Mathematics II (Calculus)",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Khmer and the world culture",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Computer Program Language",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Data Sciences for Engineers",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Engineering Drawing",
+              "credit": 3.0,
+              "hours": "3-0"
+            }
+          ]
+        },
+        "year_2": {
+          "semester_1": [
+            {
+              "subject": "Introduction to Food Technology (Concept of engineering and technology)",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Principle of Analytical Chemistry",
+              "credit": 3.0,
+              "hours": "3-1"
+            },
+            {
+              "subject": "Principle of Physical Chemistry",
+              "credit": 4.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Organic Chemistry",
+              "credit": 4.0,
+              "hours": "3-1"
+            },
+            {
+              "subject": "Introduction to Microbiology",
+              "credit": 4.0,
+              "hours": "3-1"
+            },
+            {
+              "subject": "Introduction to Economic",
+              "credit": 3.0,
+              "hours": "3-1"
+            },
+            {
+              "subject": "Seminar in Food Technology",
+              "credit": 2.0,
+              "hours": "2-0"
+            },
+            {
+              "subject": "Food Processing 1",
+              "credit": 3.0,
+              "hours": "3-0"
+            }
+          ],
+          "semester_2": [
+            {
+              "subject": "Principle of Instrumental Analysis",
+              "credit": 4.0,
+              "hours": "3-2"
+            },
+            {
+              "subject": "Biochemistry",
+              "credit": 4.0,
+              "hours": "3-1"
+            },
+            {
+              "subject": "Food Chemistry",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Food Processing",
+              "credit": 4.0,
+              "hours": "3-2"
+            },
+            {
+              "subject": "Food Properties",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Food Microbiology",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Introduction to Business",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Free Elective Course",
+              "credit": null,
+              "hours": null
+            }
+          ]
+        },
+        "year_3": {
+          "semester_1": [
+            {
+              "subject": "Chemistry and Physical for Food Analysis",
+              "credit": 4.0,
+              "hours": "3-1"
+            },
+            {
+              "subject": "Food Nutrition",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Food Engineering",
+              "credit": 4.0,
+              "hours": "3-1"
+            },
+            {
+              "subject": "Food Preservation and Packaging Technique",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Introduction to Enzymology in Food",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Sensory Evaluation",
+              "credit": 4.0,
+              "hours": "3-2"
+            },
+            {
+              "subject": "Marketing and Management",
+              "credit": 2.0,
+              "hours": "2-0"
+            }
+          ],
+          "semester_2": [
+            {
+              "subject": "Design and Experimental Planning Food Science",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Food Product Development",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Chemistry and Technology of Milk and Dairy Products",
+              "credit": 4.0,
+              "hours": "3-2"
+            },
+            {
+              "subject": "Startup Business with Food Science and Technology",
+              "credit": 2.0,
+              "hours": "2-0"
+            },
+            {
+              "subject": "Food Process Engineering",
+              "credit": 4.0,
+              "hours": "3-2"
+            },
+            {
+              "subject": "Special Problems",
+              "credit": 2.0,
+              "hours": "0-2"
+            },
+            {
+              "subject": "Professional Experience",
+              "credit": 3.0,
+              "hours": "0-135*"
+            }
+          ]
+        },
+        "year_4": {
+          "semester_1": [
+            {
+              "subject": "Food Toxicology and Additive",
+              "credit": 4.0,
+              "hours": "3-1"
+            },
+            {
+              "subject": "Technology in Carbohydrate and Protein",
+              "credit": 4.0,
+              "hours": "3-2"
+            },
+            {
+              "subject": "Food Law and Standard",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Food Plant Management and Sanitation",
+              "credit": 3.0,
+              "hours": "3-2"
+            },
+            {
+              "subject": "Project Management in Food Industry",
+              "credit": 2.0,
+              "hours": "2-0"
+            },
+            {
+              "subject": "Principle of Quality Assurance and Quality Control in Food",
+              "credit": 2.0,
+              "hours": "2-0"
+            },
+            {
+              "subject": "Food in Multiculture",
+              "credit": 1.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Internship (Soft Skill) (vacation time)",
+              "credit": 1.0,
+              "hours": "1-0"
+            }
+          ],
+          "semester_2_tracks": {
+            "coursework_track": [
+              {
+                "subject": "Final Project (Industry Training)",
+                "credit": 10.0,
+                "hours": "2-18"
+              }
+            ],
+            "research_thesis_track": [
+              {
+                "subject": "Thesis",
+                "credit": 10.0,
+                "hours": "2-18"
+              }
+            ]
+          }
+        }
+      },
+      "job_prospects": [
+        "Supervisor / Production Planner",
+        "QA and QC Specialist / Food Safety Specialist / Laboratory Manager",
+        "Food Technologist / R&D Chef",
+        "Business Analyzer / Startup"
+      ],
+      "thesis_required": false,
+      "gpa_requirement": 3.0
+    },
+    {
+      "id": "data-sci-eng-honor",
+      "name": "Data Science And Engineering",
+      "category": "Honor Bachelor",
+      "language": "English",
+      "degree_type": "Bachelor (Honors)",
+      "duration_years": 4,
+      "duration_semesters": 8,
+      "overview": "Bachelor of Data Science and Engineering program at Faculty of Engineering, Royal University of Phnom Penh is intended to give students a top-notch education in the art of extracting value from data assets so that we can better understand the past, manage the present, and effectively plan for the future. Graduates with expertise in this field are in high demand since it is essential to advancing industry, commerce, governance, and research.",
+      "description": "During the program, students are required to do practicum from year 2 to year 4 with real world problems. Doing practicum plays a crucial role in training students to acquire valuable experience, required skill sets and ability to be ready for work after graduation. The curriculum is designed for students with abilities to explore data and discover its potential — how to find innovative solutions to real problems in science, business and government. Students will learn Business Analysis and Machine Learning (ML) / Artificial Intelligence (AI) skills in addition to data management, analytics, and processing skills.",
+      "last_semester_optional_tracks": [
+        "Coursework - for students who would like to conduct coursework and final project",
+        "Research Thesis - for outstanding students who would like to conduct their research project under the supervision of BE faculty members",
+        "Extended Training - for students who would like to participate in a long training period (for the entire semester) under a co-operative training program with companies or organizations"
+      ],
+      "internship_requirement": "Students are required to conduct a minimum 6 weeks internship at a standard company or organization during their vacation time of the third year or before.",
+      "curriculum": {
+        "note": "L = Lecture, P = Practice, S = Self Study",
+        "foundation": {
+          "semester_1": [
+            {
+              "subject": "English Composition",
+              "credit": 3.0,
+              "hours": "6-0"
+            },
+            {
+              "subject": "Mathematics I (Algebra)",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Physics I",
+              "credit": 3.0,
+              "hours": "2-2"
+            },
+            {
+              "subject": "General Chemistry",
+              "credit": 3.0,
+              "hours": "2-2"
+            },
+            {
+              "subject": "Computer Fundamental and Programming",
+              "credit": 3.0,
+              "hours": "2-2"
+            },
+            {
+              "subject": "Introduction to Engineering",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Personal Development and Management",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Digital Skills and Problem Solving",
+              "credit": 3.0,
+              "hours": "3-0"
+            }
+          ],
+          "semester_2": [
+            {
+              "subject": "English: Introduction to Technical and Business Writing",
+              "credit": 3.0,
+              "hours": "6-0"
+            },
+            {
+              "subject": "Mathematics II (Calculus I)",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Biological & Environmental Engineering",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Engineering Graphics",
+              "credit": 3.0,
+              "hours": "2-2"
+            },
+            {
+              "subject": "Introduction to Data Science and Engineering",
+              "credit": 2.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Computer Programming Language",
+              "credit": 3.0,
+              "hours": "2-2"
+            },
+            {
+              "subject": "Cambodia and World Cultures",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Statistics for Engineers",
+              "credit": 3.0,
+              "hours": "2-2"
+            }
+          ]
+        },
+        "year_2": {
+          "semester_1": [
+            {
+              "subject": "Math III: Calculus II",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Probability and Statistics",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Data Structures and Algorithms",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Object-Oriented Design and Programming",
+              "credit": 3.0,
+              "hours": "2-2"
+            },
+            {
+              "subject": "Computer Network and Telecommunications",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Operating Systems",
+              "credit": 3.0,
+              "hours": "2-2"
+            },
+            {
+              "subject": "Project Practicum",
+              "credit": 2.0,
+              "hours": "0-4"
+            }
+          ],
+          "semester_2": [
+            {
+              "subject": "Discrete Math",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Statistics",
+              "credit": 3.0,
+              "hours": "2-2"
+            },
+            {
+              "subject": "Database Design and Management",
+              "credit": 3.0,
+              "hours": "2-2"
+            },
+            {
+              "subject": "Software Engineering",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Web and Cloud Technology",
+              "credit": 3.0,
+              "hours": "2-2"
+            },
+            {
+              "subject": "Introduction to Distributed Computing",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Project Practicum",
+              "credit": 2.0,
+              "hours": "0-4"
+            }
+          ]
+        },
+        "year_3": {
+          "semester_1": [
+            {
+              "subject": "Introduction to Big Data and Web Mining",
+              "credit": 3.0,
+              "hours": "2-2"
+            },
+            {
+              "subject": "Artificial Intelligence",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Data Analytics and Machine Learning",
+              "credit": 3.0,
+              "hours": "2-2"
+            },
+            {
+              "subject": "Project Management",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Mobile Application Technology",
+              "credit": 3.0,
+              "hours": "2-2"
+            },
+            {
+              "subject": "Project Practicum",
+              "credit": 2.0,
+              "hours": "0-4"
+            }
+          ],
+          "semester_2": [
+            {
+              "subject": "Optimization and Process Analytics",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Cognitive Computing",
+              "credit": 3.0,
+              "hours": "2-2"
+            },
+            {
+              "subject": "Deep Learning and Application",
+              "credit": 3.0,
+              "hours": "2-2"
+            },
+            {
+              "subject": "Innovation and Entrepreneurships",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Introduction to Cryptography",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Project Practicum",
+              "credit": 2.0,
+              "hours": "0-4"
+            }
+          ]
+        },
+        "year_4": {
+          "semester_1": [
+            {
+              "subject": "Professional Computing and Ethics",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Marketing Analytics",
+              "credit": 3.0,
+              "hours": "2-2"
+            },
+            {
+              "subject": "Supply Chain Analytics",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Information Security",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Introduction to Enterprise Information Systems",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Project Practicum",
+              "credit": 2.0,
+              "hours": "0-4"
+            }
+          ],
+          "semester_2_tracks": {
+            "coursework_track": [
+              {
+                "subject": "Leadership Skill",
+                "credit": 3.0,
+                "hours": "3-0"
+              },
+              {
+                "subject": "Professional Internship",
+                "credit": 8.0,
+                "hours": "0-0"
+              },
+              {
+                "subject": "Final Project",
+                "credit": 7.0,
+                "hours": "0-0"
+              }
+            ],
+            "research_thesis_track": [
+              {
+                "subject": "Leadership Skill",
+                "credit": 3.0,
+                "hours": "3-0"
+              },
+              {
+                "subject": "Professional Internship",
+                "credit": 8.0,
+                "hours": "0-0"
+              },
+              {
+                "subject": "Research Thesis",
+                "credit": 7.0,
+                "hours": "0-0"
+              }
+            ],
+            "extended_training_track": [
+              {
+                "subject": "Extended Training (full semester cooperative program with company)",
+                "credit": 18.0,
+                "hours": "0-0"
+              }
+            ]
+          }
+        }
+      },
+      "research_areas": [
+        "Web and Cloud Technology",
+        "Artificial Intelligence and Machine Learning",
+        "Big Data",
+        "Business Intelligence"
+      ],
+      "job_prospects": [
+        "Data Analyst",
+        "Business Intelligence Analyst",
+        "Associate Data Engineer",
+        "Data Engineer",
+        "AI/ML Engineer"
+      ],
+      "thesis_required": false,
+      "gpa_requirement": 3.0
+    },
+    {
+      "id": "automation-supply-chain-honor",
+      "name": "Automation And Supply Chain System Engineering",
+      "category": "Honor Bachelor",
+      "language": "English",
+      "degree_type": "Bachelor (Honors)",
+      "duration_years": 4,
+      "duration_semesters": 8,
+      "established": "2022",
+      "total_credits": 168,
+      "max_study_duration_years": 5,
+      "partnerships": [
+        "Sirindhorn International Institute of Technology (SIIT), Thammasat University (TU), Thailand"
+      ],
+      "overview": "Automation and Supply Chain Systems Engineering (ASCSE) was established in 2022 to deal with automation and digital manufacturing. The supply chain systems engineering is introduced to modernize manufacturing processes and optimize the whole supply chain systems. Established to comply with the rectangular strategies of the Royal Government of Cambodia (RGC) to develop human resources and digitalize manufacturing toward Industry 4.0.",
+      "description": "Features a 2+2 Bachelor's degree (International Program) with SIIT, Thammasat University, Thailand. Students study Years 1 and 2 at ASCSE, RUPP, Cambodia, then choose to continue Years 3 and 4 at RUPP or transfer credits to study at SIIT, TU, Thailand. Designed to build students' foundation in designing, operating, evaluating, and improving automation and supply chain systems while enhancing analytical and problem-solving skills.",
+      "program_2plus2_note": "Students can choose to study Years 3 and 4 at RUPP or transfer credits to study at the School of Management Technology (MT), SIIT, TU, Thailand.",
+      "department_vision": "To enhance and advance students' knowledge, skills, and leadership in the field of automation and supply chain systems so that they are capable of integrating and ready to work in regional and global markets.",
+      "department_mission": [
+        "To produce high qualified undergraduate students who have comprehensive, advanced, and up-to-date knowledge for analytic and problem-solving skills",
+        "To enhance students' capabilities in designing, operating, evaluating, and improving automation and supply chain systems in manufacturing and service industries",
+        "To empower students to integrate technologies to identify bottlenecks of and propose solutions for local SMEs",
+        "To promote academic and industrial collaboration (e.g., internship and exchange programs) with local and international partners",
+        "To be a leading international department in the field of automation and supply chain systems"
+      ],
+      "degree_requirements": [
+        "Finish an internship at the industry in the third year and second semester",
+        "Finish writing their thesis and successfully defend in front of supervisor and committee members in the fourth year",
+        "Finish all 168 credits within the limited period",
+        "Complete bachelor's degree within five years",
+        "Pass all course requirements with 50% of total score"
+      ],
+      "last_semester_optional_tracks": [
+        "Coursework - for students who would like to conduct coursework and final project",
+        "Research Thesis - for outstanding students who would like to conduct their research project under the supervision of BE faculty members",
+        "Extended Training - for students who would like to participate in a long training period (for the entire semester) under a co-operative training program with companies or organizations"
+      ],
+      "internship_requirement": "Students are required to conduct a minimum 6 weeks internship at a standard company or organization during their vacation time of the third year or before.",
+      "curriculum": {
+        "note": "L = Lecture, P = Practice, S = Self Study",
+        "foundation": {
+          "semester_1": [
+            {
+              "subject": "Introduction to Computers and Programming",
+              "credit": 3.0,
+              "hours": "2-3-4"
+            },
+            {
+              "subject": "General Science I",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Environment Science I",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Principles of Linear Algebra",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Self-development and Management",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Critical Thinking, Reading, and Writing",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Creativity and Communication",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            }
+          ],
+          "semester_2": [
+            {
+              "subject": "Digital Skill and Problem Solving",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Introduction to Supply Chain Management",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "General Science II",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Probability for Technologies",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Communication Skills in English",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Civic Engagement",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Innovation and Entrepreneurial Mindset",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            }
+          ]
+        },
+        "year_2": {
+          "semester_1": [
+            {
+              "subject": "Introduction of Algorithms and Object-oriented Programming",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Introduction to Management Science",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Statistical Methods for Managers",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Calculus for Technologists I",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "English Language Structures",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Principles of Business and Management",
+              "credit": 3.0,
+              "hours": "3-2-6"
+            },
+            {
+              "subject": "Economics for Technologists",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            }
+          ],
+          "semester_2": [
+            {
+              "subject": "Database Systems and Applications",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Organizational Behavior",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Statistics for Data Science and Empirical Study",
+              "credit": 3.0,
+              "hours": "2-2-5"
+            },
+            {
+              "subject": "Calculus for Technologists II",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Communications in Business",
+              "credit": 3.0,
+              "hours": "2-1-3"
+            },
+            {
+              "subject": "Fundamentals of Financial and Managerial Accounting",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Principles of Marketing",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            }
+          ]
+        },
+        "year_3": {
+          "semester_1": [
+            {
+              "subject": "Mobile App Development",
+              "credit": 3.0,
+              "hours": "2-0-4"
+            },
+            {
+              "subject": "Procurement and Supply Chain Management",
+              "credit": 3.0,
+              "hours": "3-2-6"
+            },
+            {
+              "subject": "Management System Optimization",
+              "credit": 3.0,
+              "hours": "3-2-6"
+            },
+            {
+              "subject": "Statics & Mechanics of Materials",
+              "credit": 3.0,
+              "hours": "3-2-6"
+            },
+            {
+              "subject": "Engineering Drawing and Computer-Aided Design (CAD)",
+              "credit": 3.0,
+              "hours": "3-2-6"
+            },
+            {
+              "subject": "Electricity and Electronics for Robotics",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Project Management",
+              "credit": 3.0,
+              "hours": "2-0-4"
+            }
+          ],
+          "semester_2": [
+            {
+              "subject": "Business Intelligence and Analytics",
+              "credit": 3.0,
+              "hours": "2-0-4"
+            },
+            {
+              "subject": "Inventory and Production Management",
+              "credit": 3.0,
+              "hours": "3-2-6"
+            },
+            {
+              "subject": "Warehouse Management",
+              "credit": 3.0,
+              "hours": "3-2-6"
+            },
+            {
+              "subject": "Kinematics and Dynamics of Machine Elements and Mechanisms",
+              "credit": 3.0,
+              "hours": "3-2-6"
+            },
+            {
+              "subject": "Introduction to Robotics",
+              "credit": 3.0,
+              "hours": "3-2-6"
+            },
+            {
+              "subject": "Engineering Mechanical Design",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Seminar with Logistics and Supply Chain Management",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Industry Internship",
+              "credit": 6.0,
+              "hours": "0-0-8"
+            }
+          ]
+        },
+        "year_4": {
+          "semester_1": [
+            {
+              "subject": "Digital Business and E-commerce Management",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Business Process Simulation",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Retail Management",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Industrial Automation & Control",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Computer-Aided Engineering and Manufacturing",
+              "credit": 3.0,
+              "hours": "3-0-4"
+            },
+            {
+              "subject": "Senior Project I",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            }
+          ],
+          "semester_2": [
+            {
+              "subject": "International Business and Trade",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Fundamental of Manufacturing",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Senior Project II",
+              "credit": 9.0,
+              "hours": "3-3-12"
+            }
+          ]
+        }
+      },
+      "thesis_required": true,
+      "gpa_requirement": 3.0
+    },
+    {
+      "id": "environmental-eng-honor",
+      "name": "Environmental Engineering",
+      "category": "Honor Bachelor",
+      "language": "English",
+      "degree_type": "Bachelor (Honors)",
+      "duration_years": 4,
+      "duration_semesters": 8,
+      "partnerships": [
+        "Korea International Cooperation Agency (KOICA)",
+        "Gwangju Institute of Science and Technology (GIST), Republic of Korea"
+      ],
+      "overview": "The Department of Environmental Engineering provides an Honor Bachelor Program designed for exceptionally motivated and high-achieving students who want thorough, in-depth education about environmental challenges and solutions. With support from KOICA and GIST (Republic of Korea), the Department educates students to understand interactions between human actions and environmental effects and develop the capability to identify and address environmental challenges.",
+      "description": "Curriculum based on four-year coursework. Students learn from professors and researchers based in Cambodia and the Republic of Korea about knowledge and skills to minimize human exposure to pollutants and waste and protect the environment from adverse/hazardous impacts. Covers approaches and techniques in air/climate, water, soil/ecosystems and energy/resources.",
+      "last_semester_optional_tracks": [
+        "Coursework - for students who would like to conduct coursework and final project",
+        "Research Thesis - for outstanding students who would like to conduct their research project under the supervision of faculty members"
+      ],
+      "research_focus_areas": [
+        "Air & Climate",
+        "Water",
+        "Soil & Ecosystems",
+        "Energy & Resources"
+      ],
+      "curriculum": {
+        "note": "L = Lecture, P = Practice, S = Self Study",
+        "foundation": {
+          "semester_1": [
+            {
+              "subject": "English for Academic 1",
+              "credit": 2.0,
+              "hours": "1-2-6"
+            },
+            {
+              "subject": "General Mathematics 1",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "General Chemistry 1",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "General Physics",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Computer Fundamental",
+              "credit": 3.0,
+              "hours": "2-2-6"
+            },
+            {
+              "subject": "Civilization and History",
+              "credit": 3.0,
+              "hours": "2-0-6"
+            },
+            {
+              "subject": "Academic Skill",
+              "credit": 2.0,
+              "hours": "2-0-6"
+            }
+          ],
+          "semester_2": [
+            {
+              "subject": "English for Academic 2",
+              "credit": 2.0,
+              "hours": "1-2-6"
+            },
+            {
+              "subject": "General Mathematics 2",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "General Chemistry 2",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "General Biology",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Computer Programming",
+              "credit": 3.0,
+              "hours": "2-2-6"
+            },
+            {
+              "subject": "Technical Drawing",
+              "credit": 2.0,
+              "hours": "1.5-1.5-6"
+            },
+            {
+              "subject": "Khmer and The World Culture",
+              "credit": 2.0,
+              "hours": "2-0-4"
+            },
+            {
+              "subject": "Critical Thinking and Personal Development",
+              "credit": 2.0,
+              "hours": "2-0-4"
+            }
+          ]
+        },
+        "year_2": {
+          "semester_1": [
+            {
+              "subject": "English for Academic 3",
+              "credit": 2.0,
+              "hours": "1-2-6"
+            },
+            {
+              "subject": "Analytical Chemistry",
+              "credit": 3.0,
+              "hours": "2-2-6"
+            },
+            {
+              "subject": "Creative Environmental Engineering Design",
+              "credit": 3.0,
+              "hours": "2-2-6"
+            },
+            {
+              "subject": "Fluid Mechanics",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Earth System Science",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Introduction to Earth Materials",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Environmental Engineering",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Project Practicum",
+              "credit": 1.0,
+              "hours": "0-2-3"
+            }
+          ],
+          "semester_2": [
+            {
+              "subject": "English for Academic 4",
+              "credit": 2.0,
+              "hours": "1-2-6"
+            },
+            {
+              "subject": "Earth Environmental Science Statistics",
+              "credit": 3.0,
+              "hours": "2-2-6"
+            },
+            {
+              "subject": "Understanding Climate Change",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Chemical Reaction Engineering",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Environmental Chemistry",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Environmental Microbiology",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Environmental Laboratory 1",
+              "credit": 2.0,
+              "hours": "1-2-6"
+            },
+            {
+              "subject": "Project Practicum",
+              "credit": 1.0,
+              "hours": "0-2-3"
+            }
+          ]
+        },
+        "year_3": {
+          "semester_1": [
+            {
+              "subject": "English for Academic 5",
+              "credit": 2.0,
+              "hours": "1-2-6"
+            },
+            {
+              "subject": "Hydraulics",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Environmental Policy Development and Regulation",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Climate Policy and Technology",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Environmental Ecology",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Environmental Thermodynamics",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Environmental Laboratory 2",
+              "credit": 2.0,
+              "hours": "1-2-6"
+            },
+            {
+              "subject": "Project Practicum",
+              "credit": 1.0,
+              "hours": "0-2-3"
+            }
+          ],
+          "semester_2": [
+            {
+              "subject": "English for Academic 6",
+              "credit": 2.0,
+              "hours": "1-2-6"
+            },
+            {
+              "subject": "Computer Applications and Software in Environmental Engineering",
+              "credit": 3.0,
+              "hours": "2-2-6"
+            },
+            {
+              "subject": "Mathematical Physics",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Unit Operations and Process for Environmental Engineering 1",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Earth and Environmental Transport Phenomena",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Water Supply and Wastewater Engineering",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Biogeochemistry",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Project Practicum",
+              "credit": 1.0,
+              "hours": "0-2-3"
+            },
+            {
+              "subject": "Professional Experience (Additional Semester III)",
+              "credit": 3.0,
+              "hours": "0-0-20"
+            }
+          ]
+        },
+        "year_4": {
+          "semester_1": [
+            {
+              "subject": "Basic Environmental Toxicology",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Building Sanitation",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Atmospheric Chemistry and Climate Change",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Unit Operations and Process for Environmental Engineering II",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Water Supply and Engineering Design",
+              "credit": 3.0,
+              "hours": "2-2-6"
+            },
+            {
+              "subject": "Hazardous Waste Engineering",
+              "credit": 3.0,
+              "hours": "2-2-6"
+            },
+            {
+              "subject": "Project Practicum",
+              "credit": 1.0,
+              "hours": "0-2-3"
+            }
+          ],
+          "semester_2_tracks": {
+            "coursework_track": [
+              {
+                "subject": "Comprehensive Environmental Engineering Design",
+                "credit": 3.0,
+                "hours": "2-2-6"
+              },
+              {
+                "subject": "Industrial Pollution and Safety",
+                "credit": 3.0,
+                "hours": "3-0-6"
+              },
+              {
+                "subject": "Final Project",
+                "credit": 6.0,
+                "hours": "0-6-20"
+              }
+            ],
+            "research_thesis_track": [
+              {
+                "subject": "Comprehensive Environmental Engineering Design",
+                "credit": 3.0,
+                "hours": "2-2-6"
+              },
+              {
+                "subject": "Industrial Pollution and Safety",
+                "credit": 3.0,
+                "hours": "3-0-6"
+              },
+              {
+                "subject": "Thesis for Undergraduate Program",
+                "credit": 12.0,
+                "hours": "0-12-40"
+              }
+            ]
+          }
+        }
+      },
+      "job_prospects": [
+        "Environmental Specialist",
+        "Climate Change Specialist",
+        "Water / Wastewater Engineer",
+        "Waste Management Specialist",
+        "Renewable Energy Specialist",
+        "Professor and Researcher"
+      ],
+      "thesis_required": true,
+      "gpa_requirement": 3.0
+    }
+  ],
+  "bachelor_programs": [
+    {
+      "id": "bio-eng-biotech",
+      "name": "Bio Engineering Biotechnology",
+      "category": "Bachelor",
+      "language": "English",
+      "degree_type": "Bachelor",
+      "duration_years": 4,
+      "duration_semesters": 8,
+      "overview": "Bio-Engineering/Biotechnology is a branch of engineering that deals with chemical and biological processes used to develop and make products and practices used in Medical and Health application, Food and Agro industry, Agriculture and Environment. The areas of study are quite diverse.",
+      "description": "The curriculum provides fundamental knowledge in several major study areas so that students will be well prepared for work in biotechnical field such as food industry, microbial and enzyme biotechnology industry, gene technology, plant cell technology, either in industrial factories or in public and private research institutes. The program prepares engineers for life-long achievement through education in the principles of Bio-Engineering/Biotechnology and development of communication, teamwork, leadership and entrepreneurship skills.",
+      "last_semester_optional_tracks": [
+        "Coursework - for students who would like to conduct coursework and final project",
+        "Research Thesis - for outstanding students who would like to conduct their research project under the supervision of BE faculty members",
+        "Extended Training - for students who would like to participate in a long training period (for the entire semester) under a co-operative training program with companies or organizations"
+      ],
+      "internship_requirement": "Students are required to conduct a minimum 6 weeks internship at a standard company or organization during their vacation time of the third year or before.",
+      "curriculum": {
+        "note": "L = Lecture, P = Practice, S = Self Study",
+        "foundation": {
+          "semester_1": [
+            {
+              "subject": "English",
+              "credit": 4.0,
+              "hours": "2-4-6"
+            },
+            {
+              "subject": "Mathematics I",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Chemistry",
+              "credit": 3.0,
+              "hours": "2-2-6"
+            },
+            {
+              "subject": "Physics",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Computer Architecture & Application",
+              "credit": 2.0,
+              "hours": "1-2-4"
+            },
+            {
+              "subject": "ICT for Development",
+              "credit": 2.0,
+              "hours": "2-0-4"
+            },
+            {
+              "subject": "Academic Skill",
+              "credit": 1.0,
+              "hours": "0-2-2"
+            }
+          ],
+          "semester_2": [
+            {
+              "subject": "English",
+              "credit": 4.0,
+              "hours": "2-4-6"
+            },
+            {
+              "subject": "Mathematics II",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Biology I",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Technical Drawing",
+              "credit": 3.0,
+              "hours": "2-2-6"
+            },
+            {
+              "subject": "C Programming",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Introduction to Statistics",
+              "credit": 2.0,
+              "hours": "2-1-4"
+            },
+            {
+              "subject": "Introduction to Electrical Engineering",
+              "credit": 2.0,
+              "hours": "2-0-4"
+            }
+          ]
+        },
+        "year_2": {
+          "semester_1": [
+            {
+              "subject": "English",
+              "credit": 4.0,
+              "hours": "2-4-6"
+            },
+            {
+              "subject": "Mathematics",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "MATLAB Programming",
+              "credit": 3.0,
+              "hours": "2-2-6"
+            },
+            {
+              "subject": "Organic Chemistry I",
+              "credit": 4.0,
+              "hours": "3-2-6"
+            },
+            {
+              "subject": "Biology II",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Analytical Chemistry I",
+              "credit": 4.0,
+              "hours": "3-2-6"
+            },
+            {
+              "subject": "Critical Thinking & Personal Development",
+              "credit": 2.0,
+              "hours": "2-0-4"
+            },
+            {
+              "subject": "Project Practicum",
+              "credit": 1.0,
+              "hours": "0-2-4"
+            }
+          ],
+          "semester_2": [
+            {
+              "subject": "English",
+              "credit": 4.0,
+              "hours": "2-4-6"
+            },
+            {
+              "subject": "Organic Chemistry II",
+              "credit": 4.0,
+              "hours": "3-2-6"
+            },
+            {
+              "subject": "Analytical Chemistry II",
+              "credit": 4.0,
+              "hours": "3-2-6"
+            },
+            {
+              "subject": "Physical Chemistry I",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Biochemistry I",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Microbiology",
+              "credit": 4.0,
+              "hours": "3-2-6"
+            },
+            {
+              "subject": "Inorganic Chemistry",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Project Practicum",
+              "credit": 1.0,
+              "hours": "0-2-4"
+            }
+          ]
+        },
+        "year_3": {
+          "semester_1": [
+            {
+              "subject": "English",
+              "credit": 4.0,
+              "hours": "2-4-6"
+            },
+            {
+              "subject": "Biochemistry II",
+              "credit": 4.0,
+              "hours": "3-2-6"
+            },
+            {
+              "subject": "Physical Chemistry II",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Bacteriology",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Unit Operation for Food Engineering I",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Method in Enzymology",
+              "credit": 2.0,
+              "hours": "2-0-4"
+            },
+            {
+              "subject": "Introduction to Biotechnology",
+              "credit": 2.0,
+              "hours": "2-0-4"
+            },
+            {
+              "subject": "Project Practicum",
+              "credit": 1.0,
+              "hours": "0-2-4"
+            }
+          ],
+          "semester_2": [
+            {
+              "subject": "English",
+              "credit": 4.0,
+              "hours": "2-4-6"
+            },
+            {
+              "subject": "Unit Operation for Food Engineer II",
+              "credit": 4.0,
+              "hours": "3-2-6"
+            },
+            {
+              "subject": "Computational Fluid Mechanics",
+              "credit": 4.0,
+              "hours": "3-2-6"
+            },
+            {
+              "subject": "Food Technology I",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Mycology",
+              "credit": 2.0,
+              "hours": "2-0-4"
+            },
+            {
+              "subject": "Bio-Process Engineering",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Quality Control and Assurance",
+              "credit": 2.0,
+              "hours": "2-0-4"
+            },
+            {
+              "subject": "Project Practicum",
+              "credit": 1.0,
+              "hours": "0-2-4"
+            }
+          ]
+        },
+        "year_4": {
+          "semester_1": [
+            {
+              "subject": "Food Technology II",
+              "credit": 4.0,
+              "hours": "3-2-6"
+            },
+            {
+              "subject": "Immunology",
+              "credit": 2.0,
+              "hours": "2-0-4"
+            },
+            {
+              "subject": "Molecular Biology & Gene Technology",
+              "credit": 4.0,
+              "hours": "3-2-6"
+            },
+            {
+              "subject": "Plant Tissue Culture",
+              "credit": 2.0,
+              "hours": "2-0-4"
+            },
+            {
+              "subject": "Entrepreneurship",
+              "credit": 2.0,
+              "hours": "2-0-4"
+            },
+            {
+              "subject": "Environmental Engineering",
+              "credit": 3.0,
+              "hours": "3-0-4"
+            },
+            {
+              "subject": "Toxicology",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Internship (Soft Skill) (vacation time)",
+              "credit": 2.0,
+              "hours": "0-7-0"
+            },
+            {
+              "subject": "Project Practicum",
+              "credit": 1.0,
+              "hours": "0-2-4"
+            }
+          ],
+          "semester_2_tracks": {
+            "coursework_track": [
+              {
+                "subject": "Ethics in Biotechnology",
+                "credit": 2.0,
+                "hours": "2-0-4"
+              },
+              {
+                "subject": "Biomedical Engineering",
+                "credit": 3.0,
+                "hours": "3-0-6"
+              },
+              {
+                "subject": "Aroma and Cosmetic Technology",
+                "credit": 2.0,
+                "hours": "2-0-4"
+              },
+              {
+                "subject": "Final Project",
+                "credit": 5.0,
+                "hours": "0-40-0"
+              }
+            ],
+            "training_or_research_track": [
+              {
+                "subject": "Research Thesis / Engineering Training",
+                "credit": 12.0,
+                "hours": "0-8-0"
+              }
+            ]
+          }
+        }
+      },
+      "research_areas": [
+        "Biological Molecular Medicine",
+        "Agro-Industrial Biotechnology",
+        "Biotechnology to Create Biological Devices"
+      ],
+      "job_prospects": [
+        "Agro-industry & Food Specialist",
+        "Biomolecular Engineer",
+        "Biological Materials Engineer",
+        "Professor or Researcher of Biotechnology",
+        "Research or Biological Laboratory Specialist"
+      ],
+      "thesis_required": false
+    },
+    {
+      "id": "info-tech-eng",
+      "name": "Information Technology Engineering",
+      "category": "Bachelor",
+      "language": "English",
+      "degree_type": "Bachelor",
+      "duration_years": 4,
+      "duration_semesters": 8,
+      "overview": "Bachelor of Information Technology Engineering (ITE) program at Faculty of Engineering, Royal University of Phnom Penh is designed to provide high-quality training in Information Technology which meets the current and future labor market requirements by emphasizing a broad foundation of computer organization, software, and mathematics both theoretical and practical aspects.",
+      "description": "With elective courses such as Artificial Intelligence, Computer Graphics, Game Development, Data Mining, and Security, it enables students to develop diverse industrial applications. Students are required to do practicum from year 2 to year 4 with real world problems. Doing practicum plays a crucial role in training students to acquire valuable experience and skill sets. Lecturers and Researchers of ITE department mostly graduated from abroad. Key success is giving more homework/assignment/project to students to build real products.",
+      "last_semester_optional_tracks": [
+        "Coursework - for students who would like to conduct coursework and final project",
+        "Research Thesis - for outstanding students (GPA > 3.5) who would like to conduct their research project under the supervision of BE faculty members",
+        "Extended Training - for students who would like to participate in a long training period (for the entire semester) under a co-operative training program with companies or organizations"
+      ],
+      "internship_requirement": "Students are required to conduct a minimum 6 weeks internship at a standard company or organization during their vacation time of the third year or before.",
+      "curriculum": {
+        "note": "L = Lecture, P = Practice, S = Self Study",
+        "foundation": {
+          "semester_1": [
+            {
+              "subject": "Mathematics I",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Computer Fundamental",
+              "credit": 3.0,
+              "hours": "2-2"
+            },
+            {
+              "subject": "Physics",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Civilization",
+              "credit": 1.5,
+              "hours": "1.5-0"
+            },
+            {
+              "subject": "History",
+              "credit": 1.5,
+              "hours": "1.5-0"
+            },
+            {
+              "subject": "Critical Thinking & Personal Development",
+              "credit": 2.0,
+              "hours": "2-0"
+            },
+            {
+              "subject": "Academic Skill",
+              "credit": 2.0,
+              "hours": "2-0"
+            },
+            {
+              "subject": "General English I",
+              "credit": 4.0,
+              "hours": "4-0"
+            }
+          ],
+          "semester_2": [
+            {
+              "subject": "Mathematics II",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Technical Drawing",
+              "credit": 3.0,
+              "hours": "2-2"
+            },
+            {
+              "subject": "Basic Programming Language",
+              "credit": 3.0,
+              "hours": "2-2"
+            },
+            {
+              "subject": "Introduction to Statistics",
+              "credit": 3.0,
+              "hours": "2-2"
+            },
+            {
+              "subject": "Introduction to Electrical Engineering",
+              "credit": 3.0,
+              "hours": "2-2"
+            },
+            {
+              "subject": "Philosophy",
+              "credit": 1.5,
+              "hours": "1.5-0"
+            },
+            {
+              "subject": "Sociology",
+              "credit": 1.5,
+              "hours": "1.5-0"
+            },
+            {
+              "subject": "General English II",
+              "credit": 4.0,
+              "hours": "4-0"
+            }
+          ]
+        },
+        "year_2": {
+          "semester_1": [
+            {
+              "subject": "Advanced Programming Language I",
+              "credit": 3.0,
+              "hours": "1.5-2"
+            },
+            {
+              "subject": "Data Structure and Algorithm I",
+              "credit": 3.0,
+              "hours": "1.5-2"
+            },
+            {
+              "subject": "Data Communication I",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Probability and Statistics",
+              "credit": 3.0,
+              "hours": "1.5-2"
+            },
+            {
+              "subject": "Mathematics III",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "General English III",
+              "credit": 4.0,
+              "hours": "4-0"
+            },
+            {
+              "subject": "Project Practicum",
+              "credit": 1.0,
+              "hours": "0-4"
+            }
+          ],
+          "semester_2": [
+            {
+              "subject": "Advanced Programming Language II",
+              "credit": 3.0,
+              "hours": "1.5-2"
+            },
+            {
+              "subject": "Data Structure and Algorithm II",
+              "credit": 3.0,
+              "hours": "1.5-2"
+            },
+            {
+              "subject": "Data Communication II",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Database I",
+              "credit": 3.0,
+              "hours": "1.5-2"
+            },
+            {
+              "subject": "Discrete Math",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "General English IV",
+              "credit": 4.0,
+              "hours": "4-0"
+            },
+            {
+              "subject": "Project Practicum",
+              "credit": 1.0,
+              "hours": "0-4"
+            }
+          ]
+        },
+        "year_3": {
+          "semester_1": [
+            {
+              "subject": "Network Engineering I",
+              "credit": 3.0,
+              "hours": "1.5-2"
+            },
+            {
+              "subject": "Web Technologies and Cloud Computing I",
+              "credit": 3.0,
+              "hours": "1.5-2"
+            },
+            {
+              "subject": "Database II",
+              "credit": 3.0,
+              "hours": "1.5-2"
+            },
+            {
+              "subject": "Operating System",
+              "credit": 3.0,
+              "hours": "1.5-2"
+            },
+            {
+              "subject": "Object Oriented Analysis and Design",
+              "credit": 3.0,
+              "hours": "1.5-2"
+            },
+            {
+              "subject": "General English V",
+              "credit": 4.0,
+              "hours": "4-0"
+            },
+            {
+              "subject": "Project Practicum",
+              "credit": 1.0,
+              "hours": "0-4"
+            }
+          ],
+          "semester_2": [
+            {
+              "subject": "Network Engineering II",
+              "credit": 3.0,
+              "hours": "1.5-2"
+            },
+            {
+              "subject": "Web Technology & Cloud Computing II",
+              "credit": 3.0,
+              "hours": "1.5-2"
+            },
+            {
+              "subject": "Mobile Application Development I",
+              "credit": 3.0,
+              "hours": "1.5-2"
+            },
+            {
+              "subject": "Software Engineering",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Introduction to Computer Graphic",
+              "credit": 3.0,
+              "hours": "1.5-2"
+            },
+            {
+              "subject": "General English VI",
+              "credit": 4.0,
+              "hours": "4-0"
+            },
+            {
+              "subject": "Project Practicum",
+              "credit": 1.0,
+              "hours": "0-4"
+            }
+          ]
+        },
+        "year_4": {
+          "semester_1": [
+            {
+              "subject": "Mobile Application Development II",
+              "credit": 3.0,
+              "hours": "1.5-2"
+            },
+            {
+              "subject": "Management Information System",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Introduction to Data Mining",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "UI/UX Design",
+              "credit": 3.0,
+              "hours": "1.5-2"
+            },
+            {
+              "subject": "Information Security",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Entrepreneurship",
+              "credit": 3.0,
+              "hours": "3-0"
+            },
+            {
+              "subject": "Final Project",
+              "credit": 1.0,
+              "hours": "0-2"
+            }
+          ],
+          "semester_2_tracks": {
+            "option_1_coursework": [
+              {
+                "subject": "Fin Tech",
+                "credit": 3.0,
+                "hours": "1.5-2"
+              },
+              {
+                "subject": "Artificial Intelligence",
+                "credit": 3.0,
+                "hours": "3-0"
+              },
+              {
+                "subject": "Introduction to Cryptography",
+                "credit": 3.0,
+                "hours": "1.5-2"
+              },
+              {
+                "subject": "Professionalism Computing & Ethics",
+                "credit": 3.0,
+                "hours": "3-0"
+              },
+              {
+                "subject": "Project Report",
+                "credit": 5.0,
+                "hours": "0-10"
+              }
+            ],
+            "option_2_internship_thesis": [
+              {
+                "subject": "Internship (Hard Skill) & Thesis",
+                "credit": 14.0,
+                "hours": "-",
+                "note": "GPA > 3.5 required"
+              }
+            ]
+          }
+        }
+      },
+      "research_areas": [
+        "Artificial Intelligence",
+        "Data Mining",
+        "Image Processing and Analysis",
+        "Computer Vision",
+        "3D Modeling and Computer Graphics",
+        "Natural Language Processing",
+        "ICT for Education"
+      ],
+      "job_prospects": [
+        "Agile Software Developer",
+        "Agile Web Developer",
+        "Agile Mobile Developer",
+        "Fullstack Developer",
+        "Game Developer",
+        "Network & Security Engineer",
+        "Data Engineer"
+      ],
+      "thesis_required": false,
+      "thesis_gpa_requirement": 3.5
+    },
+    {
+      "id": "telecom-eng",
+      "name": "Telecommunication & Electronics Engineering",
+      "category": "Bachelor",
+      "language": "English",
+      "degree_type": "Bachelor",
+      "duration_years": 4,
+      "duration_semesters": 8,
+      "overview": "Telecommunication and Electronics Engineering integrates two technologies: Telecommunication technology and Electrical technology. Telecommunication technology covers communication over long distance via cable, electromagnetic wave (wireless) or light signal. Electronics technology focuses on design of integrated circuits with diodes, transistors, resistors, capacitors, and sensors to control electron flow.",
+      "description": "The department provides quality education for students to design systems and devices in both technologies, conduct research, and pursue graduate studies. Students will do effective group work with leadership and entrepreneurship skills. Graduates are qualified to work in mobile operation companies, Internet service providing companies, TV/Radio Stations, Airports/Seaports, factories, and public/private institutions.",
+      "curriculum_note": "Some courses marked with * are under Project ASEAN FACTORI 4.0 (609854-EPP-1-2019-1-FR-EPPKA2 CBHE-JP)",
+      "last_semester_optional_tracks": [
+        "Coursework - for students who would like to conduct coursework and final project",
+        "Research Thesis - for outstanding students who would like to conduct their research project under the supervision of BE faculty members",
+        "Extended Training - for students who would like to participate in a long training period (for the entire semester) under a co-operative training program with companies or organizations"
+      ],
+      "internship_requirement": "Students are required to conduct a minimum 6 weeks internship at a standard company or organization during their vacation time of the third year or before.",
+      "curriculum": {
+        "note": "L = Lecture, P = Practice, S = Self Study. * = Under Project ASEAN FACTORI 4.0",
+        "foundation": {
+          "semester_1": [
+            {
+              "subject": "Mathematics I",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Introduction to Electronics Engineering",
+              "credit": 3.0,
+              "hours": "2-2-4"
+            },
+            {
+              "subject": "Computer Fundamental",
+              "credit": 3.0,
+              "hours": "2-2-4"
+            },
+            {
+              "subject": "Physics",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Academic Skill",
+              "credit": 2.0,
+              "hours": "2-0-4"
+            },
+            {
+              "subject": "Civilization and History",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "General English I",
+              "credit": 4.0,
+              "hours": "4-0-8"
+            }
+          ],
+          "semester_2": [
+            {
+              "subject": "Mathematics II",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Introduction to Electrical Engineering",
+              "credit": 3.0,
+              "hours": "2-2-4"
+            },
+            {
+              "subject": "Computer Programming",
+              "credit": 3.0,
+              "hours": "2-2-4"
+            },
+            {
+              "subject": "Introduction to Statistics",
+              "credit": 3.0,
+              "hours": "2-2-4"
+            },
+            {
+              "subject": "Technical Drawing",
+              "credit": 3.0,
+              "hours": "2-2-4"
+            },
+            {
+              "subject": "General English II",
+              "credit": 4.0,
+              "hours": "4-0-8"
+            },
+            {
+              "subject": "Philosophy and Sociology",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            }
+          ]
+        },
+        "year_2": {
+          "semester_1": [
+            {
+              "subject": "Mathematics III",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Circuit Theory I",
+              "credit": 3.0,
+              "hours": "1.5-2-3"
+            },
+            {
+              "subject": "Digital Circuit *",
+              "credit": 3.0,
+              "hours": "2-2-4"
+            },
+            {
+              "subject": "Probability and Statistics",
+              "credit": 3.0,
+              "hours": "2-2-4"
+            },
+            {
+              "subject": "Data Communication I",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Programming for Intelligent Computing I",
+              "credit": 3.0,
+              "hours": "1.5-2-3"
+            },
+            {
+              "subject": "Data Structure and Algorithm I",
+              "credit": 3.0,
+              "hours": "1.5-1.5-3"
+            },
+            {
+              "subject": "General English III",
+              "credit": 4.0,
+              "hours": "4-0-8"
+            },
+            {
+              "subject": "Project Practicum I",
+              "credit": 1.0,
+              "hours": "0-2-0"
+            }
+          ],
+          "semester_2": [
+            {
+              "subject": "Advanced Mathematics",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Circuit Theory II",
+              "credit": 3.0,
+              "hours": "1.5-2-3"
+            },
+            {
+              "subject": "Signal and System",
+              "credit": 2.0,
+              "hours": "2-0-4"
+            },
+            {
+              "subject": "Electromagnetic Theory I",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Data Communication II",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Programming for Intelligent Computing II",
+              "credit": 3.0,
+              "hours": "1.5-2-3"
+            },
+            {
+              "subject": "Data Structure and Algorithm II",
+              "credit": 2.0,
+              "hours": "1.5-1.5-3"
+            },
+            {
+              "subject": "General English IV",
+              "credit": 4.0,
+              "hours": "4-0-8"
+            },
+            {
+              "subject": "Project Practicum II",
+              "credit": 1.0,
+              "hours": "0-2-0"
+            }
+          ]
+        },
+        "year_3": {
+          "semester_1": [
+            {
+              "subject": "Communication Engineering *",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Electronic Engineering I",
+              "credit": 3.0,
+              "hours": "1.5-2-3"
+            },
+            {
+              "subject": "Antenna Design",
+              "credit": 3.0,
+              "hours": "2-2-4"
+            },
+            {
+              "subject": "Electromagnetic Theory II",
+              "credit": 3.0,
+              "hours": "3-0-6"
+            },
+            {
+              "subject": "Network Engineering I *",
+              "credit": 3.0,
+              "hours": "2-2-4"
+            },
+            {
+              "subject": "Machine Learning",
+              "credit": 3.0,
+              "hours": "2-2-4"
+            },
+            {
+              "subject": "General English V",
+              "credit": 4.0,
+              "hours": "4-0-8"
+            },
+            {
+              "subject": "Project Practicum III",
+              "credit": 1.0,
+              "hours": "0-2-0"
+            }
+          ],
+          "semester_2": [
+            {
+              "subject": "PLC for Automation System *",
+              "credit": 3.0,
+              "hours": "2-2-4"
+            },
+            {
+              "subject": "Electronic Engineering II & IoT",
+              "credit": 3.0,
+              "hours": "2-2-4"
+            },
+            {
+              "subject": "RF Environment Analysis",
+              "credit": 3.0,
+              "hours": "2-2-4"
+            },
+            {
+              "subject": "Network Programming",
+              "credit": 3.0,
+              "hours": "2-2-4"
+            },
+            {
+              "subject": "Network Engineering II",
+              "credit": 3.0,
+              "hours": "2-2-4"
+            },
+            {
+              "subject": "Project Management",
+              "credit": 2.0,
+              "hours": "2-0-4"
+            },
+            {
+              "subject": "General English VI",
+              "credit": 4.0,
+              "hours": "4-0-8"
+            },
+            {
+              "subject": "Project Practicum IV",
+              "credit": 1.0,
+              "hours": "0-2-0"
+            }
+          ]
+        },
+        "year_4": {
+          "semester_1": [
+            {
+              "subject": "Business Management and Entrepreneurship",
+              "credit": 2.0,
+              "hours": "2-0-4"
+            },
+            {
+              "subject": "Control Engineering *",
+              "credit": 2.0,
+              "hours": "2-0-4"
+            },
+            {
+              "subject": "Telecommunication Systems",
+              "credit": 4.0,
+              "hours": "3-2-6"
+            },
+            {
+              "subject": "Technical Paper Writing",
+              "credit": 2.0,
+              "hours": "2-0-4"
+            },
+            {
+              "subject": "Advanced Network Architecture",
+              "credit": 3.0,
+              "hours": "2-2-4"
+            },
+            {
+              "subject": "Project Practicum V",
+              "credit": 1.0,
+              "hours": "0-2-0"
+            }
+          ],
+          "semester_2_tracks": {
+            "option_1_coursework": [
+              {
+                "subject": "Engineering in Startup",
+                "credit": 2.0,
+                "hours": "2-0-4"
+              },
+              {
+                "subject": "Microwave Engineering",
+                "credit": 3.0,
+                "hours": "3-2-6"
+              },
+              {
+                "subject": "Intelligent Network Engineering",
+                "credit": 3.0,
+                "hours": "2-2-4"
+              },
+              {
+                "subject": "Final Project",
+                "credit": 4.0,
+                "hours": "0-4-10"
+              }
+            ],
+            "option_2_research_thesis": [
+              {
+                "subject": "Thesis",
+                "credit": 12.0,
+                "hours": "0-12-40"
+              }
+            ]
+          }
+        }
+      },
+      "research_areas": [
+        "Wireless Communication Systems",
+        "Electronics and Electromagnetic Signal Systems",
+        "Telephone Communication System",
+        "Satellite System",
+        "Development of Electronic Devices",
+        "Intelligent System",
+        "Security System"
+      ],
+      "job_prospects": [
+        "Electrical Engineer",
+        "Telecommunication Engineer",
+        "Broadcasting Engineer",
+        "Computer Network Administrator",
+        "Telecommunication and Electronics System Manager"
+      ],
+      "thesis_required": false
+    }
+  ],
+  "master_programs": [
+    {
+      "id": "bio-eng-master",
+      "name": "Biotechnology and Food Technology Master Program",
+      "category": "Master",
+      "language": "English",
+      "degree_type": "Master's Degree",
+      "duration_years": 3,
+      "duration_semesters": 6,
+      "partnerships": [
+        "Swedish Agricultural University",
+        "Lund University",
+        "Umeå University"
+      ],
+      "overview": "The Biotechnology and Food Technology Master Program is designed for students who wish to study the application of biological, chemical, engineering, and physical principles to the conversion of raw agricultural products into processed foods suitable for human consumption, the nature of foods, the causes of deterioration, the principles underlying food processing, and the improvement of food quality and safety for public consumption.",
+      "description": "Prepares engineers for life-long achievement through education in Biotechnology, Food technology, and sustainable refining of natural products in Cambodia and development of communication, teamwork, leadership and entrepreneurship skills. Established through partnerships with three Swedish universities to create a stronger and more sustainable research group within the Faculty of Engineering.",
+      "department_vision": "To strengthen the research and research training capacity of RUPP in the areas of biotechnology, bioengineering and food science through a master-level research training program established in cooperation with Swedish partner universities.",
+      "strategic_objective": "Establish general competence in processing of biological raw materials to create valuable products from agriculture, forestry, and fishery, involving production of foods and materials as main products, as well as utilization of organic side streams.",
+      "program_tracks": [
+        "Industrial Track - Thesis based professional development",
+        "Research Track - Research focused thesis"
+      ],
+      "benefits": [
+        "Studying with foreign professors from Swedish partner universities",
+        "Full scholarship covering tuition fee and salary",
+        "Interdisciplinary research environment",
+        "International collaboration opportunities"
+      ],
+      "curriculum": {
+        "note": "L = Lecture, P = Practice, S = Self Study",
+        "year_1": {
+          "semester_1": [
+            {
+              "subject": "Instrumental Analysis",
+              "credit": 4.0,
+              "hours": "2-4-6"
+            },
+            {
+              "subject": "Applied and Multivariate Statistics",
+              "credit": 4.0,
+              "hours": "2-4-6"
+            },
+            {
+              "subject": "Surface and Colloid Chemistry",
+              "credit": 4.0,
+              "hours": "2-4-6"
+            },
+            {
+              "subject": "Cell and Organism Metabolism",
+              "credit": 4.0,
+              "hours": "2-4-6"
+            }
+          ],
+          "semester_2": [
+            {
+              "subject": "Bioinformatics",
+              "credit": 4.0,
+              "hours": "2-4-6"
+            },
+            {
+              "subject": "Techniques in Biotechnology",
+              "credit": 4.0,
+              "hours": "2-4-6"
+            },
+            {
+              "subject": "Industrial Biotechnology",
+              "credit": 4.0,
+              "hours": "2-4-6"
+            },
+            {
+              "subject": "Sustainable Bioprocess Engineering",
+              "credit": 4.0,
+              "hours": "2-4-6"
+            }
+          ]
+        },
+        "year_2": {
+          "semester_1": [
+            {
+              "subject": "Fermentation Technology",
+              "credit": 4.0,
+              "hours": "2-4-6"
+            },
+            {
+              "subject": "Plant Biochemistry / Molecular Biology",
+              "credit": 4.0,
+              "hours": "2-4-6"
+            },
+            {
+              "subject": "Thesis Work",
+              "credit": 8.0,
+              "hours": "0-16-12"
+            }
+          ],
+          "semester_2": [
+            {
+              "subject": "Thesis Work",
+              "credit": 16.0,
+              "hours": "0-32-24"
+            }
+          ]
+        },
+        "year_3": {
+          "semester_1": [
+            {
+              "subject": "Fermentation Technology",
+              "credit": 4.0,
+              "hours": "2-4-6"
+            },
+            {
+              "subject": "Plant Biochemistry / Molecular Biology",
+              "credit": 4.0,
+              "hours": "2-4-6"
+            },
+            {
+              "subject": "Food Science and Microbiology",
+              "credit": 4.0,
+              "hours": "2-4-6"
+            },
+            {
+              "subject": "Advanced Food Technology",
+              "credit": 4.0,
+              "hours": "2-4-6"
+            }
+          ],
+          "semester_2": [
+            {
+              "subject": "Thesis Work",
+              "credit": 16.0,
+              "hours": "0-32-24"
+            }
+          ]
+        }
+      },
+      "admission_requirements": {
+        "bachelor_degree": "Bachelor's degree (or equivalent) in a relevant field: Bioengineering, Biotechnology, Food Engineering, Biochemistry, Chemistry, Biology, Agro-industry, or Food Technology",
+        "english_proficiency": {
+          "note": "Applications without English proficiency evidence will be put on hold and will not be reviewed by the admission board",
+          "accepted_tests": [
+            {
+              "test": "ITP TOEFL",
+              "minimum_score": 500
+            },
+            {
+              "test": "PBT TOEFL",
+              "minimum_score": 500
+            },
+            {
+              "test": "CBT TOEFL",
+              "minimum_score": 173
+            },
+            {
+              "test": "IBT TOEFL",
+              "minimum_score": 61
+            },
+            {
+              "test": "IELTS",
+              "minimum_score": 5.5
+            }
+          ]
+        },
+        "bachelor_quality": "Sufficient quality of the bachelor's degree",
+        "application_documents": [
+          "Complete application form",
+          "Personal Statement in English (Max 2 pages)",
+          "Resume (Max 2 pages)",
+          "Picture (4x6: 3 copies) and (3x4: 2 copies)"
+        ]
+      },
+      "research_focus": [
+        "Biotechnology",
+        "Bioengineering",
+        "Food Science",
+        "Sustainable Processing of Biological Raw Materials",
+        "Production of Foods and Materials",
+        "Bio-derived Chemical Raw Materials"
+      ],
+      "career_prospects": [
+        "Biotechnology Researcher",
+        "Food Technology Specialist",
+        "Bioprocess Engineer",
+        "Quality Control Manager",
+        "Research Scientist",
+        "Academic / University Lecturer"
+      ]
+    },
+    {
+      "id": "ite-master",
+      "name": "Master of Science in Information Technology Engineering (MITE)",
+      "category": "Master",
+      "language": "English",
+      "degree_type": "Master's Degree",
+      "duration_years": 2,
+      "duration_semesters": 4,
+      "established_year": 2009,
+      "partnerships": [
+        "Group T, International University College Leuven (Belgium)",
+        "Waseda University (Japan)",
+        "Dresden University of Technology (Germany)",
+        "IWR Heidelberg University (Germany)",
+        "Pace University (USA)"
+      ],
+      "overview": "Developed in response to the rapid advancement of ICT and growing demands for specialists in information technologies and telecommunications in Cambodia. Established in 2009, MITE upgrades skills and knowledge of students in information and telecommunication technologies to a specialist level for a variety of ICT careers.",
+      "description": "Prepares students to become specialists ranging from programmers/software developers, IT consultants, project managers in IT, network specialists to wireless and mobile engineers. Emphasizes sound knowledge of latest development and research trends in ICT around the world. Introduces students to international research projects and allows them to develop their own research projects to meet international academic standards.",
+      "department_vision": "MITE upgrades skills and knowledge of students in information and telecommunication technologies to specialist level. Students understand how research efforts in ICT are conducted by participating in international research projects and developing their own research to meet international academic standards.",
+      "program_features": [
+        "Carefully-structured courses in first year to create solid foundation",
+        "Three special study areas allowing students to choose their preference",
+        "Second year focuses on research and specialization",
+        "Flexible study areas: Software Development, Network Engineering, or Multimedia Science"
+      ],
+      "curriculum": {
+        "note": "L = Lecture, P = Practice, S = Self Study",
+        "year_1": {
+          "semester_1": [
+            {
+              "subject": "Advanced Network Computing",
+              "credit": 3.0,
+              "hours": "10-0-0"
+            },
+            {
+              "subject": "Software Engineering",
+              "credit": 3.0,
+              "hours": "10-0-0"
+            },
+            {
+              "subject": "User Interface Design (UID)",
+              "credit": 3.0,
+              "hours": "10-0-0"
+            },
+            {
+              "subject": "Research Methodologies",
+              "credit": 3.0,
+              "hours": "10-0-0"
+            },
+            {
+              "subject": "Scientific Experience",
+              "credit": 3.0,
+              "hours": "10-0-0"
+            }
+          ],
+          "semester_2": [
+            {
+              "subject": "Database Design and Application",
+              "credit": 3.0,
+              "hours": "10-0-0"
+            },
+            {
+              "subject": "Computer Graphics",
+              "credit": 3.0,
+              "hours": "10-0-0"
+            },
+            {
+              "subject": "Network Security",
+              "credit": 3.0,
+              "hours": "10-0-0"
+            },
+            {
+              "subject": "Image Processing",
+              "credit": 3.0,
+              "hours": "10-0-0"
+            },
+            {
+              "subject": "Advanced Java Programming",
+              "credit": 3.0,
+              "hours": "10-0-0"
+            }
+          ]
+        },
+        "year_2": {
+          "semester_1": [
+            {
+              "subject": "Mobile Application",
+              "credit": 3.0,
+              "hours": "10-0-0"
+            },
+            {
+              "subject": "Machine Learning & Natural Language Processing",
+              "credit": 3.0,
+              "hours": "10-0-0"
+            },
+            {
+              "subject": "Satellite & Terrestrial Communication System",
+              "credit": 3.0,
+              "hours": "10-0-0"
+            },
+            {
+              "subject": "Artificial Intelligence",
+              "credit": 3.0,
+              "hours": "10-0-0"
+            }
+          ],
+          "semester_2": [
+            {
+              "subject": "Multimedia",
+              "credit": 3.0,
+              "hours": "10-0-0"
+            },
+            {
+              "subject": "General ICT4D",
+              "credit": 3.0,
+              "hours": "10-0-0"
+            },
+            {
+              "subject": "Final Project 1",
+              "credit": 3.0,
+              "hours": "10-0-0"
+            },
+            {
+              "subject": "Final Project 2",
+              "credit": 3.0,
+              "hours": "10-0-0"
+            },
+            {
+              "subject": "Master's Thesis",
+              "credit": 12.0,
+              "hours": "10-0-0"
+            }
+          ]
+        }
+      },
+      "specialization_tracks": [
+        {
+          "name": "Software Development Area",
+          "description": "Education and research into the development of computer software for variety of purposes"
+        },
+        {
+          "name": "Network Engineering Area",
+          "description": "Preparation to become a professional network administrator or engineer in wired or wireless communications including Wireless LAN, WiMAX, cellular networks and satellite communications"
+        },
+        {
+          "name": "Multimedia Science Area",
+          "description": "Opportunities to learn and explore research into computer media, 3D modeling, computer graphics, multimedia presentation, and image processing and media design"
+        }
+      ],
+      "cooperation_efforts": [
+        "Cooperation with international universities in Japan, Europe and USA",
+        "Member of ASEAN University Network with MOUs with many international universities",
+        "Cooperation with private companies (local and international) for student experience and job opportunities",
+        "Fully equipped laboratories with high-tech computers and network equipment",
+        "Curriculum co-designed with university partners emphasizing research and professional skills"
+      ],
+      "admission_requirements": {
+        "english_test": "Pass an English Test prepared by the Program",
+        "bachelor_degree": "Bachelor Degree in Computer Science, Information Technology, Management Information Systems, Electrical and Electronic Engineering or equivalent in relevant fields approved by academic board",
+        "note": "Applications without English proficiency evidence will be put on hold and will not be reviewed by the admission board",
+        "application_documents": [
+          "Complete application form",
+          "Certified copy of Bachelor's Degree or equivalent",
+          "Copy of transcript",
+          "Three recent 4 x 6 photographs",
+          "Valid ID card or copy of family book"
+        ]
+      },
+      "career_prospects": [
+        "Software Developer / Programmer",
+        "IT Consultant",
+        "Project Manager in IT",
+        "Network Specialist",
+        "Wireless Engineer",
+        "Mobile Engineer",
+        "IT Specialist in various industries"
+      ]
+    }
+  ],
+  "general_info": {
+    "language_of_instruction": "English",
+    "admission_board": "Admission committee judges every application on an individual basis",
+    "scholarship_availability": "Full scholarships available for master programs - covers tuition fee and salary",
+    "internship_policy": "All bachelor programs require minimum 6 weeks internship at a standard company or organization during vacation time of third year or before",
+    "honor_bachelor_note": "Honor Bachelor programs are designed for exceptionally motivated and high-achieving students; thesis/senior project is mandatory",
+    "grading_assessment": "Assessment performed at end of each semester; evaluation shown as GPA and Cumulative GPA on a 4.00 scale"
+  },
+  "about_us": {
+    "vision": "To pursue an excellence in teaching, research and community engagement in Engineering Education to address the challenges of ever-changing society and globalization.",
+    "mission": [
+      "Deliver Comprehensive and Dynamic Education: Covers core engineering principles, advanced topics, and interdisciplinary studies to build a solid foundation of knowledge and skills.",
+      "Foster advancement in research: Promotes Innovation, collaboration and ethical practices; and to encourage faculty and students to think outside the box by integrating project-based learning, creative thinking methodologies, and opportunities to tackle real-world challenges; and Facilitates access to research projects, internships, and industry collaboration to give practical experience and exposure to cutting-edge technologies and practices.",
+      "Cultivate a Global Perspective: Prepare students for the global engineering landscape by offering international exchange programs and fostering collaborations with global institutions.",
+      "Enhance Soft Skills: Develop students communication, teamwork, leadership, and problem-solving abilities through group projects, presentations, and leadership roles within student organizations.",
+      "Encourage Lifelong Learning: Promote continuous education and professional development by encouraging students to stay abreast of emerging technologies, trends, and best practices in engineering.",
+      "Engage with the Community: Involve students in community service and outreach programs to help them understand the societal impact of their work and develop a sense of social responsibility."
+    ],
+    "faculty_skills": {
+      "hard_skills": {
+        "departments": [
+          "Faculty of Telecommunication & Electronic Engineering",
+          "Faculty of Information Technology Engineering",
+          "Bio-Engineering"
+        ]
+      },
+      "soft_skills": [
+        "Communication",
+        "Team Work",
+        "Problem Solving",
+        "Innovation and Creativity",
+        "English"
+      ],
+      "soft_skills_program": {
+        "study_hours": "4 hours per week for 3 years",
+        "award": "Certification of completion"
+      }
+    },
+    "dean_message": {
+      "dean_name": "Dr. Nguonphan Pheakdey",
+      "title": "Dean, Faculty of Engineering",
+      "established": "May 07, 2013",
+      "message": "The Faculty of Engineering, Royal University of Phnom Penh was set up on May, 07 2013 to respond to the increase demand of the industries and private sectors in the country for qualified engineers. The faculty, with four departments, offers now seven degrees programs. We thrive to bring international experiences and new innovative engineering education such as Conceive, Design, Implement, Operate (CDIO) framework to enhance existing programs and building new programs toward international level. We ventured into offering international programs in Food technology & Engineering, Data science & Engineering, 2+2 international program in Automation and Supply Chain System Engineering, and Environmental Engineering. Our engineering programs prepare our students equipped with positive mental attitude, intellectual, entrepreneurship and leadership capacity necessary to meet the challenges of the ever-changing society. With dedication, enthusiasm and hard work, the faculty has been able to produce graduates who are capable of addressing the requirement of the industries and private sectors. The faculty is dedicated to pursue and excellent teaching and research culture to deliver high quality education.",
+      "teaching_framework": "CDIO (Conceive, Design, Implement, Operate)"
+    },
+    "departments": [
+      {
+        "name": "Information Technology Engineering",
+        "main_skills": [
+          "Agile Software Developer",
+          "Agile Mobile & Web Developer",
+          "Fullstack Developer",
+          "Network & Security Engineer",
+          "Data Engineer"
+        ]
+      },
+      {
+        "name": "Bio-Engineering Biotechnology",
+        "main_skills": [
+          "Agro-industry & Food specialist",
+          "Biomolecular Engineer",
+          "Biological Materials Engineer",
+          "Professor or Research of Biotechnology",
+          "Research or Biological Laboratory Specialist"
+        ]
+      },
+      {
+        "name": "Environmental Engineering",
+        "main_skills": [
+          "Engineers of water and wastewater",
+          "Engineers of air and climate",
+          "Engineers of soil and ecosystem",
+          "Engineers of energy and resource",
+          "Professor and researcher, Recycling officer",
+          "Environmental consultant and environmental specialist"
+        ]
+      },
+      {
+        "name": "Supply Chain & Automation",
+        "main_skills": [
+          "Automation Engineering & Supply chain operation",
+          "Business analytic and optimization",
+          "Digital manufacturing",
+          "Programming and business development"
+        ]
+      },
+      {
+        "name": "Telecommunication and Electronics Engineering",
+        "main_skills": [
+          "Electronic Engineer",
+          "Telecommunication Engineer",
+          "Broadcasting Engineering",
+          "Computer Network Administrator"
+        ]
+      }
+    ],
+    "contact": {
+      "office": "STEM Office",
+      "location": "Room 103, STEM Building, Royal University of Phnom Penh (Campus 1), Russian Federation Blvd (110), Phnom Penh",
+      "email": "fe.Info@rupp.edu.kh",
+      "phone": "096 328 4995"
+    }
+  }
+}
