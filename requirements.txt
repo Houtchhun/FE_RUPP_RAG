@@ -19,6 +19,9 @@ python-telegram-bot==22.7
 # Evaluation — second judge
 cerebras-cloud-sdk==1.67.0
 
+# Human-in-the-loop evaluation
+flask==3.0.0
+
 # Utilities
 python-dotenv==1.2.2
 numpy==2.4.5

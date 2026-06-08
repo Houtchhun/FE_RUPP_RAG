@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Statistics - RAG Evaluation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background: #1a73e8;
+            color: white;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .stat-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .stat-card h3 {
+            font-size: 13px;
+            color: #666;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
+        .stat-value {
+            font-size: 36px;
+            font-weight: 700;
+            color: #1a73e8;
+        }
+
+        .stat-subtext {
+            font-size: 13px;
+            color: #999;
+            margin-top: 5px;
+        }
+
+        .section {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+
+        .section h2 {
+            font-size: 18px;
+            margin-bottom: 15px;
+            color: #1a73e8;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th {
+            background: #f9f9f9;
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 13px;
+            color: #666;
+            border-bottom: 2px solid #e0e0e0;
+        }
+
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        tr:hover {
+            background: #fafafa;
+        }
+
+        .button-group {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            background: #1a73e8;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn:hover {
+            background: #1557b0;
+        }
+
+        .btn-secondary {
+            background: #f0f0f0;
+            color: #333;
+        }
+
+        .btn-secondary:hover {
+            background: #e0e0e0;
+        }
+
+        .alert {
+            padding: 15px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+
+        .alert-info {
+            background: #e8f4f8;
+            color: #0c5460;
+            border: 1px solid #d1ecf1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>📊 Evaluation Statistics</h1>
+    </header>
+
+    <div class="container">
+        <div class="alert alert-info">
+            📈 This page shows how well the AI judges agree with your verdicts. High agreement = reliable judges.
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <h3>Total Reviewed</h3>
+                <div class="stat-value" id="total-reviewed">0</div>
+                <div class="stat-subtext">of 100 questions</div>
+            </div>
+
+            <div class="stat-card">
+                <h3>Judge A Agreement</h3>
+                <div class="stat-value" id="agreement-groq">0%</div>
+                <div class="stat-subtext">Groq Qwen3-32B</div>
+            </div>
+
+            <div class="stat-card">
+                <h3>Judge B Agreement</h3>
+                <div class="stat-value" id="agreement-cerebras">0%</div>
+                <div class="stat-subtext">Cerebras Qwen3-235B</div>
+            </div>
+
+            <div class="stat-card">
+                <h3>Both Judges Agree</h3>
+                <div class="stat-value" id="ai-both-agree">0</div>
+                <div class="stat-subtext">cases</div>
+            </div>
+
+            <div class="stat-card">
+                <h3>Both Judges Disagree</h3>
+                <div class="stat-value" id="ai-both-disagree">0</div>
+                <div class="stat-subtext">conflicting cases</div>
+            </div>
+
+            <div class="stat-card">
+                <h3>Human Overrides</h3>
+                <div class="stat-value" id="human-overrides">0</div>
+                <div class="stat-subtext">both judges wrong</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🔍 Key Insights</h2>
+            <table id="insights-table">
+                <thead>
+                    <tr>
+                        <th>Insight</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>When Both Judges Agree</td>
+                        <td id="insight-both-agree">-</td>
+                    </tr>
+                    <tr>
+                        <td>When Judges Conflict</td>
+                        <td id="insight-conflict">-</td>
+                    </tr>
+                    <tr>
+                        <td>Human Accuracy vs AI</td>
+                        <td id="insight-accuracy">-</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="section">
+            <h2>📋 Disagreements</h2>
+            <p style="margin-bottom: 15px; font-size: 14px; color: #666;">
+                Cases where your verdict differs from one or both judges
+            </p>
+            <table id="disagreements-table">
+                <thead>
+                    <tr>
+                        <th>Q#</th>
+                        <th>Category</th>
+                        <th>Question</th>
+                        <th>Judge A</th>
+                        <th>Judge B</th>
+                        <th>You</th>
+                        <th>Notes</th>
+                    </tr>
+                </thead>
+                <tbody id="disagreements-body">
+                    <tr>
+                        <td colspan="7" style="text-align: center; color: #999;">Loading...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="button-group">
+            <a href="/review" class="btn">Continue Reviewing</a>
+            <a href="/" class="btn btn-secondary">Back to Dashboard</a>
+        </div>
+    </div>
+
+    <script>
+        function loadStatistics() {
+            fetch('/api/statistics')
+                .then(r => r.json())
+                .then(data => {
+                    document.getElementById('total-reviewed').innerText = data.total_reviewed;
+                    document.getElementById('agreement-groq').innerText = data.agreement_groq;
+                    document.getElementById('agreement-cerebras').innerText = data.agreement_cerebras;
+                    document.getElementById('ai-both-agree').innerText = data.ai_both_agree;
+                    document.getElementById('ai-both-disagree').innerText = data.ai_both_disagree;
+                    document.getElementById('human-overrides').innerText = data.human_overrides;
+
+                    // Insights
+                    document.getElementById('insight-both-agree').innerText =
+                        `When both judges reach consensus (${data.ai_both_agree} cases), the verdict is usually reliable`;
+                    document.getElementById('insight-conflict').innerText =
+                        `In ${data.ai_both_disagree} cases, judges disagreed — these need careful human review`;
+                    document.getElementById('insight-accuracy').innerText =
+                        `Your verdicts caught ${data.human_overrides} cases where both judges were wrong`;
+                });
+
+            fetch('/api/disagreements')
+                .then(r => r.json())
+                .then(data => {
+                    const tbody = document.getElementById('disagreements-body');
+                    tbody.innerHTML = '';
+
+                    if (data.length === 0) {
+                        tbody.innerHTML = '<tr><td colspan="7" style="text-align: center; color: #999;">No disagreements yet</td></tr>';
+                        return;
+                    }
+
+                    data.forEach(item => {
+                        const row = document.createElement('tr');
+                        const questionCell = document.createElement('td');
+                        questionCell.style.maxWidth = '300px';
+                        questionCell.style.whiteSpace = 'normal';
+                        questionCell.textContent = item.question.substring(0, 50) + (item.question.length > 50 ? '...' : '');
+
+                        const notesCell = document.createElement('td');
+                        notesCell.style.fontSize = '12px';
+                        notesCell.style.color = '#666';
+                        notesCell.textContent = item.notes.substring(0, 30) + (item.notes.length > 30 ? '...' : '');
+
+                        row.innerHTML = `
+                            <td><strong>Q${item.id + 1}</strong></td>
+                            <td>${item.category}</td>
+                        `;
+                        row.appendChild(questionCell);
+                        row.innerHTML += `
+                            <td><strong>${item.groq_verdict.toUpperCase()}</strong></td>
+                            <td><strong>${item.cerebras_verdict.toUpperCase()}</strong></td>
+                            <td style="color: #1a73e8; font-weight: 600;">${item.human_verdict.toUpperCase()}</td>
+                        `;
+                        row.appendChild(notesCell);
+                        tbody.appendChild(row);
+                    });
+                });
+        }
+
+        loadStatistics();
+        setInterval(loadStatistics, 5000); // Refresh every 5 seconds
+    </script>
+</body>
+</html>

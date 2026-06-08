@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAG Evaluation - Human Review</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background: #1a73e8;
+            color: white;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            font-size: 24px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .review-panel {
+            background: white;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+
+        .question-info {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .question-id {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        .question-text {
+            font-size: 18px;
+            font-weight: 600;
+            color: #1a73e8;
+            margin: 15px 0;
+        }
+
+        .section {
+            margin: 20px 0;
+        }
+
+        .section-title {
+            font-size: 13px;
+            font-weight: 700;
+            color: #666;
+            text-transform: uppercase;
+            margin-bottom: 8px;
+        }
+
+        .section-content {
+            background: #f9f9f9;
+            padding: 12px;
+            border-left: 3px solid #1a73e8;
+            border-radius: 4px;
+            font-size: 14px;
+            line-height: 1.6;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+
+        .ai-scores {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .score-card {
+            background: #f0f7ff;
+            padding: 15px;
+            border-radius: 6px;
+            border: 1px solid #d4e4f7;
+        }
+
+        .score-card h3 {
+            font-size: 12px;
+            color: #666;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
+        .score-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+            font-size: 13px;
+        }
+
+        .score-item {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .score-label {
+            color: #666;
+        }
+
+        .score-value {
+            font-weight: 600;
+            color: #1a73e8;
+        }
+
+        .verdict-badge {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .verdict-pass {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .verdict-fail {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .human-review {
+            background: #fff8e1;
+            padding: 20px;
+            border-radius: 6px;
+            border: 1px solid #ffe0b2;
+            margin: 20px 0;
+        }
+
+        .review-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: #f57f17;
+        }
+
+        .verdict-buttons {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            margin: 15px 0;
+        }
+
+        .verdict-btn {
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 6px;
+            background: white;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            transition: all 0.2s;
+        }
+
+        .verdict-btn:hover {
+            border-color: #1a73e8;
+            background: #f0f7ff;
+        }
+
+        .verdict-btn.active {
+            background: #1a73e8;
+            color: white;
+            border-color: #1a73e8;
+        }
+
+        .verdict-btn.correct { --color: #28a745; }
+        .verdict-btn.partial { --color: #ffc107; }
+        .verdict-btn.incorrect { --color: #dc3545; }
+
+        .confidence-control {
+            margin: 15px 0;
+        }
+
+        .confidence-label {
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            display: block;
+        }
+
+        .confidence-slider {
+            width: 100%;
+            height: 6px;
+            border-radius: 3px;
+            background: #ddd;
+            outline: none;
+            -webkit-appearance: none;
+        }
+
+        .confidence-slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #1a73e8;
+            cursor: pointer;
+        }
+
+        .confidence-slider::-moz-range-thumb {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #1a73e8;
+            cursor: pointer;
+            border: none;
+        }
+
+        .confidence-value {
+            font-size: 13px;
+            color: #666;
+            margin-top: 5px;
+        }
+
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-family: inherit;
+            font-size: 13px;
+            resize: vertical;
+            min-height: 80px;
+        }
+
+        .button-group {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+            justify-content: space-between;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .btn-primary {
+            background: #1a73e8;
+            color: white;
+        }
+
+        .btn-primary:hover:not(:disabled) {
+            background: #1557b0;
+        }
+
+        .btn-primary:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .btn-secondary {
+            background: #e8e8e8;
+            color: #333;
+        }
+
+        .btn-secondary:hover {
+            background: #d8d8d8;
+        }
+
+        .status-message {
+            padding: 12px;
+            border-radius: 4px;
+            margin-bottom: 15px;
+            font-size: 13px;
+        }
+
+        .status-success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .status-info {
+            background: #d1ecf1;
+            color: #0c5460;
+            border: 1px solid #bee5eb;
+        }
+
+        .navigation {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+            justify-content: center;
+        }
+
+        .nav-btn {
+            padding: 8px 16px;
+            background: #f0f0f0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 13px;
+        }
+
+        .nav-btn:hover:not(:disabled) {
+            background: #e0e0e0;
+        }
+
+        .nav-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🔍 Human Review: RAG Evaluation</h1>
+    </header>
+
+    <div class="container">
+        <div id="status-message"></div>
+
+        <div class="review-panel">
+            <div class="question-info">
+                <div class="question-id" id="question-id"></div>
+                <div class="question-text" id="question-text"></div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">Ground Truth (Expected Answer)</div>
+                <div class="section-content" id="ground-truth"></div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">Retrieved Context</div>
+                <div class="section-content" id="context"></div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">Generated Answer (by RAG)</div>
+                <div class="section-content" id="generated-answer"></div>
+            </div>
+
+            <div class="ai-scores">
+                <div class="score-card">
+                    <h3>Judge A (Groq - Qwen3-32B)</h3>
+                    <div class="score-grid">
+                        <div class="score-item">
+                            <span class="score-label">Relevance</span>
+                            <span class="score-value" id="groq-relevance"></span>
+                        </div>
+                        <div class="score-item">
+                            <span class="score-label">Faithfulness</span>
+                            <span class="score-value" id="groq-faithfulness"></span>
+                        </div>
+                        <div class="score-item">
+                            <span class="score-label">Correctness</span>
+                            <span class="score-value" id="groq-correctness"></span>
+                        </div>
+                        <div class="score-item">
+                            <span class="score-label">Overall</span>
+                            <span class="score-value" id="groq-overall"></span>
+                        </div>
+                    </div>
+                    <div style="margin-top: 10px;">
+                        Verdict: <span class="verdict-badge" id="groq-verdict"></span>
+                    </div>
+                </div>
+
+                <div class="score-card">
+                    <h3>Judge B (Cerebras - Qwen3-235B)</h3>
+                    <div class="score-grid">
+                        <div class="score-item">
+                            <span class="score-label">Relevance</span>
+                            <span class="score-value" id="cerebras-relevance"></span>
+                        </div>
+                        <div class="score-item">
+                            <span class="score-label">Faithfulness</span>
+                            <span class="score-value" id="cerebras-faithfulness"></span>
+                        </div>
+                        <div class="score-item">
+                            <span class="score-label">Correctness</span>
+                            <span class="score-value" id="cerebras-correctness"></span>
+                        </div>
+                        <div class="score-item">
+                            <span class="score-label">Overall</span>
+                            <span class="score-value" id="cerebras-overall"></span>
+                        </div>
+                    </div>
+                    <div style="margin-top: 10px;">
+                        Verdict: <span class="verdict-badge" id="cerebras-verdict"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="human-review">
+                <div class="review-title">✏️ Your Verdict</div>
+
+                <div class="section-title">Is the generated answer correct?</div>
+                <div class="verdict-buttons">
+                    <button class="verdict-btn correct" data-verdict="pass" onclick="setVerdict('pass')">
+                        ✓ Correct
+                    </button>
+                    <button class="verdict-btn partial" data-verdict="partial" onclick="setVerdict('partial')">
+                        ≈ Partial
+                    </button>
+                    <button class="verdict-btn incorrect" data-verdict="fail" onclick="setVerdict('fail')">
+                        ✗ Incorrect
+                    </button>
+                </div>
+
+                <div class="confidence-control">
+                    <label class="confidence-label">Confidence Level</label>
+                    <input type="range" id="confidence" class="confidence-slider" min="1" max="5" value="3" oninput="updateConfidence()">
+                    <div class="confidence-value" id="confidence-value">3 / 5</div>
+                </div>
+
+                <div class="section">
+                    <label class="section-title">Notes (Optional)</label>
+                    <textarea id="notes" placeholder="Add any notes about why you made this verdict..."></textarea>
+                </div>
+
+                <div class="button-group">
+                    <button class="btn btn-secondary" onclick="skipQuestion()">Skip</button>
+                    <button class="btn btn-primary" id="submit-btn" onclick="submitFeedback()" disabled>Submit Verdict</button>
+                </div>
+            </div>
+
+            <div class="navigation">
+                <button class="nav-btn" id="prev-btn" onclick="previousQuestion()" disabled>← Previous</button>
+                <span id="progress"></span>
+                <button class="nav-btn" id="next-btn" onclick="nextQuestion()">Next →</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentId = 0;
+        let selectedVerdict = null;
+        let totalQuestions = 100;
+
+        // Load total questions and next pending question
+        function initializeTotal() {
+            fetch('/api/statistics')
+                .then(r => r.json())
+                .then(data => {
+                    totalQuestions = data.total_questions;
+                    loadNextPending();
+                });
+        }
+
+        function loadNextPending() {
+            fetch('/api/question/next-pending')
+                .then(r => r.json())
+                .then(data => {
+                    if (data.id !== null) {
+                        showQuestion(data.id);
+                    } else {
+                        showQuestion(0);
+                    }
+                });
+        }
+
+        function showQuestion(id) {
+            fetch(`/api/question/${id}`)
+                .then(r => r.json())
+                .then(data => {
+                    currentId = id;
+
+                    document.getElementById('question-id').innerText = `Question ${data.id + 1}`;
+                    document.getElementById('question-text').innerText = data.question;
+                    document.getElementById('ground-truth').innerText = data.ground_truth;
+                    document.getElementById('context').innerText = data.context || '(No context)';
+                    document.getElementById('generated-answer').innerText = data.generated_answer;
+
+                    // Groq scores
+                    document.getElementById('groq-relevance').innerText = data.groq_scores.relevance.toFixed(3);
+                    document.getElementById('groq-faithfulness').innerText = data.groq_scores.faithfulness.toFixed(3);
+                    document.getElementById('groq-correctness').innerText = data.groq_scores.correctness.toFixed(3);
+                    document.getElementById('groq-overall').innerText = data.groq_scores.overall.toFixed(3);
+
+                    const groqVerdictEl = document.getElementById('groq-verdict');
+                    groqVerdictEl.innerText = data.groq_verdict.toUpperCase();
+                    groqVerdictEl.className = `verdict-badge verdict-${data.groq_verdict}`;
+
+                    // Cerebras scores
+                    document.getElementById('cerebras-relevance').innerText = data.cerebras_scores.relevance.toFixed(3);
+                    document.getElementById('cerebras-faithfulness').innerText = data.cerebras_scores.faithfulness.toFixed(3);
+                    document.getElementById('cerebras-correctness').innerText = data.cerebras_scores.correctness.toFixed(3);
+                    document.getElementById('cerebras-overall').innerText = data.cerebras_scores.overall.toFixed(3);
+
+                    const cerebrasVerdictEl = document.getElementById('cerebras-verdict');
+                    cerebrasVerdictEl.innerText = data.cerebras_verdict.toUpperCase();
+                    cerebrasVerdictEl.className = `verdict-badge verdict-${data.cerebras_verdict}`;
+
+                    // Load human verdict if exists
+                    if (data.human_verdict) {
+                        selectedVerdict = data.human_verdict.human_verdict;
+                        document.querySelectorAll('.verdict-btn').forEach(btn => btn.classList.remove('active'));
+                        document.querySelector(`[data-verdict="${selectedVerdict}"]`).classList.add('active');
+                        document.getElementById('confidence').value = data.human_verdict.confidence;
+                        document.getElementById('notes').value = data.human_verdict.notes || '';
+                        updateConfidence();
+                        showStatus(`Loaded your previous review`, 'info');
+                    } else {
+                        selectedVerdict = null;
+                        document.querySelectorAll('.verdict-btn').forEach(btn => btn.classList.remove('active'));
+                        document.getElementById('confidence').value = 3;
+                        document.getElementById('notes').value = '';
+                        updateConfidence();
+                    }
+
+                    updateProgress();
+                    updateNavigation();
+                });
+        }
+
+        function setVerdict(verdict) {
+            selectedVerdict = verdict;
+            document.querySelectorAll('.verdict-btn').forEach(btn => btn.classList.remove('active'));
+            document.querySelector(`[data-verdict="${verdict}"]`).classList.add('active');
+            document.getElementById('submit-btn').disabled = false;
+        }
+
+        function updateConfidence() {
+            const value = document.getElementById('confidence').value;
+            document.getElementById('confidence-value').innerText = `${value} / 5`;
+        }
+
+        function submitFeedback() {
+            if (!selectedVerdict) {
+                alert('Please select a verdict');
+                return;
+            }
+
+            fetch('/api/submit-feedback', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({
+                    question_id: currentId,
+                    verdict: selectedVerdict,
+                    confidence: parseInt(document.getElementById('confidence').value),
+                    notes: document.getElementById('notes').value
+                })
+            })
+            .then(r => r.json())
+            .then(data => {
+                showStatus('✓ Verdict submitted successfully', 'success');
+                setTimeout(() => nextQuestion(), 1000);
+            })
+            .catch(e => showStatus('Error submitting feedback', 'error'));
+        }
+
+        function nextQuestion() {
+            if (currentId < totalQuestions - 1) {
+                showQuestion(currentId + 1);
+            }
+        }
+
+        function previousQuestion() {
+            if (currentId > 0) {
+                showQuestion(currentId - 1);
+            }
+        }
+
+        function skipQuestion() {
+            nextQuestion();
+        }
+
+        function updateProgress() {
+            fetch('/api/statistics')
+                .then(r => r.json())
+                .then(data => {
+                    document.getElementById('progress').innerText = `${data.total_reviewed} / ${totalQuestions} reviewed`;
+                });
+        }
+
+        function updateNavigation() {
+            document.getElementById('prev-btn').disabled = currentId === 0;
+            document.getElementById('next-btn').disabled = currentId === totalQuestions - 1;
+        }
+
+        function showStatus(message, type) {
+            const el = document.getElementById('status-message');
+            el.innerText = message;
+            el.className = `status-message status-${type}`;
+            setTimeout(() => el.className = '', 5000);
+        }
+
+        // Load first pending question or start at 0
+        initializeTotal();
+    </script>
+</body>
+</html>

@@ -172,8 +172,8 @@
     "category": "curriculum",
     "question": "What subjects are in Foundation Year Semester 1 of Food Technology And Engineering?",
     "ground_truth": "Foundation Year Semester 1 of Food Technology includes: English Composition (Critical thinking, reading and writing), General Mathematics (Algebra), General Science 1 (General Chemistry), General Physics, Fundamental Computer and Programming, Sociology (Digital skill and Problem Solving), Personal Development and Management, Introduction to Engineering.",
-    "context_preview": "Food Technology And Engineering Foundation Year Courses Semester\n\nFood Technology And Engineering — Foundation Year Courses:\n\nSemester 1:\n  - English Composition: Critical thinking, reading and writing (3.0 credits)\n  - General Mathematics: Algebra (3.0 credits)\n  - General Science 1: General Chemistry (4.0 credits)\n  - General Physics (4.0 credits)\n  - Fundamental Computer and Programming (3.0 cr",
-    "context_words": 586,
+    "context_preview": "\n\nFood Technology And Engineering — Foundation Year Courses:\n\nSemester 1:\n  - English Composition: Critical thinking, reading and writing (3.0 credits)\n  - General Mathematics: Algebra (3.0 credits)\n  - General Science 1: General Chemistry (4.0 credits)\n  - General Physics (4.0 credits)\n  - Fundamental Computer and Programming (3.0 cr",
+    "context_words": 58,
     "year_filter": "foundation",
     "answer": "The subjects in Foundation Year Semester 1 of Food Technology And Engineering are:\n\n1. English Composition: Critical thinking, reading and writing (3.0 credits)\n2. General Mathematics: Algebra (3.0 credits)\n3. General Science 1: General Chemistry (4.0 credits)\n4. General Physics (4.0 credits)\n5. Fundamental Computer and Programming (3.0 credits)\n6. Sociology: Digital skill and Problem Solving (3.0 credits)\n7. Personal Development and Management (3.0 credits)\n8. Introduction to Engineering (3.0 credits)",
     "groq_scores": {
